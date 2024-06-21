@@ -1,0 +1,125 @@
+Africa: QID=Q15, Name=Africa
+Alabama: QID=Q173, Name=Alabama
+Albania: QID=Q222, Name=Albania
+Alberta: QID=Q1951, Name=Alberta
+Argentina: QID=Q414, Name=Argentina
+Arizona: QID=Q816, Name=Arizona
+Arkansas: QID=Q1612, Name=Arkansas
+Armenia: QID=Q399, Name=Armenia
+Asia: QID=Q48, Name=Asia
+Australia: QID=Q408, Name=Australia
+Austria: QID=Q40, Name=Austria
+Belgium: QID=Q31, Name=Belgium
+Belize: QID=Q242, Name=Belize
+Bourgogne-Franche-Comté: QID=Q18578267, Name=Bourgogne-Franche-Comté
+Brazil: QID=Q155, Name=Brazil
+Bretagne: QID=Q12130, Name=Brittany
+British Columbia: QID=Q1973, Name=British Columbia
+Bulgaria: QID=Q219, Name=Bulgaria
+California: QID=Q99, Name=California
+Canada: QID=Q16, Name=Canada
+Central America: QID=Q27611, Name=Central America
+Centre-Val de Loire: QID=Q13947, Name=Centre-Val de Loire
+Chile: QID=Q298, Name=Chile
+Colorado: QID=Q1261, Name=Colorado
+Columbia: QID=Q49088, Name=Columbia University
+Corsica: QID=Q14112, Name=Corsica
+Costa Rica: QID=Q800, Name=Costa Rica
+Croatia: QID=Q224, Name=Croatia
+Czech Republic: QID=Q213, Name=Czech Republic
+Denmark: QID=Q35, Name=Denmark
+District of Columbia: QID=Q61, Name=Washington, D.C.
+Eastern Europe: QID=Q27468, Name=Eastern Europe
+Ecuador: QID=Q736, Name=Ecuador
+Estonia: QID=Q191, Name=Estonia
+Europe: QID=Q46, Name=Europe
+Finland: QID=Q33, Name=Finland
+Flanders: QID=Q234, Name=Flanders
+Florida: QID=Q812, Name=Florida
+France: QID=Q142, Name=France
+Georgia: QID=Q230, Name=Georgia
+Germany: QID=Q183, Name=Germany
+Greece: QID=Q41, Name=Greece
+Hawaii: QID=Q782, Name=Hawaii
+Hungary: QID=Q28, Name=Hungary
+Hérault: QID=Q12545, Name=Hérault
+Idaho: QID=Q1221, Name=Idaho
+Illawarra: QID=Q825302, Name=Illawarra
+Illinois: QID=Q1204, Name=Illinois
+India: QID=Q668, Name=India
+Indiana: QID=Q1415, Name=Indiana
+Ireland: QID=Q27, Name=Republic of Ireland
+Italy: QID=Q38, Name=Italy
+Kansas: QID=Q1558, Name=Kansas
+Kosovo: QID=Q1246, Name=Kosovo
+Latvia: QID=Q211, Name=Latvia
+Libya: QID=Q1016, Name=Libya
+Lithuania: QID=Q37, Name=Lithuania
+Maryland: QID=Q1391, Name=Maryland
+Massachusetts: QID=Q771, Name=Massachusetts
+Mexico: QID=Q96, Name=Mexico
+Michigan: QID=Q1166, Name=Michigan
+Middle East: QID=Q7204, Name=Middle East
+Missouri: QID=Q1581, Name=Missouri
+Montana: QID=Q1212, Name=Montana
+Morroco: QID=Q903576, Name=Grand Prix de SAR La Princesse Lalla Meryem
+Netherlands: QID=Q55, Name=Netherlands
+Nevada: QID=Q1227, Name=Nevada
+New Brunswick: QID=Q1965, Name=New Brunswick
+New Hampshire: QID=Q759, Name=New Hampshire
+New York: QID=Q60, Name=New York City
+New Zealand: QID=Q664, Name=New Zealand
+Normandy: QID=Q15878, Name=Normandy
+North America: QID=Q49, Name=North America
+North Carolina: QID=Q1454, Name=North Carolina
+North Ostrobothnia: QID=Q5704, Name=North Ostrobothnia
+Northern Ireland: QID=Q26, Name=Northern Ireland
+Norway: QID=Q20, Name=Norway
+Nouvelle-Aquitaine: QID=Q18678082, Name=New Aquitaine
+Nova Scotia: QID=Q1952, Name=Nova Scotia
+Occitanie: QID=Q18678265, Name=Occitania
+Ohio: QID=Q1397, Name=Ohio
+Ontario: QID=Q1904, Name=Ontario
+Oregon: QID=Q824, Name=Oregon
+Pennsylvania: QID=Q1400, Name=Pennsylvania
+Peru: QID=Q419, Name=Peru
+Philippines: QID=Q928, Name=Philippines
+Poland: QID=Q36, Name=Poland
+Portugal: QID=Q45, Name=Portugal
+Post-Soviet Sphere: QID=None, Name=None
+Prince Edward Island: QID=Q1978, Name=Prince Edward Island
+Provence-Alpes-Côte d'Azur: QID=Q15104, Name=Provence-Alpes-Côte d'Azur
+Puerto Rico: QID=Q1183, Name=Puerto Rico
+Quebec: QID=Q176, Name=Quebec
+Rhode Island: QID=Q1387, Name=Rhode Island
+Rhône-Alpes: QID=Q463, Name=Rhône-Alpes
+Romania: QID=Q218, Name=Romania
+Russia: QID=Q159, Name=Russia
+Saskatchewan: QID=Q1989, Name=Saskatchewan
+Scotland: QID=Q22, Name=Scotland
+Serbia: QID=Q403, Name=Serbia
+Skåne: QID=Q180756, Name=Scania
+Slovakia: QID=Q214, Name=Slovakia
+Småland: QID=Q199957, Name=Småland
+South Africa: QID=Q258, Name=South Africa
+South America: QID=Q18, Name=South America
+South Carolina: QID=Q1456, Name=South Carolina
+Spain: QID=Q29, Name=Spain
+Sweden: QID=Q34, Name=Sweden
+Switzerland: QID=Q39, Name=Switzerland
+Syria: QID=Q858, Name=Syria
+Tennessee: QID=Q1509, Name=Tennessee
+Texas: QID=Q1439, Name=Texas
+Ukraine: QID=Q212, Name=Ukraine
+United Kingdom: QID=Q145, Name=United Kingdom
+United States: QID=Q30, Name=United States of America
+Utah: QID=Q829, Name=Utah
+Venezuela: QID=Q717, Name=Venezuela
+Virginia: QID=Q1370, Name=Virginia
+Wales: QID=Q25, Name=Wales
+Washington: QID=Q61, Name=Washington, D.C.
+West Virginia: QID=Q1371, Name=West Virginia
+Worldwide: QID=Q13780930, Name=worldwide
+Wyoming: QID=Q1214, Name=Wyoming
+Zimbabwe: QID=Q954, Name=Zimbabwe
+Île-de-France: QID=Q13917, Name=Île-de-France

@@ -1,0 +1,670 @@
+{
+  "Symbol_1": {
+    "extracted_synsets": [
+      {
+        "name": "adhere.v.01",
+        "definition": "be compatible or in accordance with"
+      },
+      {
+        "name": "agenda.n.01",
+        "definition": "a temporally organized plan for matters to be attended to"
+      },
+      {
+        "name": "be.v.01",
+        "definition": "have the quality of being; (copula, used with an adjective or a predicate noun)"
+      },
+      {
+        "name": "belief.n.01",
+        "definition": "any cognitive content held as true"
+      },
+      {
+        "name": "beryllium.n.01",
+        "definition": "a light strong brittle grey toxic bivalent metallic element"
+      },
+      {
+        "name": "besides.r.02",
+        "definition": "in addition"
+      },
+      {
+        "name": "by_and_large.r.01",
+        "definition": "usually; as a rule"
+      },
+      {
+        "name": "community.n.01",
+        "definition": "a group of people living in a particular local area"
+      },
+      {
+        "name": "context.n.01",
+        "definition": "discourse that surrounds a language unit and helps to determine its interpretation"
+      },
+      {
+        "name": "core.n.01",
+        "definition": "a small group of indispensable persons or things"
+      },
+      {
+        "name": "expression.n.01",
+        "definition": "the feelings expressed on a person's face"
+      },
+      {
+        "name": "generic.n.01",
+        "definition": "a wine that is a blend of several varieties of grapes with no one grape predominating; a wine that does not carry the name of any specific grape"
+      },
+      {
+        "name": "guy.n.01",
+        "definition": "an informal term for a youth or man"
+      },
+      {
+        "name": "important.a.01",
+        "definition": "of great significance or value"
+      },
+      {
+        "name": "mean.v.03",
+        "definition": "denote or connote"
+      },
+      {
+        "name": "originate.v.01",
+        "definition": "come into existence; take on form or shape"
+      },
+      {
+        "name": "person.n.01",
+        "definition": "a human being"
+      },
+      {
+        "name": "platform.n.01",
+        "definition": "a raised horizontal surface"
+      },
+      {
+        "name": "racist.n.01",
+        "definition": "a person with a prejudiced belief that one race is superior to others"
+      },
+      {
+        "name": "relatively.r.01",
+        "definition": "in a relative manner; by comparison to something else"
+      },
+      {
+        "name": "show.v.01",
+        "definition": "give an exhibition of to an interested audience"
+      },
+      {
+        "name": "supremacist.n.01",
+        "definition": "a person who advocates the supremacy of some particular group or race over all others"
+      },
+      {
+        "name": "sympathetic.a.01",
+        "definition": "of or relating to the sympathetic nervous system"
+      },
+      {
+        "name": "term.n.01",
+        "definition": "a word or expression used for some particular thing"
+      },
+      {
+        "name": "unregulated.a.01",
+        "definition": "not regulated; not subject to rule or discipline"
+      },
+      {
+        "name": "use.v.01",
+        "definition": "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+      },
+      {
+        "name": "user.n.01",
+        "definition": "a person who makes use of a thing; someone who uses or employs something"
+      },
+      {
+        "name": "value.n.01",
+        "definition": "a numerical quantity measured or assigned or computed"
+      },
+      {
+        "name": "white.n.01",
+        "definition": "a member of the Caucasoid race"
+      }
+    ],
+    "extracted_ne_qids": [
+      {
+        "qid": "Q238330",
+        "name": "4chan"
+      }
+    ]
+  },
+  "Symbol_2": {
+    "extracted_synsets": [
+      {
+        "name": "april.n.01",
+        "definition": "the month following March and preceding May"
+      },
+      {
+        "name": "be.v.01",
+        "definition": "have the quality of being; (copula, used with an adjective or a predicate noun)"
+      },
+      {
+        "name": "beryllium.n.01",
+        "definition": "a light strong brittle grey toxic bivalent metallic element"
+      },
+      {
+        "name": "besides.r.02",
+        "definition": "in addition"
+      },
+      {
+        "name": "birthday.n.01",
+        "definition": "an anniversary of the day on which a person was born (or the celebration of it)"
+      },
+      {
+        "name": "celebration.n.01",
+        "definition": "a joyful occasion for special festivities to mark some happy event"
+      },
+      {
+        "name": "context.n.01",
+        "definition": "discourse that surrounds a language unit and helps to determine its interpretation"
+      },
+      {
+        "name": "culture.n.01",
+        "definition": "a particular society at a particular time and place"
+      },
+      {
+        "name": "forum.n.01",
+        "definition": "a public meeting or assembly for open discussion"
+      },
+      {
+        "name": "found.n.01",
+        "definition": "food and lodging provided in addition to money"
+      },
+      {
+        "name": "hitler.n.01",
+        "definition": "German Nazi dictator during World War II (1889-1945)"
+      },
+      {
+        "name": "mention.n.01",
+        "definition": "a remark that calls attention to something or someone"
+      },
+      {
+        "name": "nazi.n.01",
+        "definition": "a German member of Adolf Hitler's political party"
+      },
+      {
+        "name": "necessity.n.02",
+        "definition": "anything indispensable"
+      },
+      {
+        "name": "normally.r.01",
+        "definition": "under normal conditions"
+      },
+      {
+        "name": "note.v.01",
+        "definition": "make mention of"
+      },
+      {
+        "name": "observe.v.06",
+        "definition": "behave as expected during of holidays or rites"
+      },
+      {
+        "name": "other.a.01",
+        "definition": "not the same one or ones already mentioned or implied; - the White Queen"
+      },
+      {
+        "name": "patronize.v.02",
+        "definition": "do one's shopping at; do business with; be a customer or client of"
+      },
+      {
+        "name": "popular.a.01",
+        "definition": "regarded with great favor, approval, or affection especially by the general public"
+      },
+      {
+        "name": "racist.n.01",
+        "definition": "a person with a prejudiced belief that one race is superior to others"
+      },
+      {
+        "name": "term.n.01",
+        "definition": "a word or expression used for some particular thing"
+      },
+      {
+        "name": "universe.n.01",
+        "definition": "everything that exists anywhere"
+      },
+      {
+        "name": "use.n.01",
+        "definition": "the act of using"
+      },
+      {
+        "name": "use.v.01",
+        "definition": "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+      },
+      {
+        "name": "web_site.n.01",
+        "definition": "a computer connected to the internet that maintains a series of web pages on the World Wide Web"
+      }
+    ],
+    "extracted_ne_qids": [
+      {
+        "qid": "Q2524",
+        "name": "April 20"
+      },
+      {
+        "qid": "Q574578",
+        "name": "Nazi"
+      },
+      {
+        "qid": "Q67542044",
+        "name": "ADOLPH HITLER'S SPEECH AS REBROADCAST BY GERMANY, PART 3 (NAID 109012)"
+      },
+      {
+        "qid": "Q748539",
+        "name": "420"
+      }
+    ]
+  },
+  "Symbol_3": {
+    "extracted_synsets": [
+      {
+        "name": "accused.n.01",
+        "definition": "a defendant in a criminal proceeding"
+      },
+      {
+        "name": "akin.s.01",
+        "definition": "similar in quality or character"
+      },
+      {
+        "name": "anti-semitic.a.01",
+        "definition": "relating to or characterized by anti-Semitism; hating Jews"
+      },
+      {
+        "name": "are.n.01",
+        "definition": "a unit of surface area equal to 100 square meters"
+      },
+      {
+        "name": "associate.v.01",
+        "definition": "make a logical or causal connection"
+      },
+      {
+        "name": "authenticity.n.01",
+        "definition": "undisputed credibility"
+      },
+      {
+        "name": "be.v.01",
+        "definition": "have the quality of being; (copula, used with an adjective or a predicate noun)"
+      },
+      {
+        "name": "cabal.n.01",
+        "definition": "a clique (often secret) that seeks power usually through intrigue"
+      },
+      {
+        "name": "complain.v.01",
+        "definition": "express complaints, discontent, displeasure, or unhappiness"
+      },
+      {
+        "name": "criticism.n.01",
+        "definition": "disapproval expressed by pointing out faults or shortcomings"
+      },
+      {
+        "name": "culture.n.01",
+        "definition": "a particular society at a particular time and place"
+      },
+      {
+        "name": "debar.v.02",
+        "definition": "prevent the occurrence of; prevent from happening"
+      },
+      {
+        "name": "deny.v.01",
+        "definition": "declare untrue; contradict"
+      },
+      {
+        "name": "derogative.s.01",
+        "definition": "expressive of low opinion"
+      },
+      {
+        "name": "discrepancy.n.02",
+        "definition": "an event that departs from expectations"
+      },
+      {
+        "name": "excessively.r.01",
+        "definition": "to a degree exceeding normal or proper limits"
+      },
+      {
+        "name": "expression.n.01",
+        "definition": "the feelings expressed on a person's face"
+      },
+      {
+        "name": "falsify.v.01",
+        "definition": "make false by mutilation or addition; as of a message or story"
+      },
+      {
+        "name": "frequently.r.01",
+        "definition": "many times at short intervals"
+      },
+      {
+        "name": "genocide.n.01",
+        "definition": "systematic killing of a racial or cultural group"
+      },
+      {
+        "name": "harmful.a.01",
+        "definition": "causing or capable of causing harm"
+      },
+      {
+        "name": "hedge.v.01",
+        "definition": "avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)"
+      },
+      {
+        "name": "holocaust.n.01",
+        "definition": "an act of mass destruction and loss of life (especially in war or by fire)"
+      },
+      {
+        "name": "impact.n.01",
+        "definition": "the striking of one body against another"
+      },
+      {
+        "name": "imply.v.01",
+        "definition": "express or state indirectly"
+      },
+      {
+        "name": "include.v.01",
+        "definition": "have as a part, be made up out of"
+      },
+      {
+        "name": "insinuate.v.01",
+        "definition": "introduce or insert (oneself) in a subtle manner"
+      },
+      {
+        "name": "jew.n.01",
+        "definition": "a person belonging to the worldwide group claiming descent from Jacob (or converted to it) and connected by cultural or religious ties"
+      },
+      {
+        "name": "kill.v.01",
+        "definition": "cause to die; put to death, usually intentionally or knowingly"
+      },
+      {
+        "name": "meme.n.01",
+        "definition": "a cultural unit (an idea or value or pattern of behavior) that is passed from one person to another by non-genetic means (as by imitation)"
+      },
+      {
+        "name": "mock.n.01",
+        "definition": "the act of mocking or ridiculing"
+      },
+      {
+        "name": "narrative.n.01",
+        "definition": "a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program"
+      },
+      {
+        "name": "nazi.n.01",
+        "definition": "a German member of Adolf Hitler's political party"
+      },
+      {
+        "name": "overstate.v.01",
+        "definition": "to enlarge beyond bounds or the truth"
+      },
+      {
+        "name": "particularly.r.01",
+        "definition": "to a distinctly greater extent or degree than is common"
+      },
+      {
+        "name": "perpetuate.v.01",
+        "definition": "cause to continue or prevail"
+      },
+      {
+        "name": "phrase.n.01",
+        "definition": "an expression consisting of one or more words forming a grammatical constituent of a sentence"
+      },
+      {
+        "name": "propose.v.01",
+        "definition": "make a proposal, declare a plan for something"
+      },
+      {
+        "name": "question.n.01",
+        "definition": "an instance of questioning"
+      },
+      {
+        "name": "reference.v.01",
+        "definition": "refer to"
+      },
+      {
+        "name": "remembrance.n.01",
+        "definition": "the ability to recall past occurrences"
+      },
+      {
+        "name": "ridicule.n.01",
+        "definition": "language or behavior intended to mock or humiliate"
+      },
+      {
+        "name": "shield.n.01",
+        "definition": "a protective covering or structure"
+      },
+      {
+        "name": "six.n.01",
+        "definition": "the cardinal number that is the sum of five and one"
+      },
+      {
+        "name": "slang.n.01",
+        "definition": "informal language consisting of words and expressions that are not considered appropriate for formal occasions; often vituperative or vulgar"
+      },
+      {
+        "name": "supremacist.n.01",
+        "definition": "a person who advocates the supremacy of some particular group or race over all others"
+      },
+      {
+        "name": "term.n.01",
+        "definition": "a word or expression used for some particular thing"
+      },
+      {
+        "name": "use.n.01",
+        "definition": "the act of using"
+      },
+      {
+        "name": "use.v.01",
+        "definition": "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+      },
+      {
+        "name": "whine.v.01",
+        "definition": "move with a whining sound"
+      },
+      {
+        "name": "white.n.01",
+        "definition": "a member of the Caucasoid race"
+      }
+    ],
+    "extracted_ne_qids": [
+      {
+        "qid": "Q22649",
+        "name": "antisemitism"
+      },
+      {
+        "qid": "Q2763",
+        "name": "The Holocaust"
+      },
+      {
+        "qid": "Q574578",
+        "name": "Nazi"
+      },
+      {
+        "qid": "Q6898303",
+        "name": "Six Million and One"
+      },
+      {
+        "qid": "Q7325",
+        "name": "Jewish people"
+      }
+    ]
+  },
+  "Symbol_4": {
+    "extracted_synsets": [
+      {
+        "name": "anti-semitic.a.01",
+        "definition": "relating to or characterized by anti-Semitism; hating Jews"
+      },
+      {
+        "name": "associate.v.01",
+        "definition": "make a logical or causal connection"
+      },
+      {
+        "name": "be.v.01",
+        "definition": "have the quality of being; (copula, used with an adjective or a predicate noun)"
+      },
+      {
+        "name": "concept.n.01",
+        "definition": "an abstract or general idea inferred or derived from specific instances"
+      },
+      {
+        "name": "credence.n.01",
+        "definition": "the mental attitude that something is believable and should be accepted as true"
+      },
+      {
+        "name": "deadly.s.01",
+        "definition": "causing or capable of causing death"
+      },
+      {
+        "name": "enough.n.01",
+        "definition": "an adequate quantity; a quantity that is large enough to achieve a purpose"
+      },
+      {
+        "name": "evening.n.01",
+        "definition": "the latter part of the day (the period of decreasing daylight from late afternoon until nightfall)"
+      },
+      {
+        "name": "found.n.01",
+        "definition": "food and lodging provided in addition to money"
+      },
+      {
+        "name": "genocide.n.01",
+        "definition": "systematic killing of a racial or cultural group"
+      },
+      {
+        "name": "have.v.02",
+        "definition": "have as a feature"
+      },
+      {
+        "name": "holocaust.n.01",
+        "definition": "an act of mass destruction and loss of life (especially in war or by fire)"
+      },
+      {
+        "name": "hour_angle.n.02",
+        "definition": "(astronomy) the angular distance of a celestial point measured westward along the celestial equator from the zenith crossing; the right ascension for an observer at a particular location and time of day"
+      },
+      {
+        "name": "imply.v.01",
+        "definition": "express or state indirectly"
+      },
+      {
+        "name": "jersey.n.03",
+        "definition": "a close-fitting pullover shirt"
+      },
+      {
+        "name": "jew.n.01",
+        "definition": "a person belonging to the worldwide group claiming descent from Jacob (or converted to it) and connected by cultural or religious ties"
+      },
+      {
+        "name": "lament.n.01",
+        "definition": "a cry of sorrow and grief"
+      },
+      {
+        "name": "lone.s.03",
+        "definition": "being the only one; single and isolated from others"
+      },
+      {
+        "name": "male_child.n.01",
+        "definition": "a youthful male person"
+      },
+      {
+        "name": "member.n.01",
+        "definition": "one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)"
+      },
+      {
+        "name": "million.n.01",
+        "definition": "the number that is represented as a one followed by 6 zeros"
+      },
+      {
+        "name": "more.n.01",
+        "definition": "English statesman who opposed Henry VIII's divorce from Catherine of Aragon and was imprisoned and beheaded; recalled for his concept of Utopia, the ideal state"
+      },
+      {
+        "name": "motto.n.01",
+        "definition": "a favorite saying of a sect or political group"
+      },
+      {
+        "name": "murder.v.01",
+        "definition": "kill intentionally and with premeditation"
+      },
+      {
+        "name": "nazi.n.01",
+        "definition": "a German member of Adolf Hitler's political party"
+      },
+      {
+        "name": "observe.v.06",
+        "definition": "behave as expected during of holidays or rites"
+      },
+      {
+        "name": "obviously.r.01",
+        "definition": "unmistakably (`plain' is often used informally for `plainly')"
+      },
+      {
+        "name": "particularly.r.01",
+        "definition": "to a distinctly greater extent or degree than is common"
+      },
+      {
+        "name": "patriot.n.01",
+        "definition": "one who loves and defends his or her country"
+      },
+      {
+        "name": "preferable.s.01",
+        "definition": "more desirable than another"
+      },
+      {
+        "name": "proud.a.01",
+        "definition": "feeling self-respect or pleasure in something by which you measure your self-worth; or being a reason for pride"
+      },
+      {
+        "name": "rich_person.n.01",
+        "definition": "a person who possesses great material wealth"
+      },
+      {
+        "name": "supremacist.n.01",
+        "definition": "a person who advocates the supremacy of some particular group or race over all others"
+      },
+      {
+        "name": "term.n.01",
+        "definition": "a word or expression used for some particular thing"
+      },
+      {
+        "name": "use.v.01",
+        "definition": "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+      },
+      {
+        "name": "washington.n.02",
+        "definition": "a state in northwestern United States on the Pacific"
+      },
+      {
+        "name": "wear.v.01",
+        "definition": "be dressed in"
+      },
+      {
+        "name": "white.n.01",
+        "definition": "a member of the Caucasoid race"
+      },
+      {
+        "name": "widespread.s.01",
+        "definition": "widely circulated or diffused"
+      }
+    ],
+    "extracted_ne_qids": [
+      {
+        "qid": "Q108924491",
+        "name": "WHITE SUPREMACISTS DECEPTIVELY USING SCREENSHOTS AS EVIDENCE: A SOCIAL SEMIOTIC APPROACH TO ANALYSING CONSPIRATORIAL YOUTUBE VIDEOS"
+      },
+      {
+        "qid": "Q18420820",
+        "name": "6 Million Seconds"
+      },
+      {
+        "qid": "Q2763",
+        "name": "The Holocaust"
+      },
+      {
+        "qid": "Q29096457",
+        "name": "Proud Boys"
+      },
+      {
+        "qid": "Q574578",
+        "name": "Nazi"
+      },
+      {
+        "qid": "Q7325",
+        "name": "Jewish people"
+      }
+    ]
+  }
+}
