@@ -1,0 +1,614 @@
+{
+  "ideologies": {
+    "Accelerationist": [
+      "Q16001522",
+      "accelerationism"
+    ],
+    "Anti-Immigrant": [
+      "Q1969722",
+      "nativism"
+    ],
+    "Anti-LGBTQ": [
+      "Q33487",
+      "Homophobia"
+    ],
+    "Anti-Muslim": [
+      "Q486296",
+      "Islamophobia"
+    ],
+    "Anti-Roma": [
+      "Q584475",
+      "Anti-Romanyism"
+    ],
+    "Anti-Semitic": [
+      "Q15954665",
+      "antisemite"
+    ],
+    "Anti-Trans": [
+      "Q64717200",
+      "anti-gender movement"
+    ],
+    "Anti-Ukrainian": [
+      "Q2387047",
+      "anti-Ukrainian sentiment"
+    ],
+    "Anti-Woman": [
+      "Q308857",
+      "Misogyny"
+    ],
+    "Antigovernment": [
+      "Q113496498",
+      "anti-government group"
+    ],
+    "Christian Identity": [
+      "Q477317",
+      "Christian Identity"
+    ],
+    "Christian Nationalist": [
+      "Q5109957",
+      "Christian Nationalism"
+    ],
+    "Conspiracy Theory": [
+      "Q159535",
+      "conspiracy theory"
+    ],
+    "Fascist": [
+      "Q4481595",
+      "fascist"
+    ],
+    "Hindu Supremacist": [
+      "Q281247",
+      "Hindutva"
+    ],
+    "Holocaust denial": [
+      "Q151296",
+      "Holocaust denial"
+    ],
+    "Identitarian": [
+      "Q2914650",
+      "identity politics"
+    ],
+    "Imperialist": [
+      "Q120327993",
+      "imperialist"
+    ],
+    "Incel": [
+      "Q332395",
+      "incel"
+    ],
+    "Integralist": [
+      "Q592832",
+      "Integralism"
+    ],
+    "Ku Klux Klan": [
+      "Q47131",
+      "Ku Klux Klan"
+    ],
+    "Male Supremacist": [
+      "Q93200",
+      "sexism"
+    ],
+    "Militia": [
+      "Q153936",
+      "militia"
+    ],
+    "Nazi": [
+      "Q574578",
+      "Nazi"
+    ],
+    "Neo-Confederate": [
+      "Q6991715",
+      "neo-Confederate"
+    ],
+    "Neo-Nazi": [
+      "Q126096643",
+      "neo-Nazi"
+    ],
+    "White Nationalist": [
+      "Q110441926",
+      "white nationalist"
+    ]
+  },
+  "locations": {
+    "Africa": [
+      "Q15",
+      "Africa"
+    ],
+    "Alabama": [
+      "Q173",
+      "Alabama"
+    ],
+    "Albania": [
+      "Q222",
+      "Albania"
+    ],
+    "Alberta": [
+      "Q1951",
+      "Alberta"
+    ],
+    "Argentina": [
+      "Q414",
+      "Argentina"
+    ],
+    "Arizona": [
+      "Q816",
+      "Arizona"
+    ],
+    "Arkansas": [
+      "Q1612",
+      "Arkansas"
+    ],
+    "Armenia": [
+      "Q399",
+      "Armenia"
+    ],
+    "Asia": [
+      "Q48",
+      "Asia"
+    ],
+    "Australia": [
+      "Q408",
+      "Australia"
+    ],
+    "Austria": [
+      "Q40",
+      "Austria"
+    ],
+    "Belgium": [
+      "Q31",
+      "Belgium"
+    ],
+    "Belize": [
+      "Q242",
+      "Belize"
+    ],
+    "Bourgogne-Franche-Comt\u00e9": [
+      "Q18578267",
+      "Bourgogne-Franche-Comt\u00e9"
+    ],
+    "Brazil": [
+      "Q155",
+      "Brazil"
+    ],
+    "Bretagne": [
+      "Q12130",
+      "Brittany"
+    ],
+    "British Columbia": [
+      "Q1973",
+      "British Columbia"
+    ],
+    "Bulgaria": [
+      "Q219",
+      "Bulgaria"
+    ],
+    "California": [
+      "Q99",
+      "California"
+    ],
+    "Canada": [
+      "Q16",
+      "Canada"
+    ],
+    "Central America": [
+      "Q27611",
+      "Central America"
+    ],
+    "Centre-Val de Loire": [
+      "Q13947",
+      "Centre-Val de Loire"
+    ],
+    "Chile": [
+      "Q298",
+      "Chile"
+    ],
+    "Colorado": [
+      "Q1261",
+      "Colorado"
+    ],
+    "Columbia": [
+      "Q49088",
+      "Columbia University"
+    ],
+    "Corsica": [
+      "Q14112",
+      "Corsica"
+    ],
+    "Costa Rica": [
+      "Q800",
+      "Costa Rica"
+    ],
+    "Croatia": [
+      "Q224",
+      "Croatia"
+    ],
+    "Czech Republic": [
+      "Q213",
+      "Czech Republic"
+    ],
+    "Denmark": [
+      "Q35",
+      "Denmark"
+    ],
+    "District of Columbia": [
+      "Q61",
+      "Washington, D.C."
+    ],
+    "Eastern Europe": [
+      "Q27468",
+      "Eastern Europe"
+    ],
+    "Ecuador": [
+      "Q736",
+      "Ecuador"
+    ],
+    "Estonia": [
+      "Q191",
+      "Estonia"
+    ],
+    "Europe": [
+      "Q46",
+      "Europe"
+    ],
+    "Finland": [
+      "Q33",
+      "Finland"
+    ],
+    "Flanders": [
+      "Q234",
+      "Flanders"
+    ],
+    "Florida": [
+      "Q812",
+      "Florida"
+    ],
+    "France": [
+      "Q142",
+      "France"
+    ],
+    "Georgia": [
+      "Q230",
+      "Georgia"
+    ],
+    "Germany": [
+      "Q183",
+      "Germany"
+    ],
+    "Greece": [
+      "Q41",
+      "Greece"
+    ],
+    "Hawaii": [
+      "Q782",
+      "Hawaii"
+    ],
+    "Hungary": [
+      "Q28",
+      "Hungary"
+    ],
+    "H\u00e9rault": [
+      "Q12545",
+      "H\u00e9rault"
+    ],
+    "Idaho": [
+      "Q1221",
+      "Idaho"
+    ],
+    "Illawarra": [
+      "Q825302",
+      "Illawarra"
+    ],
+    "Illinois": [
+      "Q1204",
+      "Illinois"
+    ],
+    "India": [
+      "Q668",
+      "India"
+    ],
+    "Indiana": [
+      "Q1415",
+      "Indiana"
+    ],
+    "Ireland": [
+      "Q27",
+      "Republic of Ireland"
+    ],
+    "Italy": [
+      "Q38",
+      "Italy"
+    ],
+    "Kansas": [
+      "Q1558",
+      "Kansas"
+    ],
+    "Kosovo": [
+      "Q1246",
+      "Kosovo"
+    ],
+    "Latvia": [
+      "Q211",
+      "Latvia"
+    ],
+    "Libya": [
+      "Q1016",
+      "Libya"
+    ],
+    "Lithuania": [
+      "Q37",
+      "Lithuania"
+    ],
+    "Maryland": [
+      "Q1391",
+      "Maryland"
+    ],
+    "Massachusetts": [
+      "Q771",
+      "Massachusetts"
+    ],
+    "Mexico": [
+      "Q96",
+      "Mexico"
+    ],
+    "Michigan": [
+      "Q1166",
+      "Michigan"
+    ],
+    "Middle East": [
+      "Q7204",
+      "Middle East"
+    ],
+    "Missouri": [
+      "Q1581",
+      "Missouri"
+    ],
+    "Montana": [
+      "Q1212",
+      "Montana"
+    ],
+    "Morroco": [
+      "Q903576",
+      "Grand Prix de SAR La Princesse Lalla Meryem"
+    ],
+    "Netherlands": [
+      "Q55",
+      "Netherlands"
+    ],
+    "Nevada": [
+      "Q1227",
+      "Nevada"
+    ],
+    "New Brunswick": [
+      "Q1965",
+      "New Brunswick"
+    ],
+    "New Hampshire": [
+      "Q759",
+      "New Hampshire"
+    ],
+    "New York": [
+      "Q60",
+      "New York City"
+    ],
+    "New Zealand": [
+      "Q664",
+      "New Zealand"
+    ],
+    "Normandy": [
+      "Q15878",
+      "Normandy"
+    ],
+    "North America": [
+      "Q49",
+      "North America"
+    ],
+    "North Carolina": [
+      "Q1454",
+      "North Carolina"
+    ],
+    "North Ostrobothnia": [
+      "Q5704",
+      "North Ostrobothnia"
+    ],
+    "Northern Ireland": [
+      "Q26",
+      "Northern Ireland"
+    ],
+    "Norway": [
+      "Q20",
+      "Norway"
+    ],
+    "Nouvelle-Aquitaine": [
+      "Q18678082",
+      "New Aquitaine"
+    ],
+    "Nova Scotia": [
+      "Q1952",
+      "Nova Scotia"
+    ],
+    "Occitanie": [
+      "Q18678265",
+      "Occitania"
+    ],
+    "Ohio": [
+      "Q1397",
+      "Ohio"
+    ],
+    "Ontario": [
+      "Q1904",
+      "Ontario"
+    ],
+    "Oregon": [
+      "Q824",
+      "Oregon"
+    ],
+    "Pennsylvania": [
+      "Q1400",
+      "Pennsylvania"
+    ],
+    "Peru": [
+      "Q419",
+      "Peru"
+    ],
+    "Philippines": [
+      "Q928",
+      "Philippines"
+    ],
+    "Poland": [
+      "Q36",
+      "Poland"
+    ],
+    "Portugal": [
+      "Q45",
+      "Portugal"
+    ],
+    "Post-Soviet Sphere": [
+      null,
+      null
+    ],
+    "Prince Edward Island": [
+      "Q1978",
+      "Prince Edward Island"
+    ],
+    "Provence-Alpes-C\u00f4te d'Azur": [
+      "Q15104",
+      "Provence-Alpes-C\u00f4te d'Azur"
+    ],
+    "Puerto Rico": [
+      "Q1183",
+      "Puerto Rico"
+    ],
+    "Quebec": [
+      "Q176",
+      "Quebec"
+    ],
+    "Rhode Island": [
+      "Q1387",
+      "Rhode Island"
+    ],
+    "Rh\u00f4ne-Alpes": [
+      "Q463",
+      "Rh\u00f4ne-Alpes"
+    ],
+    "Romania": [
+      "Q218",
+      "Romania"
+    ],
+    "Russia": [
+      "Q159",
+      "Russia"
+    ],
+    "Saskatchewan": [
+      "Q1989",
+      "Saskatchewan"
+    ],
+    "Scotland": [
+      "Q22",
+      "Scotland"
+    ],
+    "Serbia": [
+      "Q403",
+      "Serbia"
+    ],
+    "Sk\u00e5ne": [
+      "Q180756",
+      "Scania"
+    ],
+    "Slovakia": [
+      "Q214",
+      "Slovakia"
+    ],
+    "Sm\u00e5land": [
+      "Q199957",
+      "Sm\u00e5land"
+    ],
+    "South Africa": [
+      "Q258",
+      "South Africa"
+    ],
+    "South America": [
+      "Q18",
+      "South America"
+    ],
+    "South Carolina": [
+      "Q1456",
+      "South Carolina"
+    ],
+    "Spain": [
+      "Q29",
+      "Spain"
+    ],
+    "Sweden": [
+      "Q34",
+      "Sweden"
+    ],
+    "Switzerland": [
+      "Q39",
+      "Switzerland"
+    ],
+    "Syria": [
+      "Q858",
+      "Syria"
+    ],
+    "Tennessee": [
+      "Q1509",
+      "Tennessee"
+    ],
+    "Texas": [
+      "Q1439",
+      "Texas"
+    ],
+    "Ukraine": [
+      "Q212",
+      "Ukraine"
+    ],
+    "United Kingdom": [
+      "Q145",
+      "United Kingdom"
+    ],
+    "United States": [
+      "Q30",
+      "United States of America"
+    ],
+    "Utah": [
+      "Q829",
+      "Utah"
+    ],
+    "Venezuela": [
+      "Q717",
+      "Venezuela"
+    ],
+    "Virginia": [
+      "Q1370",
+      "Virginia"
+    ],
+    "Wales": [
+      "Q25",
+      "Wales"
+    ],
+    "Washington": [
+      "Q61",
+      "Washington, D.C."
+    ],
+    "West Virginia": [
+      "Q1371",
+      "West Virginia"
+    ],
+    "Worldwide": [
+      "Q13780930",
+      "worldwide"
+    ],
+    "Wyoming": [
+      "Q1214",
+      "Wyoming"
+    ],
+    "Zimbabwe": [
+      "Q954",
+      "Zimbabwe"
+    ],
+    "\u00cele-de-France": [
+      "Q13917",
+      "\u00cele-de-France"
+    ]
+  }
+}
