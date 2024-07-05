@@ -18,7 +18,7 @@ This repository includes:
 - **Use Cases**: Example use cases demonstrating the application of OnToxKG in meme toxicity detection.
 
 ### Contact
-For any questions or inquiries, please contact Your Name.
+For any questions or inquiries, please contact Delfina at dsmp@cwi.nl.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
