@@ -82,7 +82,7 @@ with open('../data/merged_ontox_dict.json', 'r') as json_file:
                 for qid in detail_value:
                     g.add((wiki[qid["qid"]], rdf.type, ontox.WikiConcept))
                     g.add((wiki[qid["qid"]], rdfs.label, Literal(qid["name"], datatype=XSD.string)))
-                    g.add((ontox[pt_symbol], ontox.relatedToNamerelatedToConceptdEntity, wiki[qid["qid"]]))
+                    g.add((ontox[pt_symbol], ontox.relatedToConcept, wiki[qid["qid"]]))
                     g.add((ontox[symbol_description_id], ontox.mentionsConcept, wiki[qid["qid"]]))
 # Serialize the RDF graph to Turtle format
 turtle_data = g.serialize(format="turtle")
