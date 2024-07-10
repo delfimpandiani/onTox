@@ -2,7 +2,8 @@
 
 ## Overview
 This repository contains the data, code, and content related to the paper "OnTox: Constructing and Leveraging an Ontology-Based Knowledge Graph of Toxic Symbols for Harmful Meme Exploration."
-OnTox is an ontology designed to represent and expand data related to toxic symbology using multimodal approaches. This ontology is intended to facilitate the analysis and connection of toxic symbols and related online content, such as memes, by providing a formal and semantic framework.
+OnTox is an ontology designed to represent and expand data related to toxic symbology using multimodal approaches. This ontology is intended to facilitate the analysis and connection of toxic symbols and related online content, such as memes, by providing a formal and semantic framework. 
+The permanent IRI of the Ontology is [https://w3id.org/ontox](https://w3id.org/ontox).
 
 ## Data Source
 The data for this project is sourced from the Global Extremist Symbols Database created by the Global Project Against Hate and Extremism (GPAHE). Launched in 2020 by Heidi Beirich and Wendy Via, GPAHE addresses transnational hate and far-right extremism, particularly focusing on U.S.-based activities that influence other countries. GPAHE aims to reduce violence associated with hate and extremism and address systemic problems rooted in hate in governments and societies. For more information about GPAHE, visit [their website](https://globalextremism.org).
