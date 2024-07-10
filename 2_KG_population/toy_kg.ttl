@@ -1,0 +1,566 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <https://w3id.org/ontox#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://v5.airtableusercontent.com/v3/u/29/29/1718208000000/7Hgx_F5P5buAlxi4U0jv_A/hl7KB3BmpKDwoREGodOJndLS9C0vKi_GfzSGsXNa6eC5HSd0H3slcS0FtUvt5_7WyCxdGSxRC9rwn8zoBe2U3PI8mSTEh0EHWh2Hknf_dx7HH_MWTPVMm7o1AoGekYGcQE6WIsNNE6avE1Pt93dokdmAtEw7cnSP4b9DA363dMk/Y1uU4rLpio4tby2z8WaeMuzybAEKTtVCAEGrF8dLdPU> a foaf:Image .
+
+<https://v5.airtableusercontent.com/v3/u/29/29/1718208000000/ARTtqARwdrdKSm--GGB20w/HNt6pA-s-ezXMBYkaXRgQikQDfJJnCauGLSej7tqzKyOICrwb0LO-_rQyV-6EMB5sXv0x0W5NJGkgXg5c_FfykJrLkeJvrfLjnMVDBZyvhnT9fjZ4uxa4kykmSRWFyfGVJvI8Ry7FpU1FBBoV_eyiQ/QRV_5PxrdsyE4-602rgrhtZhvbEnx-yTlZgdivuhrzA> a foaf:Image .
+
+ns1:symbol_1 a ns1:PotentiallyToxicSymbol ;
+    rdfs:label "/Our Guy/"^^xsd:string ;
+    rdfs:comment "Our Guy (also \"/our guy/\") is an expression originating on the unregulated platform 4chan that generally signifies that a user adheres to a community's core beliefs and values. It is also used by white supremacists to demonstrate that someone is sympathetic to their racist agenda. As it can be a relatively generic term, context is important."^^xsd:string ;
+    foaf:depiction "https://v5.airtableusercontent.com/v3/u/29/29/1718208000000/7Hgx_F5P5buAlxi4U0jv_A/hl7KB3BmpKDwoREGodOJndLS9C0vKi_GfzSGsXNa6eC5HSd0H3slcS0FtUvt5_7WyCxdGSxRC9rwn8zoBe2U3PI8mSTEh0EHWh2Hknf_dx7HH_MWTPVMm7o1AoGekYGcQE6WIsNNE6avE1Pt93dokdmAtEw7cnSP4b9DA363dMk/Y1uU4rLpio4tby2z8WaeMuzybAEKTtVCAEGrF8dLdPU"^^xsd:string ;
+    ns1:hasDescription ns1:symbol_1_desc ;
+    ns1:hasGeographicalContext <http://www.wikidata.org/entity/Q30> ;
+    ns1:hasIdeologicalContext <http://www.wikidata.org/entity/Q110441926> ;
+    ns1:hasOnToxId "Symbol_1"^^xsd:string ;
+    ns1:hasOriginalDatabase ns1:GPAHE ;
+    ns1:hasOriginalId "recO8TxLrKrgpji0y"^^xsd:string ;
+    ns1:relatedToConcept <https://w3id.org/framester/wn/wn30/instances/adhere.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/agenda.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/belief.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/besides.r.02>,
+        <https://w3id.org/framester/wn/wn30/instances/by_and_large.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/community.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/core.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/expression.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/generic.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/guy.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/important.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/originate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/platform.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/racist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/relatively.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/supremacist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sympathetic.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/term.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/unregulated.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/user.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/value.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/white.n.01> ;
+    ns1:relatedToNamerelatedToConceptdEntity <http://www.wikidata.org/entity/Q238330> .
+
+ns1:symbol_549 a ns1:PotentiallyToxicSymbol ;
+    rdfs:label "Pinochet's Helicopters"^^xsd:string ;
+    rdfs:comment "This image from Anti-Communist Action includes a picture of a helicopter. That is a reference to the extrajudicial murders of Chilean dictator Augusto Pinochet's political opponents, which he had at times thrown out of helicopters. Images of helicopters are used by many groups to signify their willingness to use violence against their opponents. The white supremacist Proud Boys also featured similar images, and have been known to sport patches reading \"RWDS,\" or Right-Wing Death Squads, referring to Pinochet's troops."^^xsd:string ;
+    foaf:depiction "https://v5.airtableusercontent.com/v3/u/29/29/1718208000000/ARTtqARwdrdKSm--GGB20w/HNt6pA-s-ezXMBYkaXRgQikQDfJJnCauGLSej7tqzKyOICrwb0LO-_rQyV-6EMB5sXv0x0W5NJGkgXg5c_FfykJrLkeJvrfLjnMVDBZyvhnT9fjZ4uxa4kykmSRWFyfGVJvI8Ry7FpU1FBBoV_eyiQ/QRV_5PxrdsyE4-602rgrhtZhvbEnx-yTlZgdivuhrzA"^^xsd:string ;
+    ns1:hasDescription ns1:symbol_549_desc ;
+    ns1:hasGeographicalContext <http://www.wikidata.org/entity/Q16>,
+        <http://www.wikidata.org/entity/Q298>,
+        <http://www.wikidata.org/entity/Q30>,
+        <http://www.wikidata.org/entity/Q414> ;
+    ns1:hasIdeologicalContext <http://www.wikidata.org/entity/Q159535>,
+        <http://www.wikidata.org/entity/Q15954665> ;
+    ns1:hasOnToxId "Symbol_549"^^xsd:string ;
+    ns1:hasOriginalDatabase ns1:GPAHE ;
+    ns1:hasOriginalId "recnhSI7YtqFDuYV0"^^xsd:string ;
+    ns1:relatedToConcept <https://w3id.org/framester/wn/wn30/instances/action.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/are.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/besides.r.02>,
+        <https://w3id.org/framester/wn/wn30/instances/chilean.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/death.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dictator.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/extrajudicial.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/group.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/have.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/have.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/helicopter.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/include.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/know.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/male_child.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/many.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/murder.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/opposition.n.04>,
+        <https://w3id.org/framester/wn/wn30/instances/picture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/political.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/proud.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/reading.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/rich_person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/rightist.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/similar.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sport.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/spot.n.05>,
+        <https://w3id.org/framester/wn/wn30/instances/squad.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/supremacist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/throw.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/time.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/troop.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/white.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/willingness.n.01> ;
+    ns1:relatedToNamerelatedToConceptdEntity <http://www.wikidata.org/entity/Q107197029>,
+        <http://www.wikidata.org/entity/Q119241014>,
+        <http://www.wikidata.org/entity/Q29096457>,
+        <http://www.wikidata.org/entity/Q368>,
+        <http://www.wikidata.org/entity/Q48814889>,
+        <http://www.wikidata.org/entity/Q57886220> .
+
+<http://www.wikidata.org/entity/Q110441926> a ns1:Ideology,
+        ns1:WikiConcept ;
+    rdfs:label "white nationalist"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q159535> a ns1:Ideology,
+        ns1:WikiConcept ;
+    rdfs:label "conspiracy theory"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q15954665> a ns1:Ideology,
+        ns1:WikiConcept ;
+    rdfs:label "antisemite"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q16> a ns1:Location,
+        ns1:WikiConcept ;
+    rdfs:label "Canada"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q298> a ns1:Location,
+        ns1:WikiConcept ;
+    rdfs:label "Chile"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q414> a ns1:Location,
+        ns1:WikiConcept ;
+    rdfs:label "Argentina"^^xsd:string .
+
+ns1:symbol_1_desc a ns1:SymbolDescription ;
+    rdfs:label "Our Guy (also \"/our guy/\") is an expression originating on the unregulated platform 4chan that generally signifies that a user adheres to a community's core beliefs and values. It is also used by white supremacists to demonstrate that someone is sympathetic to their racist agenda. As it can be a relatively generic term, context is important."^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q238330>,
+        <https://w3id.org/framester/wn/wn30/instances/adhere.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/agenda.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/belief.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/besides.r.02>,
+        <https://w3id.org/framester/wn/wn30/instances/by_and_large.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/community.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/core.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/expression.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/generic.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/guy.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/important.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/originate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/platform.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/racist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/relatively.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/supremacist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sympathetic.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/term.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/unregulated.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/user.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/value.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/white.n.01> .
+
+ns1:symbol_549_desc a ns1:SymbolDescription ;
+    rdfs:label "This image from Anti-Communist Action includes a picture of a helicopter. That is a reference to the extrajudicial murders of Chilean dictator Augusto Pinochet's political opponents, which he had at times thrown out of helicopters. Images of helicopters are used by many groups to signify their willingness to use violence against their opponents. The white supremacist Proud Boys also featured similar images, and have been known to sport patches reading \"RWDS,\" or Right-Wing Death Squads, referring to Pinochet's troops."^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q107197029>,
+        <http://www.wikidata.org/entity/Q119241014>,
+        <http://www.wikidata.org/entity/Q29096457>,
+        <http://www.wikidata.org/entity/Q368>,
+        <http://www.wikidata.org/entity/Q48814889>,
+        <http://www.wikidata.org/entity/Q57886220>,
+        <https://w3id.org/framester/wn/wn30/instances/action.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/are.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/besides.r.02>,
+        <https://w3id.org/framester/wn/wn30/instances/chilean.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/death.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dictator.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/extrajudicial.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/group.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/have.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/have.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/helicopter.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/include.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/know.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/male_child.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/many.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/murder.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/opposition.n.04>,
+        <https://w3id.org/framester/wn/wn30/instances/picture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/political.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/proud.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/reading.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/rich_person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/rightist.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/similar.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sport.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/spot.n.05>,
+        <https://w3id.org/framester/wn/wn30/instances/squad.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/supremacist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/throw.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/time.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/troop.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/white.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/willingness.n.01> .
+
+<http://www.wikidata.org/entity/Q107197029> a ns1:WikiConcept ;
+    rdfs:label "chilean"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q119241014> a ns1:WikiConcept ;
+    rdfs:label "Right Wing Death Squad"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q238330> a ns1:WikiConcept ;
+    rdfs:label "4chan"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q29096457> a ns1:WikiConcept ;
+    rdfs:label "Proud Boys"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q30> a ns1:Location,
+        ns1:WikiConcept ;
+    rdfs:label "United States of America"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q368> a ns1:WikiConcept ;
+    rdfs:label "Augusto Pinochet"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q48814889> a ns1:WikiConcept ;
+    rdfs:label "Anti-Communist Action"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q57886220> a ns1:WikiConcept ;
+    rdfs:label "Pinochet"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/action.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "action.n.01"^^xsd:string ;
+    rdfs:comment "something done (usually as opposed to something said)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/adhere.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "adhere.v.01"^^xsd:string ;
+    rdfs:comment "be compatible or in accordance with"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/agenda.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "agenda.n.01"^^xsd:string ;
+    rdfs:comment "a temporally organized plan for matters to be attended to"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/are.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "are.n.01"^^xsd:string ;
+    rdfs:comment "a unit of surface area equal to 100 square meters"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/belief.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "belief.n.01"^^xsd:string ;
+    rdfs:comment "any cognitive content held as true"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/beryllium.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "beryllium.n.01"^^xsd:string ;
+    rdfs:comment "a light strong brittle grey toxic bivalent metallic element"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/by_and_large.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "by_and_large.r.01"^^xsd:string ;
+    rdfs:comment "usually; as a rule"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/chilean.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "chilean.n.01"^^xsd:string ;
+    rdfs:comment "a native or inhabitant of Chile"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/community.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "community.n.01"^^xsd:string ;
+    rdfs:comment "a group of people living in a particular local area"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/context.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "context.n.01"^^xsd:string ;
+    rdfs:comment "discourse that surrounds a language unit and helps to determine its interpretation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/core.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "core.n.01"^^xsd:string ;
+    rdfs:comment "a small group of indispensable persons or things"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/death.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "death.n.01"^^xsd:string ;
+    rdfs:comment "the event of dying or departure from life"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/dictator.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "dictator.n.01"^^xsd:string ;
+    rdfs:comment "a speaker who dictates to a secretary or a recording machine"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/expression.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "expression.n.01"^^xsd:string ;
+    rdfs:comment "the feelings expressed on a person's face"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/extrajudicial.s.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "extrajudicial.s.01"^^xsd:string ;
+    rdfs:comment "beyond the usual course of legal proceedings; legally unwarranted"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/generic.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "generic.n.01"^^xsd:string ;
+    rdfs:comment "a wine that is a blend of several varieties of grapes with no one grape predominating; a wine that does not carry the name of any specific grape"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/group.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "group.n.01"^^xsd:string ;
+    rdfs:comment "any number of entities (members) considered as a unit"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/guy.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "guy.n.01"^^xsd:string ;
+    rdfs:comment "an informal term for a youth or man"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/have.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "have.v.01"^^xsd:string ;
+    rdfs:comment "have or possess, either in a concrete or an abstract sense"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/have.v.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "have.v.02"^^xsd:string ;
+    rdfs:comment "have as a feature"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/helicopter.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "helicopter.n.01"^^xsd:string ;
+    rdfs:comment "an aircraft without wings that obtains its lift from the rotation of overhead blades"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/image.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "image.n.01"^^xsd:string ;
+    rdfs:comment "an iconic mental representation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/important.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "important.a.01"^^xsd:string ;
+    rdfs:comment "of great significance or value"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/include.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "include.v.01"^^xsd:string ;
+    rdfs:comment "have as a part, be made up out of"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/know.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "know.v.01"^^xsd:string ;
+    rdfs:comment "be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/male_child.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "male_child.n.01"^^xsd:string ;
+    rdfs:comment "a youthful male person"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/many.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "many.a.01"^^xsd:string ;
+    rdfs:comment "a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mention.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mention.n.01"^^xsd:string ;
+    rdfs:comment "a remark that calls attention to something or someone"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mention.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mention.v.01"^^xsd:string ;
+    rdfs:comment "make reference to"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/murder.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "murder.n.01"^^xsd:string ;
+    rdfs:comment "unlawful premeditated killing of a human being by a human being"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/opposition.n.04> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "opposition.n.04"^^xsd:string ;
+    rdfs:comment "a contestant that you are matched against"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/originate.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "originate.v.01"^^xsd:string ;
+    rdfs:comment "come into existence; take on form or shape"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/person.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "person.n.01"^^xsd:string ;
+    rdfs:comment "a human being"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/picture.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "picture.n.01"^^xsd:string ;
+    rdfs:comment "a visual representation (of an object or scene or person or abstraction) produced on a surface"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/platform.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "platform.n.01"^^xsd:string ;
+    rdfs:comment "a raised horizontal surface"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/political.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "political.a.01"^^xsd:string ;
+    rdfs:comment "involving or characteristic of politics or parties or politicians; - Daniel Goleman"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/proud.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "proud.a.01"^^xsd:string ;
+    rdfs:comment "feeling self-respect or pleasure in something by which you measure your self-worth; or being a reason for pride"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/racist.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "racist.n.01"^^xsd:string ;
+    rdfs:comment "a person with a prejudiced belief that one race is superior to others"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/reading.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "reading.n.01"^^xsd:string ;
+    rdfs:comment "the cognitive process of understanding a written linguistic message"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/relatively.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "relatively.r.01"^^xsd:string ;
+    rdfs:comment "in a relative manner; by comparison to something else"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/rich_person.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "rich_person.n.01"^^xsd:string ;
+    rdfs:comment "a person who possesses great material wealth"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/rightist.s.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "rightist.s.01"^^xsd:string ;
+    rdfs:comment "believing in or supporting tenets of the political right"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/show.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "show.v.01"^^xsd:string ;
+    rdfs:comment "give an exhibition of to an interested audience"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/similar.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "similar.a.01"^^xsd:string ;
+    rdfs:comment "marked by correspondence or resemblance"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/sport.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "sport.n.01"^^xsd:string ;
+    rdfs:comment "an active diversion requiring physical exertion and competition"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/spot.n.05> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "spot.n.05"^^xsd:string ;
+    rdfs:comment "a small contrasting part of something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/squad.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "squad.n.01"^^xsd:string ;
+    rdfs:comment "a smallest army unit"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/sympathetic.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "sympathetic.a.01"^^xsd:string ;
+    rdfs:comment "of or relating to the sympathetic nervous system"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/term.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "term.n.01"^^xsd:string ;
+    rdfs:comment "a word or expression used for some particular thing"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/throw.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "throw.v.01"^^xsd:string ;
+    rdfs:comment "propel through the air"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/time.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "time.n.01"^^xsd:string ;
+    rdfs:comment "an instance or single occasion for some event"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/troop.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "troop.n.01"^^xsd:string ;
+    rdfs:comment "a group of soldiers"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/unregulated.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "unregulated.a.01"^^xsd:string ;
+    rdfs:comment "not regulated; not subject to rule or discipline"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/use.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "use.n.01"^^xsd:string ;
+    rdfs:comment "the act of using"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/user.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "user.n.01"^^xsd:string ;
+    rdfs:comment "a person who makes use of a thing; someone who uses or employs something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/value.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "value.n.01"^^xsd:string ;
+    rdfs:comment "a numerical quantity measured or assigned or computed"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/violence.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "violence.n.01"^^xsd:string ;
+    rdfs:comment "an act of aggression (as one against a person who resists)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/willingness.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "willingness.n.01"^^xsd:string ;
+    rdfs:comment "cheerful compliance"^^xsd:string .
+
+ns1:GPAHE a ns1:Database .
+
+<https://w3id.org/framester/wn/wn30/instances/be.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "be.v.01"^^xsd:string ;
+    rdfs:comment "have the quality of being; (copula, used with an adjective or a predicate noun)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/besides.r.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "besides.r.02"^^xsd:string ;
+    rdfs:comment "in addition"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mean.v.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mean.v.03"^^xsd:string ;
+    rdfs:comment "denote or connote"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/supremacist.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "supremacist.n.01"^^xsd:string ;
+    rdfs:comment "a person who advocates the supremacy of some particular group or race over all others"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/use.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "use.v.01"^^xsd:string ;
+    rdfs:comment "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/white.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "white.n.01"^^xsd:string ;
+    rdfs:comment "a member of the Caucasoid race"^^xsd:string .
+

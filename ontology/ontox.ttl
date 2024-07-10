@@ -12,7 +12,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix wiki: <http://www.wikidata.org/entity/> .
-@prefix wn: <http://wit.istc.cnr.it/arco/lode/extract?url=http://etna.istc.cnr.it/framester3/wn/wn30/wn30schema.owl#> .
+@prefix wn: <https://w3id.org/framester/wn/wn30/schema/> .
+@prefix wninst: <https://w3id.org/framester/wn/wn30/instances/>
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @base <https://w3id.org/ontox#> .
@@ -316,15 +317,15 @@ foaf:depicts rdf:type owl:ObjectProperty ;
                rdfs:label "has content URL" .
 
 
-###  https://w3id.org/ontox#hasOntoxID
-:hasOntoxID rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ontox#hasOntoxId
+:hasOntoxId rdf:type owl:DatatypeProperty ;
             rdfs:domain :Symbol ;
             rdfs:comment "Relates a Symbol with its OnTox ID" ;
             rdfs:label "has ontox ID" .
 
 
-###  https://w3id.org/ontox#hasOriginalID
-:hasOriginalID rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ontox#hasOriginalId
+:hasOriginalId rdf:type owl:DatatypeProperty ;
                rdfs:domain :Symbol ;
                rdfs:comment "Relates a Symbol with the ID given in the original database it comes from" ;
                rdfs:label "has original ID" .
@@ -565,4 +566,11 @@ odang:Tweet rdf:type owl:Class ;
            rdfs:subClassOf odang:Manifestation ;
            rdfs:comment "A meme in which a Symbol may manifest." ;
            rdfs:label "Meme" .
+
+
+###  https://w3id.org/ontox#WikiConcept
+:WikiConcept rdf:type owl:Class ;
+           rdfs:subClassOf ontox:Concept ;
+           rdfs:comment "A concept from Wikidata." ;
+           rdfs:label "Wikidata concept" .
 

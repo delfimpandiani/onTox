@@ -1,0 +1,376 @@
+{
+    "Symbol_549": {
+        "GPAHE_ID": "recnhSI7YtqFDuYV0",
+        "OnTox_ID": "Symbol_549",
+        "Title": "Pinochet's Helicopters",
+        "Description": "This image from Anti-Communist Action includes a picture of a helicopter. That is a reference to the extrajudicial murders of Chilean dictator Augusto Pinochet's political opponents, which he had at times thrown out of helicopters. Images of helicopters are used by many groups to signify their willingness to use violence against their opponents. The white supremacist Proud Boys also featured similar images, and have been known to sport patches reading \"RWDS,\" or Right-Wing Death Squads, referring to Pinochet's troops.",
+        "Image_URL": "https://v5.airtableusercontent.com/v3/u/29/29/1718208000000/ARTtqARwdrdKSm--GGB20w/HNt6pA-s-ezXMBYkaXRgQikQDfJJnCauGLSej7tqzKyOICrwb0LO-_rQyV-6EMB5sXv0x0W5NJGkgXg5c_FfykJrLkeJvrfLjnMVDBZyvhnT9fjZ4uxa4kykmSRWFyfGVJvI8Ry7FpU1FBBoV_eyiQ/QRV_5PxrdsyE4-602rgrhtZhvbEnx-yTlZgdivuhrzA",
+        "Ideology": "Conspiracy Theory, Anti-Semitic",
+        "Location": "United States, Canada, Chile, Argentina",
+        "ideology_qids": [
+          [
+            "Q159535",
+            "conspiracy theory"
+          ],
+          [
+            "Q15954665",
+            "antisemite"
+          ]
+        ],
+        "location_qids": [
+          [
+            "Q30",
+            "United States of America"
+          ],
+          [
+            "Q16",
+            "Canada"
+          ],
+          [
+            "Q298",
+            "Chile"
+          ],
+          [
+            "Q414",
+            "Argentina"
+          ]
+        ],
+        "extracted_synsets": [
+          {
+            "name": "action.n.01",
+            "definition": "something done (usually as opposed to something said)"
+          },
+          {
+            "name": "are.n.01",
+            "definition": "a unit of surface area equal to 100 square meters"
+          },
+          {
+            "name": "be.v.01",
+            "definition": "have the quality of being; (copula, used with an adjective or a predicate noun)"
+          },
+          {
+            "name": "besides.r.02",
+            "definition": "in addition"
+          },
+          {
+            "name": "chilean.n.01",
+            "definition": "a native or inhabitant of Chile"
+          },
+          {
+            "name": "death.n.01",
+            "definition": "the event of dying or departure from life"
+          },
+          {
+            "name": "dictator.n.01",
+            "definition": "a speaker who dictates to a secretary or a recording machine"
+          },
+          {
+            "name": "extrajudicial.s.01",
+            "definition": "beyond the usual course of legal proceedings; legally unwarranted"
+          },
+          {
+            "name": "group.n.01",
+            "definition": "any number of entities (members) considered as a unit"
+          },
+          {
+            "name": "have.v.01",
+            "definition": "have or possess, either in a concrete or an abstract sense"
+          },
+          {
+            "name": "have.v.02",
+            "definition": "have as a feature"
+          },
+          {
+            "name": "helicopter.n.01",
+            "definition": "an aircraft without wings that obtains its lift from the rotation of overhead blades"
+          },
+          {
+            "name": "image.n.01",
+            "definition": "an iconic mental representation"
+          },
+          {
+            "name": "include.v.01",
+            "definition": "have as a part, be made up out of"
+          },
+          {
+            "name": "know.v.01",
+            "definition": "be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about"
+          },
+          {
+            "name": "male_child.n.01",
+            "definition": "a youthful male person"
+          },
+          {
+            "name": "many.a.01",
+            "definition": "a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number"
+          },
+          {
+            "name": "mean.v.03",
+            "definition": "denote or connote"
+          },
+          {
+            "name": "mention.n.01",
+            "definition": "a remark that calls attention to something or someone"
+          },
+          {
+            "name": "mention.v.01",
+            "definition": "make reference to"
+          },
+          {
+            "name": "murder.n.01",
+            "definition": "unlawful premeditated killing of a human being by a human being"
+          },
+          {
+            "name": "opposition.n.04",
+            "definition": "a contestant that you are matched against"
+          },
+          {
+            "name": "picture.n.01",
+            "definition": "a visual representation (of an object or scene or person or abstraction) produced on a surface"
+          },
+          {
+            "name": "political.a.01",
+            "definition": "involving or characteristic of politics or parties or politicians; - Daniel Goleman"
+          },
+          {
+            "name": "proud.a.01",
+            "definition": "feeling self-respect or pleasure in something by which you measure your self-worth; or being a reason for pride"
+          },
+          {
+            "name": "reading.n.01",
+            "definition": "the cognitive process of understanding a written linguistic message"
+          },
+          {
+            "name": "rich_person.n.01",
+            "definition": "a person who possesses great material wealth"
+          },
+          {
+            "name": "rightist.s.01",
+            "definition": "believing in or supporting tenets of the political right"
+          },
+          {
+            "name": "similar.a.01",
+            "definition": "marked by correspondence or resemblance"
+          },
+          {
+            "name": "sport.n.01",
+            "definition": "an active diversion requiring physical exertion and competition"
+          },
+          {
+            "name": "spot.n.05",
+            "definition": "a small contrasting part of something"
+          },
+          {
+            "name": "squad.n.01",
+            "definition": "a smallest army unit"
+          },
+          {
+            "name": "supremacist.n.01",
+            "definition": "a person who advocates the supremacy of some particular group or race over all others"
+          },
+          {
+            "name": "throw.v.01",
+            "definition": "propel through the air"
+          },
+          {
+            "name": "time.n.01",
+            "definition": "an instance or single occasion for some event"
+          },
+          {
+            "name": "troop.n.01",
+            "definition": "a group of soldiers"
+          },
+          {
+            "name": "use.n.01",
+            "definition": "the act of using"
+          },
+          {
+            "name": "use.v.01",
+            "definition": "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+          },
+          {
+            "name": "violence.n.01",
+            "definition": "an act of aggression (as one against a person who resists)"
+          },
+          {
+            "name": "white.n.01",
+            "definition": "a member of the Caucasoid race"
+          },
+          {
+            "name": "willingness.n.01",
+            "definition": "cheerful compliance"
+          }
+        ],
+        "extracted_ne_qids": [
+          {
+            "qid": "Q107197029",
+            "name": "chilean"
+          },
+          {
+            "qid": "Q119241014",
+            "name": "Right Wing Death Squad"
+          },
+          {
+            "qid": "Q29096457",
+            "name": "Proud Boys"
+          },
+          {
+            "qid": "Q368",
+            "name": "Augusto Pinochet"
+          },
+          {
+            "qid": "Q48814889",
+            "name": "Anti-Communist Action"
+          },
+          {
+            "qid": "Q57886220",
+            "name": "Pinochet"
+          }
+        ]
+      },
+    "Symbol_1": {
+      "GPAHE_ID": "recO8TxLrKrgpji0y",
+      "OnTox_ID": "Symbol_1",
+      "Title": "/Our Guy/",
+      "Description": "Our Guy (also \"/our guy/\") is an expression originating on the unregulated platform 4chan that generally signifies that a user adheres to a community's core beliefs and values. It is also used by white supremacists to demonstrate that someone is sympathetic to their racist agenda. As it can be a relatively generic term, context is important.",
+      "Image_URL": "https://v5.airtableusercontent.com/v3/u/29/29/1718208000000/7Hgx_F5P5buAlxi4U0jv_A/hl7KB3BmpKDwoREGodOJndLS9C0vKi_GfzSGsXNa6eC5HSd0H3slcS0FtUvt5_7WyCxdGSxRC9rwn8zoBe2U3PI8mSTEh0EHWh2Hknf_dx7HH_MWTPVMm7o1AoGekYGcQE6WIsNNE6avE1Pt93dokdmAtEw7cnSP4b9DA363dMk/Y1uU4rLpio4tby2z8WaeMuzybAEKTtVCAEGrF8dLdPU",
+      "Ideology": "White Nationalist",
+      "Location": "United States",
+      "ideology_qids": [
+        [
+          "Q110441926",
+          "white nationalist"
+        ]
+      ],
+      "location_qids": [
+        [
+          "Q30",
+          "United States of America"
+        ]
+      ],
+      "extracted_synsets": [
+        {
+          "name": "adhere.v.01",
+          "definition": "be compatible or in accordance with"
+        },
+        {
+          "name": "agenda.n.01",
+          "definition": "a temporally organized plan for matters to be attended to"
+        },
+        {
+          "name": "be.v.01",
+          "definition": "have the quality of being; (copula, used with an adjective or a predicate noun)"
+        },
+        {
+          "name": "belief.n.01",
+          "definition": "any cognitive content held as true"
+        },
+        {
+          "name": "beryllium.n.01",
+          "definition": "a light strong brittle grey toxic bivalent metallic element"
+        },
+        {
+          "name": "besides.r.02",
+          "definition": "in addition"
+        },
+        {
+          "name": "by_and_large.r.01",
+          "definition": "usually; as a rule"
+        },
+        {
+          "name": "community.n.01",
+          "definition": "a group of people living in a particular local area"
+        },
+        {
+          "name": "context.n.01",
+          "definition": "discourse that surrounds a language unit and helps to determine its interpretation"
+        },
+        {
+          "name": "core.n.01",
+          "definition": "a small group of indispensable persons or things"
+        },
+        {
+          "name": "expression.n.01",
+          "definition": "the feelings expressed on a person's face"
+        },
+        {
+          "name": "generic.n.01",
+          "definition": "a wine that is a blend of several varieties of grapes with no one grape predominating; a wine that does not carry the name of any specific grape"
+        },
+        {
+          "name": "guy.n.01",
+          "definition": "an informal term for a youth or man"
+        },
+        {
+          "name": "important.a.01",
+          "definition": "of great significance or value"
+        },
+        {
+          "name": "mean.v.03",
+          "definition": "denote or connote"
+        },
+        {
+          "name": "originate.v.01",
+          "definition": "come into existence; take on form or shape"
+        },
+        {
+          "name": "person.n.01",
+          "definition": "a human being"
+        },
+        {
+          "name": "platform.n.01",
+          "definition": "a raised horizontal surface"
+        },
+        {
+          "name": "racist.n.01",
+          "definition": "a person with a prejudiced belief that one race is superior to others"
+        },
+        {
+          "name": "relatively.r.01",
+          "definition": "in a relative manner; by comparison to something else"
+        },
+        {
+          "name": "show.v.01",
+          "definition": "give an exhibition of to an interested audience"
+        },
+        {
+          "name": "supremacist.n.01",
+          "definition": "a person who advocates the supremacy of some particular group or race over all others"
+        },
+        {
+          "name": "sympathetic.a.01",
+          "definition": "of or relating to the sympathetic nervous system"
+        },
+        {
+          "name": "term.n.01",
+          "definition": "a word or expression used for some particular thing"
+        },
+        {
+          "name": "unregulated.a.01",
+          "definition": "not regulated; not subject to rule or discipline"
+        },
+        {
+          "name": "use.v.01",
+          "definition": "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+        },
+        {
+          "name": "user.n.01",
+          "definition": "a person who makes use of a thing; someone who uses or employs something"
+        },
+        {
+          "name": "value.n.01",
+          "definition": "a numerical quantity measured or assigned or computed"
+        },
+        {
+          "name": "white.n.01",
+          "definition": "a member of the Caucasoid race"
+        }
+      ],
+      "extracted_ne_qids": [
+        {
+          "qid": "Q238330",
+          "name": "4chan"
+        }
+      ]
+    }
+}
