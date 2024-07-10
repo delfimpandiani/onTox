@@ -2,11 +2,13 @@
 
 ## Overview
 This repository contains the data, code, and content related to the paper "OnTox: Constructing and Leveraging an Ontology-Based Knowledge Graph of Toxic Symbols for Harmful Meme Exploration."
+OnTox is an ontology designed to represent and expand data related to toxic symbology using multimodal approaches. This ontology is intended to facilitate the analysis and connection of toxic symbols and related online content, such as memes, by providing a formal and semantic framework.
 
-### Abstract
-Online toxicity is a significant problem, manifesting increasingly through multimodal and semiotically complex forms such as memes. Given the sheer volume of data, content moderation systems require automated methods to detect and explain toxic content. Memes, however, rely on complex intertextual relationships, combining visual and textual elements to evoke implicit knowledge. Existing detection methods typically analyze content within the meme itself without incorporating essential background knowledge. Although recent works have started to include commonsense knowledge, it is not specific enough for effective toxicity detection in memes. Despite a wealth of expert knowledge on toxicity and toxic symbols, existing resources are underutilized and lack structured integration into automated systems.
+## Data Source
+The data for this project is sourced from the Global Extremist Symbols Database created by the Global Project Against Hate and Extremism (GPAHE). Launched in 2020 by Heidi Beirich and Wendy Via, GPAHE addresses transnational hate and far-right extremism, particularly focusing on U.S.-based activities that influence other countries. GPAHE aims to reduce violence associated with hate and extremism and address systemic problems rooted in hate in governments and societies. For more information about GPAHE, visit [their website](https://globalextremism.org).
 
-This paper introduces the OnTox ontology and the OnToxKG Knowledge Graph (KG) to address these gaps, specifically focusing on meme toxicity. OnTox is an ontology representing the semantics of hateful, extremist, or otherwise potentially toxic symbols, including hate images, hand signs, hateful clothing, literature, media, music, military insignia, and textual symbols. OnToxKG is a multimodal knowledge graph that captures the semantics of over 800 toxic symbols and connects them to commonsense sources such as Wikidata, ConceptNet, and WordNet. We demonstrate the practical applications of OnToxKG through five use cases related to meme toxicity detection, showcasing how this structured approach enhances both the detection and explanation of toxic content in memes.
+### Global Extremist Symbols Database
+The Global Extremist Symbols Database is an online resource compiling hate and extremist symbols from across the globe. It serves as a tool for identifying far-right actors, the narratives they push, and combating far-right hate and extremist violence. The database is intended for multiple stakeholders, including law enforcement, tech companies, policymakers, media, advocates, and the general public. For more information about the database, visit the [Global Extremist Symbols Database](https://globalextremism.org/global-extremist-symbols-database/).
 
 ## Repository Contents
 This repository includes:
@@ -16,9 +18,21 @@ This repository includes:
 - **Knowledge Graph**: Resources and files used for the creation and expansion of the OnToxKG Knowledge Graph.
 - **Code**: Scripts and code for data scraping, ontology creation, knowledge graph creation and expansion, named entity recognition (NER), and entity linking to Wikidata and WordNet.
 - **Use Cases**: Example use cases demonstrating the application of OnToxKG in meme toxicity detection.
+  
+## Using OnTox
+OnTox captures the nuances of toxic symbology through the following high-level requirements:
+1. **Model the metadata of the symbols:** Capture various attributes such as symbol types, original IDs, titles, descriptions, and contextual tags.
+2. **Model the conceptual semantics of symbol descriptions:** Link symbols to named entities, external resources, and specific concepts using linguistic tools.
+3. **Model the multimodal manifestation of potentially toxic symbology:** Represent symbols in various online manifestations, noting the type of representation (visual, textual, both).
 
 ### Contact
 For any questions or inquiries, please contact Delfina at dsmp@cwi.nl.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+## Acknowledgements
+We acknowledge the Global Project Against Hate and Extremism (GPAHE) for creating and maintaining the Global Extremist Symbols Database, which serves as the primary data source for this project. 
+
+*Dated: July 8, 2024*
