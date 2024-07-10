@@ -1,25 +1,27 @@
 @prefix : <https://w3id.org/ontox#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix wn: <http://wit.istc.cnr.it/arco/lode/extract?url=http://etna.istc.cnr.it/framester3/wn/wn30/wn30schema.owl#> .
 @prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/dul.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix fschema: <https://w3id.org/framester/schema/> .
+@prefix odang: <https://purl.archive.org/o-dang#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix wiki: <http://www.wikidata.org/entity/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix fschema: <https://w3id.org/framester/schema/> .
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix cpannotationschema: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
+@prefix wiki: <http://www.wikidata.org/entity/> .
+@prefix wn: <http://wit.istc.cnr.it/arco/lode/extract?url=http://etna.istc.cnr.it/framester3/wn/wn30/wn30schema.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @base <https://w3id.org/ontox#> .
 
 <https://w3id.org/ontox#> rdf:type owl:Ontology ;
                            owl:imports <http://www.ontologydesignpatterns.org/cp/owl/descriptionandsituation.owl> ;
                            dc:creator "Delfina Sol Martinez Pandiani" ;
-                           rdfs:comment "This is the OnTox ontology." .
+                          rdfs:comment "The OnTox ontology addresses the underutilization and lack of structured integration of toxic symbol data into automated systems. It represents the semantics of hateful, extremist, or otherwise potentially toxic symbols, including hate images, hand signs, hateful clothing, literature, media, music, military insignia, and textual symbols. The OnToxKG Knowledge Graph complements this ontology by capturing the semantics of over 800 toxic symbols and linking them to commonsense sources such as Wikidata, ConceptNet, and WordNet. This integration aids in meme toxicity detection and other practical applications." .
+
 
 #################################################################
 #    Annotation properties
@@ -253,6 +255,56 @@ foaf:depicts rdf:type owl:ObjectProperty ;
                   rdfs:label "has related concept" .
 
 
+###  https://w3id.org/ontox#hasModality
+:hasModality rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf dul:isSettingFor ;
+                  rdfs:domain :ToxicSymbolismManifestation ;
+                  rdfs:range :Modality ;
+                  rdfs:comment "A ToxicSymbolismManifestation has a specific Modality of manifestation." ;
+                  rdfs:label "has modality" .
+
+
+###  https://w3id.org/ontox#manifestedIn
+:manifestedIn rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :manifests ;
+                  rdfs:domain :Symbol ;
+                  rdfs:range odang:Manifestation ;
+                  rdfs:comment "A Symbol is manifested in a odang:Manifestation, in the context of a specific Situation and via a certain Modality" ;
+                  rdfs:label "manifested in" .
+
+###  https://w3id.org/ontox#manifests
+:manifests rdf:type owl:ObjectProperty ;
+                  rdfs:label "manifests" .
+
+
+###  https://w3id.org/ontox#hasAutomaticConceptTag
+:hasAutomaticConceptTag rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :isAutomaticConceptTagOf ;
+                  rdfs:comment "Relates a Entity, usually a Manifestation such as a Meme, to a Concept with which it was tagged" ;
+                  rdfs:label "has automatic concept tag" .
+
+###  https://w3id.org/ontox#isAutomaticConceptTagOf
+:isAutomaticConceptTagOf rdf:type owl:ObjectProperty ;
+                  rdfs:label "is automatic concept tag of" .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -420,8 +472,16 @@ foaf:img rdf:type owl:Class .
                         rdfs:label "Potentially toxic symbol" .
 
 
+###  http://www.ontologydesignpatterns.org/ont/dul/dul.owl#Role
+dul:Role rdf:type owl:Class ;
+         owl:equivalentClass :Role .
+
 ###  https://w3id.org/ontox#Role
-:Role rdf:type owl:Class .
+:Role rdf:type owl:Class ;
+      rdfs:subClassOf :Concept ;
+      rdfs:comment "A role or position." ;
+      rdfs:label "Role" .
+
 
 
 ###  https://w3id.org/ontox#SocialObject
@@ -463,4 +523,46 @@ foaf:img rdf:type owl:Class .
             rdfs:label "Text symbol" .
 
 
-###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
+###  http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation
+<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation> owl:equivalentClass :Situation .
+
+
+###  https://w3id.org/ontox#Situation
+:Situation rdf:type owl:Class ;
+           rdfs:subClassOf :Entity ;
+           rdfs:comment "A situation or context." ;
+           rdfs:label "Situation" .
+
+
+###  https://w3id.org/ontox#ToxicSymbolManifestation
+:ToxicSymbolManifestation rdf:type owl:Class ;
+              rdfs:subClassOf :Situation ;
+              rdfs:comment "A Situation in which a Symbol plays the role of toxic symbology, and a FRBR:Manifestation functions as a toxic message manifestation. It functions as a setting, a state of affairs." ;
+              rdfs:label "Toxic symbolism manifestation" .
+
+
+###  https://w3id.org/ontox#Modality
+:Modality rdf:type owl:Class ;
+           rdfs:subClassOf :Entity ;
+           rdfs:comment "The modality through which toxic symbolism is manifested (e.g., visual, textual, multimodal, etc.)" ;
+           rdfs:label "Modality" .
+
+
+### http://purl.org/vocab/frbr/core#Manifestation
+frbr:Manifestation a owl:Class ;
+    owl:equivalentClass odang:Manifestation .
+
+###  https://purl.archive.org/o-dang#Manifestation
+odang:Manifestation rdf:type owl:Class .
+
+###  https://purl.archive.org/o-dang#Tweet
+odang:Tweet rdf:type owl:Class ;
+           rdfs:subClassOf odang:Manifestation .
+
+
+###  https://w3id.org/ontox#Meme
+:Meme rdf:type owl:Class ;
+           rdfs:subClassOf odang:Manifestation ;
+           rdfs:comment "A meme in which a Symbol may manifest." ;
+           rdfs:label "Meme" .
+
