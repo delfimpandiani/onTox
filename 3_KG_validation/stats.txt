@@ -1,0 +1,70 @@
+### Results
+
+1. **Number of unique instances per OntoX class**
+   - wn:Synset: 4285
+   - ontox:WikiConcept: 2066
+   - ontox:SymbolDescription: 799
+   - foaf:Image: 799
+   - ontox:Symbol: 799
+   - ontox:PotentiallyToxicSymbol: 799
+   - ontox:Location: 124
+   - ontox:Ideology: 27
+
+   - Maximum Wikidata and WordNet synset concepts per symbol: 147
+   - Minimum Wikidata and WordNet synset concepts per symbol: 15
+   - Mean Wikidata and WordNet synset concepts per symbol: 48.57
+
+2. **Synsets per symbol**
+   - Maximum synsets per symbol: 132
+   - Minimum synsets per symbol: 10
+   - Mean synsets per symbol: 41.70
+
+   - Mean WordNet Noun Entities per Symbol: 28.06
+   - Mean WordNet Verb Entities per Symbol: 5.13
+   - Mean WordNet Adjective Entities per Symbol: 1.78
+
+3. **Wikidata entities per symbol**
+   - Maximum Wikidata concept per symbol: 29
+   - Minimum Wikidata concept per symbol: 1
+   - Mean Wikidata concept per symbol: 6.9
+
+   - Number of symbols a Wikidata concept is related to:
+     - Maximum: 154
+     - Minimum: 1
+     - Average: 2.7
+
+4. **Top 10 Wikidata entities (number of symbols related to them)**
+   - http://www.wikidata.org/entity/Q126096643: neo-Nazi - 154
+   - http://www.wikidata.org/entity/Q574578: Nazi - 134
+   - http://www.wikidata.org/entity/Q846570: Americans - 127
+   - http://www.wikidata.org/entity/Q200: 2 - 92
+   - http://www.wikidata.org/entity/Q142: France - 90
+   - http://www.wikidata.org/entity/Q55281147: December 2020 - 89
+   - http://www.wikidata.org/entity/Q30: United States of America - 88
+   - http://www.wikidata.org/entity/Q2914650: identity politics - 73
+   - http://www.wikidata.org/entity/Q150: French - 67
+   - http://www.wikidata.org/entity/Q486296: Islamophobia - 64
+
+5. **Top 10 ideologies (ordered by number of symbols that have it as ideological context)**
+   - http://www.wikidata.org/entity/Q110441926: white nationalist - 499
+   - http://www.wikidata.org/entity/Q126096643: neo-Nazi - 266
+   - http://www.wikidata.org/entity/Q1969722: nativism - 243
+   - http://www.wikidata.org/entity/Q33487: Homophobia - 150
+   - http://www.wikidata.org/entity/Q15954665: antisemite - 108
+   - http://www.wikidata.org/entity/Q486296: Islamophobia - 100
+   - http://www.wikidata.org/entity/Q4481595: fascist - 97
+   - http://www.wikidata.org/entity/Q159535: conspiracy theory - 63
+   - http://www.wikidata.org/entity/Q5109957: Christian Nationalism - 43
+   - http://www.wikidata.org/entity/Q64717200: anti-gender movement - 26
+
+6. **Top 10 locations (ordered by number of symbols that have it as geographical context)**
+   - http://www.wikidata.org/entity/Q30: United States of America - 263
+   - http://www.wikidata.org/entity/Q142: France - 141
+   - http://www.wikidata.org/entity/Q46: Europe - 92
+   - http://www.wikidata.org/entity/Q159: Russia - 55
+   - http://www.wikidata.org/entity/Q183: Germany - 55
+   - http://www.wikidata.org/entity/Q16: Canada - 49
+   - http://www.wikidata.org/entity/Q13780930: worldwide - 47
+   - http://www.wikidata.org/entity/Q212: Ukraine - 46
+   - http://www.wikidata.org/entity/Q45: Portugal - 37
+   - http://www.wikidata.org/entity/Q38: Italy - 34

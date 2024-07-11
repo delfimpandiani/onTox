@@ -1,0 +1,95 @@
+Query 1 - Count Instances by Class
+
+SELECT ?class (COUNT(?instance) AS ?count) WHERE {
+    ?instance rdf:type ?class .
+} GROUP BY ?class 
+ORDER BY DESC(?count)
+
+Purpose: Counts the number of instances (symbols) for each RDF class in the ontology.
+Explanation: Retrieves the RDF type (rdf:type) of each instance (?instance) and counts how many instances belong to each class (?class).
+_________________________________
+
+Query 2 - Count Wikidata Concepts Related to Potentially Toxic Symbols
+
+PREFIX ontox: <https://w3id.org/ontox#>
+
+SELECT ?symbol (COUNT(?wikiconcept) AS ?count) WHERE {
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol .
+    ?symbol ontox:relatedToConcept ?wikiconcept .
+    ?wikiconcept rdf:type ontox:WikiConcept
+} GROUP BY ?symbol
+ORDER BY DESC(?count)
+
+Purpose: Counts the number of Wikidata concepts related to each potentially toxic symbol.
+Explanation: Identifies symbols (?symbol) that are instances of ontox:PotentiallyToxicSymbol and counts how many Wikidata concepts (?wikiconcept) are related to each symbol.
+_________________________________
+
+
+Query 3 - Count WordNet Synsets Related to Potentially Toxic Symbols
+
+PREFIX wn: <https://w3id.org/framester/wn/wn30/schema/>
+
+SELECT ?symbol (COUNT(?wikiconcept) AS ?count) WHERE {
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol .
+    ?symbol ontox:relatedToConcept ?wikiconcept .
+    ?wikiconcept rdf:type wn:Synset
+} GROUP BY ?symbol
+ORDER BY DESC(?count)
+
+Purpose: Counts the number of WordNet synsets related to each potentially toxic symbol.
+Explanation: Similar to Query 2 but focuses on WordNet synsets (wn:Synset) related to symbols instead of Wikidata concepts.
+
+_________________________________
+
+Query 4 - Average Count of WordNet Synsets per Potentially Toxic Symbol
+
+SELECT (AVG(?count) AS ?mean) WHERE {
+  {
+    SELECT ?symbol (COUNT(?wikiconcept) AS ?count) WHERE {
+        ?symbol rdf:type ontox:PotentiallyToxicSymbol .
+        ?symbol ontox:relatedToConcept ?wikiconcept .
+        ?wikiconcept rdf:type wn:Synset
+    } GROUP BY ?symbol
+  }
+}
+Purpose: Calculates the average number of WordNet synsets per potentially toxic symbol.
+Explanation: Uses a subQuery to count WordNet synsets (wn:Synset) related to each symbol and then computes the average (AVG(?count)).
+
+_________________________________
+
+Query 5 - Count Potentially Toxic Symbols by Wikidata Concept
+
+PREFIX ontox: <https://w3id.org/ontox#>
+
+SELECT ?wikiconcept (COUNT(?symbol) AS ?count) WHERE {
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol .
+    ?symbol ontox:relatedToConcept ?wikiconcept .
+    ?wikiconcept rdf:type ontox:WikiConcept
+} GROUP BY ?wikiconcept
+ORDER BY DESC(?count)
+
+Purpose: Counts the number of potentially toxic symbols related to each Wikidata concept.
+Explanation: Identifies Wikidata concepts (?wikiconcept) related to symbols and counts how many symbols (?symbol) are related to each concept.
+_________________________________
+
+
+Query 6 - Count Potentially Toxic Symbols by Ideology
+
+PREFIX ontox: <https://w3id.org/ontox#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?ideology ?label (COUNT(?symbol) AS ?count) WHERE {
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol .
+    ?symbol ontox:hasIdeologicalContext ?ideology .
+    ?ideology rdf:type ontox:Ideology .
+    ?ideology rdfs:label ?label
+} GROUP BY ?ideology ?label
+ORDER BY DESC(?count)
+
+Purpose: Counts the number of potentially toxic symbols categorized by ideology.
+Explanation: Retrieves ideologies (?ideology) associated with symbols and counts how many symbols (?symbol) are linked to each ideology.
+
+
+
+
+

@@ -1,0 +1,52 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <https://w3id.org/ontox#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <https://w3id.org/ontox#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/dul.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix fschema: <https://w3id.org/framester/schema/> .
+@prefix odang: <https://purl.archive.org/o-dang#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <https://w3id.org/ontox#> .
+@prefix ontox: <https://w3id.org/ontox#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix wiki: <http://www.wikidata.org/entity/> .
+@prefix wn: <https://w3id.org/framester/wn/wn30/schema/> .
+@prefix wninst: <https://w3id.org/framester/wn/wn30/instances/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <https://w3id.org/ontox#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+
+# # #  for accuracy, we checked the syntactic validity of all literals using a set of SHACL shapes
+
+# if a symbol is a PotentiallyToxicSymbol then it has a :SymbolDescription, :hasOriginalId and :hasOriginalDatabase. Each SymbolDescription :mentionsConcept at least one wn:Synset.
+
+ontox:SymbolShape
+    a sh:NodeShape ;
+    sh:targetClass ontox:Symbol ;
+    sh:property [
+        sh:path ontox:hasSymbolDescription ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Less than 1 value on ontox:hasSymbolDescription" ;
+    ] .
+
+
+# all wn:Synset and ontox:WikiConcept instances must be :Concept
+
+ontox:SymbolShape
+    a sh:NodeShape ;
+    sh:targetClass ontox: ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:in (wn:Synset ontox:WikiConcept) ;
+        sh:message "Invalid type. Must be a wn:Synset or ontox:WikiConcept" ;
+    ] .
