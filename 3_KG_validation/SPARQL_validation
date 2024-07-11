@@ -1,0 +1,80 @@
+PREFIX base: <https://w3id.org/ontox#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/dul.owl#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX frbr: <http://purl.org/vocab/frbr/core#>
+PREFIX fschema: <https://w3id.org/framester/schema/>
+PREFIX odang: <https://purl.archive.org/o-dang#>
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX ontox: <https://w3id.org/ontox#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX terms: <http://purl.org/dc/terms/>
+PREFIX wiki: <http://www.wikidata.org/entity/>
+PREFIX wn: <https://w3id.org/framester/wn/wn30/schema/>
+PREFIX wninst: <https://w3id.org/framester/wn/wn30/instances/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# OR1: Model the metadata of the symbols
+
+ASK {
+  ?symbol rdf:type ontox:PotentiallyToxicSymbol ;
+          ontox:hasOriginalId ?originalId ;
+          ontox:hasOriginalDatabase ?database .
+}
+
+ASK {
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol ;
+            foaf:depiction ?depiction .
+  }
+
+  ASK {
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol .
+    OPTIONAL { ?symbol ontox:hasGeographicalContext ?geoContext }
+    OPTIONAL { ?symbol ontox:hasIdeologicalContext ?ideoContext }
+  }
+
+  # OR2: Model the conceptual semantics of symbol descriptions
+
+
+  ASK {
+    ?description rdf:type ontox:SymbolDescription ;
+                 ontox:mentionsConcept ?concept .
+                ?concept rdf:type ontox:WikiConcept .
+  }
+
+  ASK {
+    ?description rdf:type ontox:SymbolDescription ;
+                 ontox:mentionsConcept ?concept .
+                ?concept rdf:type wn:Synset.
+  }
+
+  ASK {
+    ?description rdf:type ontox:SymbolDescription ;
+                 ontox:mentionsConcept ?concept ;
+                 ontox:hasRelatedConcept ?wikidataConcept .
+  }
+
+
+  # OR3: Model the multimodal manifestation of potentially toxic symbology
+
+
+  ASK {
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol ;
+            ontox:manifestedIn ?manifestation .
+    ?manifestation rdfs:subClassOf :Manifestation .
+  }
+
+  ASK {
+    ?manifestation rdf:type odang:Manifestation ;
+                  ontox:hasAutomaticConceptTag ?conceptTag .
+    ?conceptTag rdf:type ontox:Concept .
+  }
+
+  ASK {
+    ?manifestation rdf:type odang:Manifestation ;
+                  ontox:hasModality ?modality .
+  }
