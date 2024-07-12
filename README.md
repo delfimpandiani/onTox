@@ -1,4 +1,5 @@
 # OnTox: An Ontology-Based Toxic Symbology Knowledge Graph and its Use for Harmful Meme Exploration
+<span style="color:red;">Caution: This work includes toxic content that may cause psychological distress and does not represent the views or opinions of the authors. Viewer discretion is strongly advised.</span>
 
 ## Overview
 This repository contains the data, code, and content related to the paper "OnTox: Constructing and Leveraging an Ontology-Based Knowledge Graph of Toxic Symbols for Harmful Meme Exploration."
