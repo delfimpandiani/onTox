@@ -1,0 +1,107 @@
+PREFIX base: <https://w3id.org/ontox#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/dul.owl#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX frbr: <http://purl.org/vocab/frbr/core#>
+PREFIX fschema: <https://w3id.org/framester/schema/>
+PREFIX odang: <https://purl.archive.org/o-dang#>
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX ontox: <https://w3id.org/ontox#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX terms: <http://purl.org/dc/terms/>
+PREFIX wiki: <http://www.wikidata.org/entity/>
+PREFIX wn: <https://w3id.org/framester/wn/wn30/schema/>
+PREFIX wninst: <https://w3id.org/framester/wn/wn30/instances/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Check how many memes are present in the KG, and return their labels
+
+SELECT ?instance ?label ?text WHERE {
+    ?instance rdf:type ontox:Meme .
+
+    ?instance rdfs:label ?label ;
+                :hasEmbeddedText ?text .
+}
+
+# Check which memes has a MultimodalContentDescription that mentions the concept "Q21994166" and return the label of the concpet
+
+SELECT ?instance ?text ?concept_label WHERE {
+    ?instance rdf:type ontox:Meme .
+
+    ?instance rdfs:label ?label ;
+                :hasEmbeddedText ?text ;
+                :hasMultimodalContentDescription ?mmcd .
+
+    ?mmcd ontox:mentionsConcept <http://www.wikidata.org/entity/Q21994166> .
+
+    <http://www.wikidata.org/entity/Q21994166> rdfs:label ?concept_label .
+}
+
+# check which memes mention the a specific concept, and for those, check whether it is mentioned in the multimodal content description or the text content description, the textual content of the meme, and the visual content description or the visual content of the meme
+
+concept Q21994166 - pepe the frog
+concept  Q15994152 - racial holy war
+
+#check whether a concept is mentioned by a meme, and in which modality it is mentioned
+SELECT ?instance ?text ?concept_label ?mmcd ?tcd ?vcd WHERE {
+    ?instance rdf:type ontox:Meme .
+    
+    OPTIONAL {
+        ?instance :hasEmbeddedText ?text .
+        ?text :mentionsConcept ?concept .
+    }
+    OPTIONAL {
+        ?instance :hasMultimodalContentDescription ?mmcd .
+        ?mmcd :mentionsConcept ?concept .
+    }
+    OPTIONAL {
+        ?instance :hasTextContentDescription ?tcd .
+        ?tcd :mentionsConcept ?concept .
+    }
+    OPTIONAL {
+        ?instance :hasVisualContentDescription ?vcd .
+        ?vcd :mentionsConcept ?concept .
+    }
+    ?concept rdfs:label ?concept_label .
+    
+    FILTER(?concept = <http://www.wikidata.org/entity/Q15994152>)
+}
+
+# check which potentially toxic symbol has the most shared concepts to the meme :meme_4
+SELECT ?instance ?text ?symbol_label (COUNT(?concept) AS ?sharedConceptCount)
+ WHERE {
+    ?instance rdf:type ontox:Meme .
+    
+    ?instance rdfs:label "meme_4"^^xsd:string ;
+                :relatedToConcept ?concept ;
+                :hasEmbeddedText ?text .
+    
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol ;
+    ontox:relatedToConcept ?concept ;
+    rdfs:label ?symbol_label .
+
+    ?concept rdfs:label ?concept_label .
+}
+ORDER BY DESC(?sharedConceptCount)
+
+
+
+SELECT ?instance ?text ?symbol_label (COUNT(?concept) AS ?sharedConceptCount)
+ WHERE {
+    ?instance rdf:type ontox:Meme .
+    
+    ?instance rdfs:label "meme_3" ;
+                :relatedToConcept ?concept ;
+                :hasEmbeddedText ?text .
+    
+    ?symbol rdf:type ontox:PotentiallyToxicSymbol ;
+    ontox:relatedToConcept ?concept ;
+    rdfs:label ?symbol_label .
+
+    ?concept rdfs:label ?concept_label .
+}
+ORDER BY DESC(?sharedConceptCount)

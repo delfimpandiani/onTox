@@ -18,8 +18,8 @@
 <http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/ontox#haEmbeddedText
-<https://w3id.org/ontox#haEmbeddedText> rdf:type owl:AnnotationProperty .
+###  https://w3id.org/ontox#hasEmbeddedText
+<https://w3id.org/ontox#hasEmbeddedText> rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/ontox#hasMultimodalContentDescription
@@ -5847,7 +5847,7 @@
                                                                           <https://w3id.org/framester/wn/wn30/instances/wit.n.01> ,
                                                                           <https://w3id.org/framester/wn/wn30/instances/worthy.n.01> ;
                                 rdfs:label "meme_1" ;
-                                <https://w3id.org/ontox#haEmbeddedText> "KEEP FIGHTING THE GOOD FIGHT." ;
+                                <https://w3id.org/ontox#hasEmbeddedText> "KEEP FIGHTING THE GOOD FIGHT." ;
                                 <https://w3id.org/ontox#hasMultimodalContentDescription> <https://w3id.org/ontox#meme_1_mm> ;
                                 <https://w3id.org/ontox#hasTextContentDescription> <https://w3id.org/ontox#meme_1_text> ;
                                 <https://w3id.org/ontox#hasVisualContentDescription> <https://w3id.org/ontox#meme_1_visual> .
@@ -6117,7 +6117,7 @@
                                                                           <https://w3id.org/framester/wn/wn30/instances/white.n.01> ,
                                                                           <https://w3id.org/framester/wn/wn30/instances/wit.n.01> ;
                                 rdfs:label "meme_2" ;
-                                <https://w3id.org/ontox#haEmbeddedText> "I NEED RaHoWa!" ;
+                                <https://w3id.org/ontox#hasEmbeddedText> "I NEED RaHoWa!" ;
                                 <https://w3id.org/ontox#hasMultimodalContentDescription> <https://w3id.org/ontox#meme_2_mm> ;
                                 <https://w3id.org/ontox#hasTextContentDescription> <https://w3id.org/ontox#meme_2_text> ;
                                 <https://w3id.org/ontox#hasVisualContentDescription> <https://w3id.org/ontox#meme_2_visual> .
@@ -6359,7 +6359,7 @@
                                                                           <https://w3id.org/framester/wn/wn30/instances/widen.v.04> ,
                                                                           <https://w3id.org/framester/wn/wn30/instances/wit.n.01> ;
                                 rdfs:label "meme_3" ;
-                                <https://w3id.org/ontox#haEmbeddedText> "ITS GONNA BE 4/20 FOR A WHOLE MONTH." ;
+                                <https://w3id.org/ontox#hasEmbeddedText> "ITS GONNA BE 4/20 FOR A WHOLE MONTH." ;
                                 <https://w3id.org/ontox#hasMultimodalContentDescription> <https://w3id.org/ontox#meme_3_mm> ;
                                 <https://w3id.org/ontox#hasTextContentDescription> <https://w3id.org/ontox#meme_3_text> ;
                                 <https://w3id.org/ontox#hasVisualContentDescription> <https://w3id.org/ontox#meme_3_visual> .
@@ -6623,7 +6623,7 @@
                                                                           <https://w3id.org/framester/wn/wn30/instances/well-known.s.01> ,
                                                                           <https://w3id.org/framester/wn/wn30/instances/wit.n.01> ;
                                 rdfs:label "meme_4" ;
-                                <https://w3id.org/ontox#haEmbeddedText> "HIPSTER HITLER CELEBRATING 4.20 BEFORE IT WAS COOL." ;
+                                <https://w3id.org/ontox#hasEmbeddedText> "HIPSTER HITLER CELEBRATING 4.20 BEFORE IT WAS COOL." ;
                                 <https://w3id.org/ontox#hasMultimodalContentDescription> <https://w3id.org/ontox#meme_4_mm> ;
                                 <https://w3id.org/ontox#hasTextContentDescription> <https://w3id.org/ontox#meme_4_text> ;
                                 <https://w3id.org/ontox#hasVisualContentDescription> <https://w3id.org/ontox#meme_4_visual> .
