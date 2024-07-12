@@ -1,0 +1,1880 @@
+{
+    "chatgpt_chatgpt_1b.txt":{
+       "Image_URL":"unknown",
+       "Meme_text":"ITS GONNA BE 4/20 FOR A WHOLE MONTH.",
+       "Visual_description":"\nThe image shows a dog with a happy, slightly mischievous expression. The background is decorated with colorful, psychedelic patterns that resemble marijuana leaves, often associated with a state of altered consciousness or celebration.\n",
+       "Textual_description":"\nThe text reads: \"ITS GONNA BE 4/20 FOR A WHOLE MONTH.\" This is a play on the date April 20th (4/20), which is widely recognized in cannabis culture as a day for celebrating and consuming marijuana.\n",
+       "Combined_description":"\nThe combination of the happy, relaxed dog and the text implies a humorous and exaggerated scenario where the state of celebration and relaxation associated with 4/20 lasts for an entire month. The dog's expression, along with the colorful background, reinforces the playful and light-hearted tone of the message, suggesting an extended period of enjoyment and leisure.\n\nIn essence, the meme is using humor to exaggerate the idea of an extended celebration of cannabis culture, combining visual and textual elements to create a playful, humorous effect.\n",
+       "extracted_synsets":{
+          "visual":[
+             {
+                "name":"arch.s.03",
+                "definition":"naughtily or annoyingly playful"
+             },
+             {
+                "name":"associate.v.01",
+                "definition":"make a logical or causal connection"
+             },
+             {
+                "name":"background.n.01",
+                "definition":"a person's social heritage: previous experience or training"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"celebration.n.01",
+                "definition":"a joyful occasion for special festivities to mark some happy event"
+             },
+             {
+                "name":"change.v.01",
+                "definition":"cause to change; make different; cause a transformation"
+             },
+             {
+                "name":"colorful.a.01",
+                "definition":"having striking color"
+             },
+             {
+                "name":"consciousness.n.01",
+                "definition":"an alert cognitive state in which you are aware of yourself and your situation"
+             },
+             {
+                "name":"decorate.v.01",
+                "definition":"make more attractive by adding ornament, colour, etc."
+             },
+             {
+                "name":"dog.n.01",
+                "definition":"a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds"
+             },
+             {
+                "name":"expression.n.01",
+                "definition":"the feelings expressed on a person's face"
+             },
+             {
+                "name":"form.n.03",
+                "definition":"a perceptual structure"
+             },
+             {
+                "name":"frequently.r.01",
+                "definition":"many times at short intervals"
+             },
+             {
+                "name":"happy.a.01",
+                "definition":"enjoying or showing or marked by joy or pleasure"
+             },
+             {
+                "name":"image.n.01",
+                "definition":"an iconic mental representation"
+             },
+             {
+                "name":"leaf.n.01",
+                "definition":"the main organ of photosynthesis and transpiration in higher plants"
+             },
+             {
+                "name":"marijuana.n.01",
+                "definition":"a strong-smelling plant from whose dried leaves a number of euphoriant and hallucinogenic drugs are prepared"
+             },
+             {
+                "name":"psychedelic.s.01",
+                "definition":"producing distorted sensory perceptions and feelings or altered states of awareness or sometimes states resembling psychosis"
+             },
+             {
+                "name":"resemble.v.01",
+                "definition":"appear like; be similar or bear a likeness to"
+             },
+             {
+                "name":"show.n.01",
+                "definition":"the act of publicly exhibiting or entertaining"
+             },
+             {
+                "name":"slightly.r.01",
+                "definition":"to a small degree or extent"
+             },
+             {
+                "name":"state.n.01",
+                "definition":"the territory occupied by one of the constituent administrative districts of a nation"
+             }
+          ],
+          "textual":[
+             {
+                "name":"acknowledge.v.06",
+                "definition":"accept (someone) to be what is claimed or accept his power and authority"
+             },
+             {
+                "name":"angstrom.n.01",
+                "definition":"a metric unit of length equal to one ten billionth of a meter (or 0.0001 micron); used to specify wavelengths of electromagnetic radiation"
+             },
+             {
+                "name":"april.n.01",
+                "definition":"the month following March and preceding May"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"beryllium.n.01",
+                "definition":"a light strong brittle grey toxic bivalent metallic element"
+             },
+             {
+                "name":"calendar_month.n.01",
+                "definition":"one of the twelve divisions of the calendar year"
+             },
+             {
+                "name":"cannabis.n.01",
+                "definition":"any plant of the genus Cannabis; a coarse bushy annual with palmate leaves and clusters of small green flowers; yields tough fibers and narcotic drugs"
+             },
+             {
+                "name":"culture.n.01",
+                "definition":"a particular society at a particular time and place"
+             },
+             {
+                "name":"date.n.01",
+                "definition":"the specified day of the month"
+             },
+             {
+                "name":"day.n.01",
+                "definition":"time for Earth to make a complete rotation on its axis"
+             },
+             {
+                "name":"devour.v.03",
+                "definition":"eat immoderately"
+             },
+             {
+                "name":"information_technology.n.01",
+                "definition":"the branch of engineering that deals with the use of computers and telecommunications to retrieve and store and transmit information"
+             },
+             {
+                "name":"marijuana.n.01",
+                "definition":"a strong-smelling plant from whose dried leaves a number of euphoriant and hallucinogenic drugs are prepared"
+             },
+             {
+                "name":"observe.v.06",
+                "definition":"behave as expected during of holidays or rites"
+             },
+             {
+                "name":"play.n.01",
+                "definition":"a dramatic work intended for performance by actors on a stage"
+             },
+             {
+                "name":"read.n.01",
+                "definition":"something that is read"
+             },
+             {
+                "name":"sodium.n.01",
+                "definition":"a silvery soft waxy metallic element of the alkali metal group; occurs abundantly in natural compounds (especially in salt water); burns with a yellow flame and reacts violently in water; occurs in sea water and in the mineral halite (rock salt)"
+             },
+             {
+                "name":"text.n.01",
+                "definition":"the words of something written"
+             },
+             {
+                "name":"whole.n.01",
+                "definition":"all of something including all its component elements or parts"
+             },
+             {
+                "name":"widely.r.01",
+                "definition":"to a great degree"
+             }
+          ],
+          "combined":[
+             {
+                "name":"associate.v.01",
+                "definition":"make a logical or causal connection"
+             },
+             {
+                "name":"background.n.01",
+                "definition":"a person's social heritage: previous experience or training"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"blithe.s.02",
+                "definition":"carefree and happy and lighthearted"
+             },
+             {
+                "name":"calendar_month.n.01",
+                "definition":"one of the twelve divisions of the calendar year"
+             },
+             {
+                "name":"cannabis.n.01",
+                "definition":"any plant of the genus Cannabis; a coarse bushy annual with palmate leaves and clusters of small green flowers; yields tough fibers and narcotic drugs"
+             },
+             {
+                "name":"celebration.n.01",
+                "definition":"a joyful occasion for special festivities to mark some happy event"
+             },
+             {
+                "name":"colorful.a.01",
+                "definition":"having striking color"
+             },
+             {
+                "name":"combination.n.01",
+                "definition":"a collection of things that have been combined; an assemblage of separate parts or qualities"
+             },
+             {
+                "name":"combining.n.01",
+                "definition":"an occurrence that results in things being united"
+             },
+             {
+                "name":"component.n.01",
+                "definition":"an abstract part of something"
+             },
+             {
+                "name":"consequence.n.01",
+                "definition":"a phenomenon that follows and is caused by some previous phenomenon"
+             },
+             {
+                "name":"culture.n.01",
+                "definition":"a particular society at a particular time and place"
+             },
+             {
+                "name":"dog.n.01",
+                "definition":"a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds"
+             },
+             {
+                "name":"enjoyment.n.01",
+                "definition":"the pleasure felt when having a good time"
+             },
+             {
+                "name":"exploitation.n.02",
+                "definition":"an act that exploits or victimizes someone (treats them unfairly)"
+             },
+             {
+                "name":"expression.n.01",
+                "definition":"the feelings expressed on a person's face"
+             },
+             {
+                "name":"happy.a.01",
+                "definition":"enjoying or showing or marked by joy or pleasure"
+             },
+             {
+                "name":"humorous.a.01",
+                "definition":"full of or characterized by humor"
+             },
+             {
+                "name":"idea.n.01",
+                "definition":"the content of cognition; the main thing you are thinking about"
+             },
+             {
+                "name":"imply.v.01",
+                "definition":"express or state indirectly"
+             },
+             {
+                "name":"kernel.n.03",
+                "definition":"the choicest or most essential or most vital part of some idea or experience"
+             },
+             {
+                "name":"leisure.n.01",
+                "definition":"time available for ease and relaxation"
+             },
+             {
+                "name":"make.v.03",
+                "definition":"make or cause to be or to become"
+             },
+             {
+                "name":"meme.n.01",
+                "definition":"a cultural unit (an idea or value or pattern of behavior) that is passed from one person to another by non-genetic means (as by imitation)"
+             },
+             {
+                "name":"message.n.01",
+                "definition":"a communication (usually brief) that is written or spoken or signaled"
+             },
+             {
+                "name":"ocular.a.02",
+                "definition":"relating to or using sight"
+             },
+             {
+                "name":"overstate.v.01",
+                "definition":"to enlarge beyond bounds or the truth"
+             },
+             {
+                "name":"playful.a.01",
+                "definition":"full of fun and high spirits"
+             },
+             {
+                "name":"propose.v.01",
+                "definition":"make a proposal, declare a plan for something"
+             },
+             {
+                "name":"reinforce.v.01",
+                "definition":"make stronger"
+             },
+             {
+                "name":"relax.v.01",
+                "definition":"become less tense, rest, or take one's ease"
+             },
+             {
+                "name":"relaxation.n.01",
+                "definition":"(physiology) the gradual lengthening of inactive muscle or muscle fibers"
+             },
+             {
+                "name":"scenario.n.01",
+                "definition":"an outline or synopsis of a play (or, by extension, of a literary work)"
+             },
+             {
+                "name":"stallion.n.01",
+                "definition":"uncastrated adult male horse"
+             },
+             {
+                "name":"state.n.01",
+                "definition":"the territory occupied by one of the constituent administrative districts of a nation"
+             },
+             {
+                "name":"stopping_point.n.01",
+                "definition":"the temporal end; the concluding time"
+             },
+             {
+                "name":"text.n.01",
+                "definition":"the words of something written"
+             },
+             {
+                "name":"textual.a.01",
+                "definition":"of or relating to or based on a text"
+             },
+             {
+                "name":"time_period.n.01",
+                "definition":"an amount of time"
+             },
+             {
+                "name":"tone.n.01",
+                "definition":"the quality of a person's voice"
+             },
+             {
+                "name":"widen.v.04",
+                "definition":"extend in scope or range or area"
+             },
+             {
+                "name":"wit.n.01",
+                "definition":"a message whose ingenuity or verbal skill or incongruity has the power to evoke laughter"
+             }
+          ]
+       },
+       "extracted_ne_qids":{
+          "visual":[
+             {
+                "qid":"Q26726",
+                "name":"Cannabis sativa"
+             }
+          ],
+          "textual":[
+             {
+                "qid":"Q26726",
+                "name":"Cannabis sativa"
+             },
+             {
+                "qid":"Q748539",
+                "name":"420"
+             }
+          ],
+          "combined":[
+             {
+                "qid":"Q748539",
+                "name":"420"
+             }
+          ]
+       }
+    },
+    "chatgpt_chatgpt_2b.txt":{
+       "Image_URL":"unknown",
+       "Meme_text":"I NEED RaHoWa!",
+       "Visual_description":"\nThe image shows a character from the popular 1980s animated television series \"He-Man and the Masters of the Universe.\" He-Man is depicted raising his sword in front of Castle Grayskull, which is a central and iconic location in the series. The image often signifies He-Man calling upon the power of Grayskull, a moment of empowerment and transformation.\n",
+       "Textual_description":"\nThe text reads: \"I NEED RaHoWa!\" The term \"RaHoWa\" is highly controversial and stands for \"Racial Holy War.\" It is associated with white supremacist and neo-Nazi groups, used to promote their ideology of racial conflict. The term is problematic and offensive, advocating for extremist and violent beliefs.\n",
+       "Combined_description":"\nThe combination of He-Man, a character symbolizing strength and heroism, with the extremist term \"RaHoWa\" is jarring and inappropriate. This juxtaposition is likely intended to shock or provoke. Using a beloved pop culture figure in conjunction with a term that promotes hate and violence is a way to draw attention and create a stark contrast.\n\n### Conclusion\nThe image misappropriates a well-known character for a harmful message. It's important to recognize and condemn the use of such extremist language, even when presented in a seemingly innocuous or humorous context. This type of content can be harmful and spread negative ideologies under the guise of humor or nostalgia.\n",
+       "extracted_synsets":{
+          "visual":[
+             {
+                "name":"authorization.n.04",
+                "definition":"the act of conferring legality or sanction or formal warrant"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"career.n.01",
+                "definition":"the particular occupation for which you are trained"
+             },
+             {
+                "name":"central.n.01",
+                "definition":"a workplace that serves as a telecommunications facility where lines from telephones can be connected together to permit communication"
+             },
+             {
+                "name":"elevation.n.01",
+                "definition":"the event of something being raised upward"
+             },
+             {
+                "name":"fictional_character.n.01",
+                "definition":"an imaginary person represented in a work of fiction (play or film or story)"
+             },
+             {
+                "name":"frequently.r.01",
+                "definition":"many times at short intervals"
+             },
+             {
+                "name":"front.n.01",
+                "definition":"the side that is forward or prominent"
+             },
+             {
+                "name":"iconic.a.01",
+                "definition":"relating to or having the characteristics on an icon"
+             },
+             {
+                "name":"image.n.01",
+                "definition":"an iconic mental representation"
+             },
+             {
+                "name":"inspire.v.01",
+                "definition":"heighten or intensify"
+             },
+             {
+                "name":"location.n.01",
+                "definition":"a point or extent in space"
+             },
+             {
+                "name":"masters.n.01",
+                "definition":"United States poet (1869-1950)"
+             },
+             {
+                "name":"mean.v.03",
+                "definition":"denote or connote"
+             },
+             {
+                "name":"moment.n.01",
+                "definition":"a particular point in time"
+             },
+             {
+                "name":"palace.n.01",
+                "definition":"a large and stately mansion"
+             },
+             {
+                "name":"picture.v.02",
+                "definition":"show in, or as in, a picture"
+             },
+             {
+                "name":"popular.a.01",
+                "definition":"regarded with great favor, approval, or affection especially by the general public"
+             },
+             {
+                "name":"power.n.01",
+                "definition":"possession of controlling influence"
+             },
+             {
+                "name":"series.n.01",
+                "definition":"similar things placed in order or happening one after another"
+             },
+             {
+                "name":"show.n.01",
+                "definition":"the act of publicly exhibiting or entertaining"
+             },
+             {
+                "name":"stud.n.01",
+                "definition":"a man who is virile and sexually active"
+             },
+             {
+                "name":"sword.n.01",
+                "definition":"a cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard"
+             },
+             {
+                "name":"television.n.01",
+                "definition":"broadcasting visual images of stationary or moving objects; ;  - Ernie Kovacs"
+             },
+             {
+                "name":"transformation.n.01",
+                "definition":"a qualitative change"
+             },
+             {
+                "name":"universe.n.01",
+                "definition":"everything that exists anywhere"
+             }
+          ],
+          "textual":[
+             {
+                "name":"associate.v.01",
+                "definition":"make a logical or causal connection"
+             },
+             {
+                "name":"base.n.08",
+                "definition":"a support or foundation"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"belief.n.01",
+                "definition":"any cognitive content held as true"
+             },
+             {
+                "name":"conflict.n.01",
+                "definition":"an open clash between two opposing groups (or individuals); --Thomas Paine"
+             },
+             {
+                "name":"controversial.a.01",
+                "definition":"marked by or capable of arousing controversy"
+             },
+             {
+                "name":"debatable.s.01",
+                "definition":"open to doubt or debate"
+             },
+             {
+                "name":"extremist.n.01",
+                "definition":"a person who holds extreme views"
+             },
+             {
+                "name":"group.n.01",
+                "definition":"any number of entities (members) considered as a unit"
+             },
+             {
+                "name":"highly.r.01",
+                "definition":"to a high degree or extent; favorably or with much respect"
+             },
+             {
+                "name":"holy_place.n.01",
+                "definition":"a sacred place of pilgrimage"
+             },
+             {
+                "name":"need.n.01",
+                "definition":"a condition requiring relief"
+             },
+             {
+                "name":"offense.n.05",
+                "definition":"the action of attacking an enemy"
+             },
+             {
+                "name":"political_orientation.n.01",
+                "definition":"an orientation that characterizes the thinking of a group or nation"
+             },
+             {
+                "name":"promote.v.01",
+                "definition":"contribute to the progress or growth of"
+             },
+             {
+                "name":"racial.a.01",
+                "definition":"of or related to genetically distinguished groups of people"
+             },
+             {
+                "name":"read.n.01",
+                "definition":"something that is read"
+             },
+             {
+                "name":"recommend.v.01",
+                "definition":"push for something"
+             },
+             {
+                "name":"supremacist.n.01",
+                "definition":"a person who advocates the supremacy of some particular group or race over all others"
+             },
+             {
+                "name":"term.n.01",
+                "definition":"a word or expression used for some particular thing"
+             },
+             {
+                "name":"text.n.01",
+                "definition":"the words of something written"
+             },
+             {
+                "name":"use.v.01",
+                "definition":"put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+             },
+             {
+                "name":"violent.a.01",
+                "definition":"acting with or marked by or resulting from great force or energy or emotional intensity"
+             },
+             {
+                "name":"war.n.01",
+                "definition":"the waging of armed conflict against an enemy"
+             },
+             {
+                "name":"white.n.01",
+                "definition":"a member of the Caucasoid race"
+             }
+          ],
+          "combined":[
+             {
+                "name":"acknowledge.v.06",
+                "definition":"accept (someone) to be what is claimed or accept his power and authority"
+             },
+             {
+                "name":"apparently.r.01",
+                "definition":"from appearances alone; ; ; -Thomas Hardy"
+             },
+             {
+                "name":"arouse.v.01",
+                "definition":"call forth (emotions, feelings, and responses)"
+             },
+             {
+                "name":"attention.n.01",
+                "definition":"the process whereby a person concentrates on some features of the environment to the (relative) exclusion of others"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"beloved.n.01",
+                "definition":"a beloved person; used as terms of endearment"
+             },
+             {
+                "name":"beryllium.n.01",
+                "definition":"a light strong brittle grey toxic bivalent metallic element"
+             },
+             {
+                "name":"blunt.s.04",
+                "definition":"devoid of any qualifications or disguise or adornment"
+             },
+             {
+                "name":"clash.v.02",
+                "definition":"be incompatible; be or come into conflict"
+             },
+             {
+                "name":"combination.n.01",
+                "definition":"a collection of things that have been combined; an assemblage of separate parts or qualities"
+             },
+             {
+                "name":"concurrence.n.04",
+                "definition":"the temporal property of two things happening at the same time"
+             },
+             {
+                "name":"condemn.v.01",
+                "definition":"express strong disapproval of"
+             },
+             {
+                "name":"content.n.01",
+                "definition":"everything that is included in a collection and that is held or included in something"
+             },
+             {
+                "name":"context.n.01",
+                "definition":"discourse that surrounds a language unit and helps to determine its interpretation"
+             },
+             {
+                "name":"contrast.n.01",
+                "definition":"the opposition or dissimilarity of things that are compared; ,"
+             },
+             {
+                "name":"culture.n.01",
+                "definition":"a particular society at a particular time and place"
+             },
+             {
+                "name":"dad.n.01",
+                "definition":"an informal term for a father; probably derived from baby talk"
+             },
+             {
+                "name":"daze.n.01",
+                "definition":"the feeling of distress and disbelief that you have when something bad happens accidentally"
+             },
+             {
+                "name":"decision.n.02",
+                "definition":"a position or opinion or judgment reached after consideration"
+             },
+             {
+                "name":"draw.n.01",
+                "definition":"a gully that is shallower than a ravine"
+             },
+             {
+                "name":"embezzle.v.01",
+                "definition":"appropriate (as property entrusted to one's care) fraudulently to one's own use"
+             },
+             {
+                "name":"evening.n.01",
+                "definition":"the latter part of the day (the period of decreasing daylight from late afternoon until nightfall)"
+             },
+             {
+                "name":"exploitation.n.02",
+                "definition":"an act that exploits or victimizes someone (treats them unfairly)"
+             },
+             {
+                "name":"extremist.n.01",
+                "definition":"a person who holds extreme views"
+             },
+             {
+                "name":"fictional_character.n.01",
+                "definition":"an imaginary person represented in a work of fiction (play or film or story)"
+             },
+             {
+                "name":"figure.n.01",
+                "definition":"a diagram or picture illustrating textual material"
+             },
+             {
+                "name":"guise.n.01",
+                "definition":"an artful or simulated semblance"
+             },
+             {
+                "name":"harmful.a.01",
+                "definition":"causing or capable of causing harm"
+             },
+             {
+                "name":"hate.n.01",
+                "definition":"the emotion of intense dislike; a feeling of dislike so strong that it demands action"
+             },
+             {
+                "name":"heroism.n.01",
+                "definition":"the qualities of a hero or heroine; exceptional or heroic courage when facing danger (especially in battle)"
+             },
+             {
+                "name":"humorous.a.01",
+                "definition":"full of or characterized by humor"
+             },
+             {
+                "name":"image.n.01",
+                "definition":"an iconic mental representation"
+             },
+             {
+                "name":"important.a.01",
+                "definition":"of great significance or value"
+             },
+             {
+                "name":"inappropriate.a.01",
+                "definition":"not suitable for a particular occasion etc"
+             },
+             {
+                "name":"innocuous.a.01",
+                "definition":"not injurious to physical or mental health"
+             },
+             {
+                "name":"intend.v.01",
+                "definition":"have in mind as a purpose"
+             },
+             {
+                "name":"juxtaposition.n.01",
+                "definition":"the act of positioning close together (or side by side)"
+             },
+             {
+                "name":"language.n.01",
+                "definition":"a systematic means of communicating by the use of sounds or conventional symbols"
+             },
+             {
+                "name":"likely.a.01",
+                "definition":"has a good chance of being the case or of coming about"
+             },
+             {
+                "name":"make.v.03",
+                "definition":"make or cause to be or to become"
+             },
+             {
+                "name":"manner.n.01",
+                "definition":"how something is done or how it happens"
+             },
+             {
+                "name":"message.n.01",
+                "definition":"a communication (usually brief) that is written or spoken or signaled"
+             },
+             {
+                "name":"negative.n.01",
+                "definition":"a reply of denial"
+             },
+             {
+                "name":"nostalgia.n.01",
+                "definition":"longing for something past"
+             },
+             {
+                "name":"political_orientation.n.01",
+                "definition":"an orientation that characterizes the thinking of a group or nation"
+             },
+             {
+                "name":"promote.v.01",
+                "definition":"contribute to the progress or growth of"
+             },
+             {
+                "name":"show.v.01",
+                "definition":"give an exhibition of to an interested audience"
+             },
+             {
+                "name":"spread.n.01",
+                "definition":"process or result of distributing or extending over a wide expanse of space"
+             },
+             {
+                "name":"strength.n.01",
+                "definition":"the property of being physically or mentally strong"
+             },
+             {
+                "name":"stud.n.01",
+                "definition":"a man who is virile and sexually active"
+             },
+             {
+                "name":"such.s.01",
+                "definition":"of so extreme a degree or extent"
+             },
+             {
+                "name":"symbolizing.n.01",
+                "definition":"the act of representing something with a symbol"
+             },
+             {
+                "name":"term.n.01",
+                "definition":"a word or expression used for some particular thing"
+             },
+             {
+                "name":"type.n.01",
+                "definition":"a subdivision of a particular kind of thing"
+             },
+             {
+                "name":"use.n.01",
+                "definition":"the act of using"
+             },
+             {
+                "name":"violence.n.01",
+                "definition":"an act of aggression (as one against a person who resists)"
+             },
+             {
+                "name":"well-known.s.01",
+                "definition":"widely or fully known"
+             },
+             {
+                "name":"wit.n.01",
+                "definition":"a message whose ingenuity or verbal skill or incongruity has the power to evoke laughter"
+             }
+          ]
+       },
+       "extracted_ne_qids":{
+          "visual":[
+             {
+                "qid":"Q2479649",
+                "name":"Castle Grayskull"
+             },
+             {
+                "qid":"Q2479649",
+                "name":"Castle Grayskull"
+             }
+          ],
+          "textual":[
+             {
+                "qid":"Q126096643",
+                "name":"neo-Nazi"
+             },
+             {
+                "qid":"Q15994152",
+                "name":"Racial Holy War"
+             }
+          ],
+          "combined":[
+             
+          ]
+       }
+    },
+    "chatgpt_chatgpt_3b.txt":{
+       "Image_URL":"unknown",
+       "Meme_text":"KEEP FIGHTING THE GOOD FIGHT.",
+       "Visual_description":"\nThe image features Pepe the Frog, a well-known internet meme character, depicted in a military uniform, saluting. The background includes a helicopter, with a person being ejected from it. The person being ejected is wearing clothing with a hammer and sickle symbol, which is associated with communism.\n",
+       "Textual_description":"\nThe text reads: \"KEEP FIGHTING THE GOOD FIGHT.\" This phrase is generally used to encourage perseverance and determination in a cause considered righteous or worthy. In this context, it is likely meant to convey support for a political or ideological struggle.\n",
+       "Combined_description":"\nThe combination of the image and text suggests a strong anti-communist sentiment. Pepe the Frog, dressed in a military uniform, represents an authority figure or leader encouraging the viewer to continue opposing communism. The person being ejected from the helicopter, a reference to the infamous \"helicopter rides\" meme associated with extreme anti-communist violence, underscores this message.\n\n### Conclusion\nThe image uses dark humor and internet meme culture to promote a political message. It appropriates the Pepe the Frog meme, which has been used in various contexts, including by extremist groups, to make a statement against communism. The visual of the military figure and the violent imagery of the helicopter contribute to a controversial and provocative message.\n",
+       "extracted_synsets":{
+          "visual":[
+             {
+                "name":"associate.v.01",
+                "definition":"make a logical or causal connection"
+             },
+             {
+                "name":"background.n.01",
+                "definition":"a person's social heritage: previous experience or training"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"being.n.01",
+                "definition":"the state or fact of existing"
+             },
+             {
+                "name":"clothing.n.01",
+                "definition":"a covering designed to be worn on a person's body"
+             },
+             {
+                "name":"communism.n.01",
+                "definition":"a form of socialism that abolishes private ownership"
+             },
+             {
+                "name":"eject.v.01",
+                "definition":"put out or expel from a place"
+             },
+             {
+                "name":"erosion.n.01",
+                "definition":"(geology) the mechanical process of wearing or grinding something down (as by particles washing over it)"
+             },
+             {
+                "name":"feature.n.01",
+                "definition":"a prominent attribute or aspect of something"
+             },
+             {
+                "name":"fictional_character.n.01",
+                "definition":"an imaginary person represented in a work of fiction (play or film or story)"
+             },
+             {
+                "name":"frog.n.01",
+                "definition":"any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species"
+             },
+             {
+                "name":"hammer.n.01",
+                "definition":"the part of a gunlock that strikes the percussion cap when the trigger is pulled"
+             },
+             {
+                "name":"helicopter.n.01",
+                "definition":"an aircraft without wings that obtains its lift from the rotation of overhead blades"
+             },
+             {
+                "name":"image.n.01",
+                "definition":"an iconic mental representation"
+             },
+             {
+                "name":"include.v.01",
+                "definition":"have as a part, be made up out of"
+             },
+             {
+                "name":"internet.n.01",
+                "definition":"a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange"
+             },
+             {
+                "name":"meme.n.01",
+                "definition":"a cultural unit (an idea or value or pattern of behavior) that is passed from one person to another by non-genetic means (as by imitation)"
+             },
+             {
+                "name":"military.n.01",
+                "definition":"the military forces of a nation"
+             },
+             {
+                "name":"person.n.01",
+                "definition":"a human being"
+             },
+             {
+                "name":"picture.v.02",
+                "definition":"show in, or as in, a picture"
+             },
+             {
+                "name":"sickle.n.01",
+                "definition":"an edge tool for cutting grass or crops; has a curved blade and a short handle"
+             },
+             {
+                "name":"symbol.n.01",
+                "definition":"an arbitrary sign (written or printed) that has acquired a conventional significance"
+             },
+             {
+                "name":"toast.v.02",
+                "definition":"propose a toast to"
+             },
+             {
+                "name":"uniform.n.01",
+                "definition":"clothing of distinctive design worn by members of a particular group as a means of identification"
+             },
+             {
+                "name":"well-known.s.01",
+                "definition":"widely or fully known"
+             }
+          ],
+          "textual":[
+             {
+                "name":"battle.n.01",
+                "definition":"a hostile meeting of opposing military forces in the course of a war"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"by_and_large.r.01",
+                "definition":"usually; as a rule"
+             },
+             {
+                "name":"cause.n.01",
+                "definition":"events that provide the generative force that is the origin of something"
+             },
+             {
+                "name":"context.n.01",
+                "definition":"discourse that surrounds a language unit and helps to determine its interpretation"
+             },
+             {
+                "name":"convey.v.01",
+                "definition":"make known; pass on, of information"
+             },
+             {
+                "name":"determination.n.01",
+                "definition":"the act of determining the properties of something, usually by research or calculation"
+             },
+             {
+                "name":"doggedness.n.01",
+                "definition":"persistent determination"
+             },
+             {
+                "name":"fight.n.02",
+                "definition":"the act of fighting; any contest or struggle"
+             },
+             {
+                "name":"good.n.01",
+                "definition":"benefit"
+             },
+             {
+                "name":"ideological.a.01",
+                "definition":"of or pertaining to or characteristic of an orientation that characterizes the thinking of a group or nation"
+             },
+             {
+                "name":"likely.a.01",
+                "definition":"has a good chance of being the case or of coming about"
+             },
+             {
+                "name":"mean.v.01",
+                "definition":"mean or intend to express or convey"
+             },
+             {
+                "name":"phrase.n.01",
+                "definition":"an expression consisting of one or more words forming a grammatical constituent of a sentence"
+             },
+             {
+                "name":"political.a.01",
+                "definition":"involving or characteristic of politics or parties or politicians; - Daniel Goleman"
+             },
+             {
+                "name":"promote.v.01",
+                "definition":"contribute to the progress or growth of"
+             },
+             {
+                "name":"read.n.01",
+                "definition":"something that is read"
+             },
+             {
+                "name":"righteous.a.01",
+                "definition":"characterized by or proceeding from accepted standards of morality or justice; - James 5:16"
+             },
+             {
+                "name":"see.v.05",
+                "definition":"deem to be"
+             },
+             {
+                "name":"struggle.n.01",
+                "definition":"an energetic attempt to achieve something"
+             },
+             {
+                "name":"support.n.01",
+                "definition":"the activity of providing for or maintaining by supplying with money or necessities"
+             },
+             {
+                "name":"support.n.06",
+                "definition":"the financial means whereby one lives"
+             },
+             {
+                "name":"text.n.01",
+                "definition":"the words of something written"
+             },
+             {
+                "name":"use.v.01",
+                "definition":"put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+             },
+             {
+                "name":"worthy.n.01",
+                "definition":"an important, honorable person (word is often used humorously)"
+             }
+          ],
+          "combined":[
+             {
+                "name":"allow.v.04",
+                "definition":"give or assign a resource to a particular person or cause"
+             },
+             {
+                "name":"associate.v.01",
+                "definition":"make a logical or causal connection"
+             },
+             {
+                "name":"assorted.s.02",
+                "definition":"of many different kinds purposefully arranged but lacking any uniformity"
+             },
+             {
+                "name":"authority.n.01",
+                "definition":"the power or right to give orders or make decisions"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"being.n.01",
+                "definition":"the state or fact of existing"
+             },
+             {
+                "name":"brand.n.02",
+                "definition":"a recognizable kind"
+             },
+             {
+                "name":"combination.n.01",
+                "definition":"a collection of things that have been combined; an assemblage of separate parts or qualities"
+             },
+             {
+                "name":"communism.n.01",
+                "definition":"a form of socialism that abolishes private ownership"
+             },
+             {
+                "name":"context.n.01",
+                "definition":"discourse that surrounds a language unit and helps to determine its interpretation"
+             },
+             {
+                "name":"continue.v.01",
+                "definition":"continue a certain state, condition, or activity"
+             },
+             {
+                "name":"controversial.a.01",
+                "definition":"marked by or capable of arousing controversy"
+             },
+             {
+                "name":"culture.n.01",
+                "definition":"a particular society at a particular time and place"
+             },
+             {
+                "name":"dark.n.01",
+                "definition":"absence of light or illumination"
+             },
+             {
+                "name":"decision.n.02",
+                "definition":"a position or opinion or judgment reached after consideration"
+             },
+             {
+                "name":"dress.v.01",
+                "definition":"put on clothes"
+             },
+             {
+                "name":"drive.n.08",
+                "definition":"a journey in a vehicle (usually an automobile)"
+             },
+             {
+                "name":"eject.v.01",
+                "definition":"put out or expel from a place"
+             },
+             {
+                "name":"extreme.n.01",
+                "definition":"the furthest or highest degree of something"
+             },
+             {
+                "name":"extremist.n.01",
+                "definition":"a person who holds extreme views"
+             },
+             {
+                "name":"figure.n.01",
+                "definition":"a diagram or picture illustrating textual material"
+             },
+             {
+                "name":"frog.n.01",
+                "definition":"any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species"
+             },
+             {
+                "name":"group.n.01",
+                "definition":"any number of entities (members) considered as a unit"
+             },
+             {
+                "name":"helicopter.n.01",
+                "definition":"an aircraft without wings that obtains its lift from the rotation of overhead blades"
+             },
+             {
+                "name":"hour_angle.n.02",
+                "definition":"(astronomy) the angular distance of a celestial point measured westward along the celestial equator from the zenith crossing; the right ascension for an observer at a particular location and time of day"
+             },
+             {
+                "name":"ill-famed.s.01",
+                "definition":"known widely and usually unfavorably"
+             },
+             {
+                "name":"image.n.01",
+                "definition":"an iconic mental representation"
+             },
+             {
+                "name":"imagination.n.02",
+                "definition":"the ability to form mental images of things or events"
+             },
+             {
+                "name":"include.v.01",
+                "definition":"have as a part, be made up out of"
+             },
+             {
+                "name":"internet.n.01",
+                "definition":"a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange"
+             },
+             {
+                "name":"leader.n.01",
+                "definition":"a person who rules or guides or inspires others"
+             },
+             {
+                "name":"lend.v.01",
+                "definition":"bestow a quality on"
+             },
+             {
+                "name":"meme.n.01",
+                "definition":"a cultural unit (an idea or value or pattern of behavior) that is passed from one person to another by non-genetic means (as by imitation)"
+             },
+             {
+                "name":"mention.n.01",
+                "definition":"a remark that calls attention to something or someone"
+             },
+             {
+                "name":"message.n.01",
+                "definition":"a communication (usually brief) that is written or spoken or signaled"
+             },
+             {
+                "name":"military.n.01",
+                "definition":"the military forces of a nation"
+             },
+             {
+                "name":"ocular.a.02",
+                "definition":"relating to or using sight"
+             },
+             {
+                "name":"oppose.v.01",
+                "definition":"be against; express opposition to"
+             },
+             {
+                "name":"person.n.01",
+                "definition":"a human being"
+             },
+             {
+                "name":"political.a.01",
+                "definition":"involving or characteristic of politics or parties or politicians; - Daniel Goleman"
+             },
+             {
+                "name":"promote.v.01",
+                "definition":"contribute to the progress or growth of"
+             },
+             {
+                "name":"propose.v.01",
+                "definition":"make a proposal, declare a plan for something"
+             },
+             {
+                "name":"provocative.a.01",
+                "definition":"serving or tending to provoke, excite, or stimulate; stimulating discussion or exciting controversy; ; ; - Anthony Trollope"
+             },
+             {
+                "name":"represent.v.01",
+                "definition":"take the place of or be parallel or equivalent to"
+             },
+             {
+                "name":"sentiment.n.01",
+                "definition":"tender, romantic, or nostalgic feeling or emotion"
+             },
+             {
+                "name":"spectator.n.01",
+                "definition":"a close observer; someone who looks at something (such as an exhibition of some kind)"
+             },
+             {
+                "name":"statement.n.01",
+                "definition":"a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc"
+             },
+             {
+                "name":"strong.a.01",
+                "definition":"having strength or power greater than average or expected"
+             },
+             {
+                "name":"text.n.01",
+                "definition":"the words of something written"
+             },
+             {
+                "name":"underscore.n.01",
+                "definition":"a line drawn underneath (especially under written matter)"
+             },
+             {
+                "name":"uniform.n.01",
+                "definition":"clothing of distinctive design worn by members of a particular group as a means of identification"
+             },
+             {
+                "name":"united_states.n.01",
+                "definition":"North American republic containing 50 states - 48 conterminous states in North America plus Alaska in northwest North America and the Hawaiian Islands in the Pacific Ocean; achieved independence in 1776"
+             },
+             {
+                "name":"use.v.01",
+                "definition":"put into service; make work or employ for a particular purpose or for its inherent or natural purpose"
+             },
+             {
+                "name":"violence.n.01",
+                "definition":"an act of aggression (as one against a person who resists)"
+             },
+             {
+                "name":"violent.a.01",
+                "definition":"acting with or marked by or resulting from great force or energy or emotional intensity"
+             },
+             {
+                "name":"wit.n.01",
+                "definition":"a message whose ingenuity or verbal skill or incongruity has the power to evoke laughter"
+             }
+          ]
+       },
+       "extracted_ne_qids":{
+          "visual":[
+             {
+                "qid":"Q485697",
+                "name":"Pepe (footballer, born 1983)"
+             }
+          ],
+          "textual":[
+             
+          ],
+          "combined":[
+             {
+                "qid":"Q21994166",
+                "name":"Pepe the Frog"
+             },
+             {
+                "qid":"Q485697",
+                "name":"Pepe (footballer, born 1983)"
+             }
+          ]
+       }
+    },
+    "chatgpt_chatgpt_4b.txt":{
+       "Image_URL":"unknown",
+       "Meme_text":"HIPSTER HITLER\nCELEBRATING 4.20 BEFORE IT WAS COOL.",
+       "Visual_description":"\nThe image features Adolf Hitler, the leader of Nazi Germany during World War II, giving a Nazi salute. The image is a historical black-and-white photograph, which immediately invokes a strong reaction due to the atrocities committed under Hitler's regime.\n",
+       "Textual_description":"\nThe text reads: \"HIPSTER HITLER\" and \"CELEBRATING 4.20 BEFORE IT WAS COOL.\" The term \"hipster\" refers to a modern subculture often characterized by its preference for things that are considered outside the mainstream or \"cool before they are cool.\" The reference to \"4.20\" is well-known in cannabis culture, denoting April 20th, a day associated with marijuana use.\n\nThe text implies that Hitler, born on April 20th, was \"celebrating\" this date long before it became associated with marijuana culture, playing on the hipster idea of liking things before they are mainstream.\n",
+       "Combined_description":"\nThe combination of Adolf Hitler with the \"hipster\" and \"4.20\" references creates a jarring and controversial image. It blends dark humor with historical context to make a provocative statement. The intent appears to be shock value, using the absurdity and offensiveness of juxtaposing a modern cultural reference with a historical figure notorious for his crimes.\n\n### Conclusion\nThis image uses dark humor and shock value, juxtaposing a modern subculture with a historical figure known for extreme atrocities. It is designed to provoke a strong reaction, combining the innocuous \"hipster\" and \"4.20\" references with the highly offensive image of Adolf Hitler. This type of meme is controversial and can be deeply offensive to many, trivializing historical suffering for the sake of humor.\n\nIf you have any more questions or need further analysis, feel free to ask.\n",
+       "extracted_synsets":{
+          "visual":[
+             {
+                "name":"atrocity.n.01",
+                "definition":"the quality of being shockingly cruel and inhumane"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"black-and-white.a.01",
+                "definition":"lacking hue or shades of grey; part white and part black"
+             },
+             {
+                "name":"chemical_reaction.n.01",
+                "definition":"(chemistry) a process in which one or more substances are changed into others"
+             },
+             {
+                "name":"due.n.01",
+                "definition":"that which is deserved or owed"
+             },
+             {
+                "name":"feature.n.01",
+                "definition":"a prominent attribute or aspect of something"
+             },
+             {
+                "name":"germany.n.01",
+                "definition":"a republic in central Europe; split into East Germany and West Germany after World War II and reunited in 1990"
+             },
+             {
+                "name":"giving.n.01",
+                "definition":"the act of giving"
+             },
+             {
+                "name":"government.n.01",
+                "definition":"the organization that is the governing authority of a political unit"
+             },
+             {
+                "name":"historical.a.01",
+                "definition":"of or relating to the study of history"
+             },
+             {
+                "name":"hitler.n.01",
+                "definition":"German Nazi dictator during World War II (1889-1945)"
+             },
+             {
+                "name":"image.n.01",
+                "definition":"an iconic mental representation"
+             },
+             {
+                "name":"immediately.r.01",
+                "definition":"without delay or hesitation; with no time intervening"
+             },
+             {
+                "name":"leader.n.01",
+                "definition":"a person who rules or guides or inspires others"
+             },
+             {
+                "name":"nazi.n.01",
+                "definition":"a German member of Adolf Hitler's political party"
+             },
+             {
+                "name":"perpetrate.v.01",
+                "definition":"perform an act, usually with a negative connotation"
+             },
+             {
+                "name":"photograph.n.01",
+                "definition":"a representation of a person or scene in the form of a print or transparent slide; recorded by a camera on light-sensitive material"
+             },
+             {
+                "name":"raise.v.07",
+                "definition":"summon into action or bring into existence, often as if by magic"
+             },
+             {
+                "name":"salute.n.01",
+                "definition":"an act of honor or courteous recognition"
+             },
+             {
+                "name":"strong.a.01",
+                "definition":"having strength or power greater than average or expected"
+             },
+             {
+                "name":"two.n.01",
+                "definition":"the cardinal number that is the sum of one and one or a numeral representing this number"
+             },
+             {
+                "name":"universe.n.01",
+                "definition":"everything that exists anywhere"
+             },
+             {
+                "name":"war.n.01",
+                "definition":"the waging of armed conflict against an enemy"
+             }
+          ],
+          "textual":[
+             {
+                "name":"april.n.01",
+                "definition":"the month following March and preceding May"
+             },
+             {
+                "name":"are.n.01",
+                "definition":"a unit of surface area equal to 100 square meters"
+             },
+             {
+                "name":"associate.v.01",
+                "definition":"make a logical or causal connection"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"become.v.01",
+                "definition":"enter or assume a certain state or condition"
+             },
+             {
+                "name":"born.n.01",
+                "definition":"British nuclear physicist (born in Germany) honored for his contributions to quantum mechanics (1882-1970)"
+             },
+             {
+                "name":"cannabis.n.01",
+                "definition":"any plant of the genus Cannabis; a coarse bushy annual with palmate leaves and clusters of small green flowers; yields tough fibers and narcotic drugs"
+             },
+             {
+                "name":"cool.n.01",
+                "definition":"the quality of being at a refreshingly low temperature"
+             },
+             {
+                "name":"culture.n.01",
+                "definition":"a particular society at a particular time and place"
+             },
+             {
+                "name":"date.n.01",
+                "definition":"the specified day of the month"
+             },
+             {
+                "name":"day.n.01",
+                "definition":"time for Earth to make a complete rotation on its axis"
+             },
+             {
+                "name":"denote.v.01",
+                "definition":"be a sign or indication of"
+             },
+             {
+                "name":"frequently.r.01",
+                "definition":"many times at short intervals"
+             },
+             {
+                "name":"hanker.v.01",
+                "definition":"desire strongly or persistently"
+             },
+             {
+                "name":"hippie.n.01",
+                "definition":"someone who rejects the established culture; advocates extreme liberalism in politics and lifestyle"
+             },
+             {
+                "name":"hitler.n.01",
+                "definition":"German Nazi dictator during World War II (1889-1945)"
+             },
+             {
+                "name":"idea.n.01",
+                "definition":"the content of cognition; the main thing you are thinking about"
+             },
+             {
+                "name":"imply.v.01",
+                "definition":"express or state indirectly"
+             },
+             {
+                "name":"information_technology.n.01",
+                "definition":"the branch of engineering that deals with the use of computers and telecommunications to retrieve and store and transmit information"
+             },
+             {
+                "name":"liking.n.01",
+                "definition":"a feeling of pleasure and enjoyment"
+             },
+             {
+                "name":"mainstream.n.01",
+                "definition":"the prevailing current of thought"
+             },
+             {
+                "name":"marijuana.n.01",
+                "definition":"a strong-smelling plant from whose dried leaves a number of euphoriant and hallucinogenic drugs are prepared"
+             },
+             {
+                "name":"mention.n.01",
+                "definition":"a remark that calls attention to something or someone"
+             },
+             {
+                "name":"mention.v.01",
+                "definition":"make reference to"
+             },
+             {
+                "name":"modern.n.01",
+                "definition":"a contemporary person"
+             },
+             {
+                "name":"observe.v.06",
+                "definition":"behave as expected during of holidays or rites"
+             },
+             {
+                "name":"playing.n.01",
+                "definition":"the act of playing a musical instrument"
+             },
+             {
+                "name":"preference.n.01",
+                "definition":"a strong liking"
+             },
+             {
+                "name":"qualify.v.06",
+                "definition":"describe or portray the character or the qualities or peculiarities of"
+             },
+             {
+                "name":"read.n.01",
+                "definition":"something that is read"
+             },
+             {
+                "name":"see.v.05",
+                "definition":"deem to be"
+             },
+             {
+                "name":"subculture.n.01",
+                "definition":"a social group within a national culture that has distinctive patterns of behavior and beliefs"
+             },
+             {
+                "name":"term.n.01",
+                "definition":"a word or expression used for some particular thing"
+             },
+             {
+                "name":"text.n.01",
+                "definition":"the words of something written"
+             },
+             {
+                "name":"thing.n.01",
+                "definition":"a special situation"
+             },
+             {
+                "name":"use.n.01",
+                "definition":"the act of using"
+             },
+             {
+                "name":"washington.n.02",
+                "definition":"a state in northwestern United States on the Pacific"
+             },
+             {
+                "name":"well-known.s.01",
+                "definition":"widely or fully known"
+             }
+          ],
+          "combined":[
+             {
+                "name":"absurdity.n.01",
+                "definition":"a message whose content is at variance with reason"
+             },
+             {
+                "name":"agony.n.02",
+                "definition":"a state of acute pain"
+             },
+             {
+                "name":"analysis.n.01",
+                "definition":"an investigation of the component parts of a whole and their relations in making up the whole"
+             },
+             {
+                "name":"arouse.v.01",
+                "definition":"call forth (emotions, feelings, and responses)"
+             },
+             {
+                "name":"ask.v.01",
+                "definition":"inquire about"
+             },
+             {
+                "name":"atrocity.n.01",
+                "definition":"the quality of being shockingly cruel and inhumane"
+             },
+             {
+                "name":"be.v.01",
+                "definition":"have the quality of being; (copula, used with an adjective or a predicate noun)"
+             },
+             {
+                "name":"beryllium.n.01",
+                "definition":"a light strong brittle grey toxic bivalent metallic element"
+             },
+             {
+                "name":"blend.n.01",
+                "definition":"an occurrence of thorough mixing"
+             },
+             {
+                "name":"brand.n.02",
+                "definition":"a recognizable kind"
+             },
+             {
+                "name":"chemical_reaction.n.01",
+                "definition":"(chemistry) a process in which one or more substances are changed into others"
+             },
+             {
+                "name":"clash.v.02",
+                "definition":"be incompatible; be or come into conflict"
+             },
+             {
+                "name":"combination.n.01",
+                "definition":"a collection of things that have been combined; an assemblage of separate parts or qualities"
+             },
+             {
+                "name":"combining.n.01",
+                "definition":"an occurrence that results in things being united"
+             },
+             {
+                "name":"context.n.01",
+                "definition":"discourse that surrounds a language unit and helps to determine its interpretation"
+             },
+             {
+                "name":"controversial.a.01",
+                "definition":"marked by or capable of arousing controversy"
+             },
+             {
+                "name":"crime.n.01",
+                "definition":"(criminal law) an act punishable by law; usually considered an evil act"
+             },
+             {
+                "name":"cultural.a.01",
+                "definition":"of or relating to the arts and manners that a group favors"
+             },
+             {
+                "name":"dark.n.01",
+                "definition":"absence of light or illumination"
+             },
+             {
+                "name":"daze.n.01",
+                "definition":"the feeling of distress and disbelief that you have when something bad happens accidentally"
+             },
+             {
+                "name":"decision.n.02",
+                "definition":"a position or opinion or judgment reached after consideration"
+             },
+             {
+                "name":"exploitation.n.02",
+                "definition":"an act that exploits or victimizes someone (treats them unfairly)"
+             },
+             {
+                "name":"extreme.n.01",
+                "definition":"the furthest or highest degree of something"
+             },
+             {
+                "name":"feel.n.01",
+                "definition":"an intuitive awareness;  or"
+             },
+             {
+                "name":"figure.n.01",
+                "definition":"a diagram or picture illustrating textual material"
+             },
+             {
+                "name":"foster.v.01",
+                "definition":"promote the growth of"
+             },
+             {
+                "name":"free.n.01",
+                "definition":"people who are free"
+             },
+             {
+                "name":"highly.r.01",
+                "definition":"to a high degree or extent; favorably or with much respect"
+             },
+             {
+                "name":"hippie.n.01",
+                "definition":"someone who rejects the established culture; advocates extreme liberalism in politics and lifestyle"
+             },
+             {
+                "name":"historical.a.01",
+                "definition":"of or relating to the study of history"
+             },
+             {
+                "name":"hitler.n.01",
+                "definition":"German Nazi dictator during World War II (1889-1945)"
+             },
+             {
+                "name":"ill-famed.s.01",
+                "definition":"known widely and usually unfavorably"
+             },
+             {
+                "name":"image.n.01",
+                "definition":"an iconic mental representation"
+             },
+             {
+                "name":"innocuous.a.01",
+                "definition":"not injurious to physical or mental health"
+             },
+             {
+                "name":"juxtapose.v.01",
+                "definition":"place side by side"
+             },
+             {
+                "name":"know.v.01",
+                "definition":"be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about"
+             },
+             {
+                "name":"look.v.02",
+                "definition":"give a certain impression or have a certain outward aspect"
+             },
+             {
+                "name":"make.v.03",
+                "definition":"make or cause to be or to become"
+             },
+             {
+                "name":"many.a.01",
+                "definition":"a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number"
+             },
+             {
+                "name":"meme.n.01",
+                "definition":"a cultural unit (an idea or value or pattern of behavior) that is passed from one person to another by non-genetic means (as by imitation)"
+             },
+             {
+                "name":"mention.n.01",
+                "definition":"a remark that calls attention to something or someone"
+             },
+             {
+                "name":"modern.n.01",
+                "definition":"a contemporary person"
+             },
+             {
+                "name":"more.n.01",
+                "definition":"English statesman who opposed Henry VIII's divorce from Catherine of Aragon and was imprisoned and beheaded; recalled for his concept of Utopia, the ideal state"
+             },
+             {
+                "name":"need.n.01",
+                "definition":"a condition requiring relief"
+             },
+             {
+                "name":"offense.n.05",
+                "definition":"the action of attacking an enemy"
+             },
+             {
+                "name":"offensiveness.n.01",
+                "definition":"the quality of being offensive"
+             },
+             {
+                "name":"plan.v.03",
+                "definition":"make or work out a plan for; devise"
+             },
+             {
+                "name":"profoundly.r.01",
+                "definition":"to a great depth psychologically"
+             },
+             {
+                "name":"provocative.a.01",
+                "definition":"serving or tending to provoke, excite, or stimulate; stimulating discussion or exciting controversy; ; ; - Anthony Trollope"
+             },
+             {
+                "name":"purpose.n.01",
+                "definition":"an anticipated outcome that is intended or that guides your planned actions"
+             },
+             {
+                "name":"question.n.01",
+                "definition":"an instance of questioning"
+             },
+             {
+                "name":"rich_person.n.01",
+                "definition":"a person who possesses great material wealth"
+             },
+             {
+                "name":"sake.n.01",
+                "definition":"a reason for wanting something done"
+             },
+             {
+                "name":"statement.n.01",
+                "definition":"a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc"
+             },
+             {
+                "name":"strong.a.01",
+                "definition":"having strength or power greater than average or expected"
+             },
+             {
+                "name":"subculture.n.01",
+                "definition":"a social group within a national culture that has distinctive patterns of behavior and beliefs"
+             },
+             {
+                "name":"trivialize.v.01",
+                "definition":"make trivial or insignificant"
+             },
+             {
+                "name":"type.n.01",
+                "definition":"a subdivision of a particular kind of thing"
+             },
+             {
+                "name":"united_states.n.01",
+                "definition":"North American republic containing 50 states - 48 conterminous states in North America plus Alaska in northwest North America and the Hawaiian Islands in the Pacific Ocean; achieved independence in 1776"
+             },
+             {
+                "name":"value.n.01",
+                "definition":"a numerical quantity measured or assigned or computed"
+             },
+             {
+                "name":"wit.n.01",
+                "definition":"a message whose ingenuity or verbal skill or incongruity has the power to evoke laughter"
+             }
+          ]
+       },
+       "extracted_ne_qids":{
+          "visual":[
+             {
+                "qid":"Q352",
+                "name":"Adolf Hitler"
+             },
+             {
+                "qid":"Q352",
+                "name":"Adolf Hitler"
+             },
+             {
+                "qid":"Q362",
+                "name":"World War II"
+             },
+             {
+                "qid":"Q574578",
+                "name":"Nazi"
+             },
+             {
+                "qid":"Q7318",
+                "name":"Nazi Germany"
+             }
+          ],
+          "textual":[
+             {
+                "qid":"Q127380177",
+                "name":"Abgenix 4.209.3"
+             },
+             {
+                "qid":"Q2524",
+                "name":"April 20"
+             },
+             {
+                "qid":"Q26726",
+                "name":"Cannabis sativa"
+             },
+             {
+                "qid":"Q26726",
+                "name":"Cannabis sativa"
+             },
+             {
+                "qid":"Q352",
+                "name":"Adolf Hitler"
+             }
+          ],
+          "combined":[
+             {
+                "qid":"Q127380177",
+                "name":"Abgenix 4.209.3"
+             },
+             {
+                "qid":"Q2927074",
+                "name":"Internet meme"
+             },
+             {
+                "qid":"Q352",
+                "name":"Adolf Hitler"
+             }
+          ]
+       }
+    }
+ }

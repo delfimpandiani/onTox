@@ -89,7 +89,3 @@ ORDER BY DESC(?count)
 Purpose: Counts the number of potentially toxic symbols categorized by ideology.
 Explanation: Retrieves ideologies (?ideology) associated with symbols and counts how many symbols (?symbol) are linked to each ideology.
 
-
-
-
-
