@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="http://www.ontologydesignpatterns.org/cp/owl/descriptionandsituation.owl" uri="DUL.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1720700711088" name="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl" uri="DUL.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1720700711088" name="https://w3id.org/ontox" uri="ontox.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1720791926882" name="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl" uri="DUL.owl"/>
     </group>
 </catalog>
