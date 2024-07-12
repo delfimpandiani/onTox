@@ -1,0 +1,2296 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <https://w3id.org/ontox#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:meme_1 a ns1:Meme ;
+    rdfs:label "meme_1"^^xsd:string ;
+    foaf:depiction <unknown> ;
+    ns1:haEmbeddedText "KEEP FIGHTING THE GOOD FIGHT."^^xsd:string ;
+    ns1:hasMultimodalContentDescription ns1:meme_1_mm ;
+    ns1:hasOriginalDatabase ns1:OnTox_Case_Study ;
+    ns1:hasTextContentDescription ns1:meme_1_text ;
+    ns1:hasVisualContentDescription ns1:meme_1_visual ;
+    ns1:relatedToConcept <http://www.wikidata.org/entity/Q21994166>,
+        <http://www.wikidata.org/entity/Q485697>,
+        <https://w3id.org/framester/wn/wn30/instances/allow.v.04>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/assorted.s.02>,
+        <https://w3id.org/framester/wn/wn30/instances/authority.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/background.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/battle.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/being.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/brand.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/by_and_large.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cause.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/clothing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/communism.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/continue.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/controversial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/convey.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dark.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decision.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/determination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/doggedness.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dress.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/drive.n.08>,
+        <https://w3id.org/framester/wn/wn30/instances/eject.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/erosion.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/extreme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/extremist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/feature.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/fictional_character.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/fight.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/figure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/frog.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/good.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/group.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hammer.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/helicopter.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hour_angle.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/ideological.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ill-famed.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/imagination.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/include.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/internet.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/leader.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/lend.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/likely.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/meme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/message.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/military.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ocular.a.02>,
+        <https://w3id.org/framester/wn/wn30/instances/oppose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/phrase.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/picture.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/political.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/promote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/propose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/provocative.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/represent.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/righteous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/see.v.05>,
+        <https://w3id.org/framester/wn/wn30/instances/sentiment.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sickle.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/spectator.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/statement.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/strong.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/struggle.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/support.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/support.n.06>,
+        <https://w3id.org/framester/wn/wn30/instances/symbol.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/toast.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/underscore.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/uniform.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/united_states.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violent.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/well-known.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/worthy.n.01> .
+
+ns1:meme_2 a ns1:Meme ;
+    rdfs:label "meme_2"^^xsd:string ;
+    foaf:depiction <unknown> ;
+    ns1:haEmbeddedText "I NEED RaHoWa!"^^xsd:string ;
+    ns1:hasMultimodalContentDescription ns1:meme_2_mm ;
+    ns1:hasOriginalDatabase ns1:OnTox_Case_Study ;
+    ns1:hasTextContentDescription ns1:meme_2_text ;
+    ns1:hasVisualContentDescription ns1:meme_2_visual ;
+    ns1:relatedToConcept <http://www.wikidata.org/entity/Q126096643>,
+        <http://www.wikidata.org/entity/Q15994152>,
+        <http://www.wikidata.org/entity/Q2479649>,
+        <https://w3id.org/framester/wn/wn30/instances/acknowledge.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/apparently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/arouse.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/attention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/authorization.n.04>,
+        <https://w3id.org/framester/wn/wn30/instances/base.n.08>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/belief.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beloved.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/blunt.s.04>,
+        <https://w3id.org/framester/wn/wn30/instances/career.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/central.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/clash.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/concurrence.n.04>,
+        <https://w3id.org/framester/wn/wn30/instances/condemn.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/conflict.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/content.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/contrast.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/controversial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dad.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/daze.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/debatable.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decision.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/draw.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/elevation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/embezzle.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/evening.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/exploitation.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/extremist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/fictional_character.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/figure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/frequently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/front.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/group.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/guise.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/harmful.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hate.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/heroism.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/highly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/holy_place.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/humorous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/iconic.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/important.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/inappropriate.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/innocuous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/inspire.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/intend.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/juxtaposition.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/language.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/likely.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/location.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/make.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/manner.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/masters.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/message.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/moment.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/need.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/negative.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/nostalgia.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/offense.n.05>,
+        <https://w3id.org/framester/wn/wn30/instances/palace.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/picture.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/political_orientation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/popular.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/power.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/promote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/racial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/recommend.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/series.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/spread.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/strength.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/stud.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/such.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/supremacist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sword.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/symbolizing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/television.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/term.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/transformation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/type.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/universe.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violent.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/war.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/well-known.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/white.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01> .
+
+ns1:meme_3 a ns1:Meme ;
+    rdfs:label "meme_3"^^xsd:string ;
+    foaf:depiction <unknown> ;
+    ns1:haEmbeddedText "ITS GONNA BE 4/20 FOR A WHOLE MONTH."^^xsd:string ;
+    ns1:hasMultimodalContentDescription ns1:meme_3_mm ;
+    ns1:hasOriginalDatabase ns1:OnTox_Case_Study ;
+    ns1:hasTextContentDescription ns1:meme_3_text ;
+    ns1:hasVisualContentDescription ns1:meme_3_visual ;
+    ns1:relatedToConcept <http://www.wikidata.org/entity/Q26726>,
+        <http://www.wikidata.org/entity/Q748539>,
+        <https://w3id.org/framester/wn/wn30/instances/acknowledge.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/angstrom.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/april.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/arch.s.03>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/background.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/blithe.s.02>,
+        <https://w3id.org/framester/wn/wn30/instances/calendar_month.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cannabis.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/celebration.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/change.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/colorful.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/combining.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/component.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/consciousness.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/consequence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/date.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/day.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decorate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/devour.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/dog.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/enjoyment.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/exploitation.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/expression.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/form.n.03>,
+        <https://w3id.org/framester/wn/wn30/instances/frequently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/happy.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/humorous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/idea.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/imply.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/information_technology.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/kernel.n.03>,
+        <https://w3id.org/framester/wn/wn30/instances/leaf.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/leisure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/make.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/marijuana.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/meme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/message.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/observe.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/ocular.a.02>,
+        <https://w3id.org/framester/wn/wn30/instances/overstate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/play.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/playful.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/propose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/psychedelic.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/reinforce.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/relax.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/relaxation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/resemble.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/scenario.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/slightly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sodium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/stallion.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/state.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/stopping_point.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/textual.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/time_period.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/tone.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/whole.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/widely.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/widen.v.04>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01> .
+
+ns1:meme_4 a ns1:Meme ;
+    rdfs:label "meme_4"^^xsd:string ;
+    foaf:depiction <unknown> ;
+    ns1:haEmbeddedText "HIPSTER HITLER CELEBRATING 4.20 BEFORE IT WAS COOL."^^xsd:string ;
+    ns1:hasMultimodalContentDescription ns1:meme_4_mm ;
+    ns1:hasOriginalDatabase ns1:OnTox_Case_Study ;
+    ns1:hasTextContentDescription ns1:meme_4_text ;
+    ns1:hasVisualContentDescription ns1:meme_4_visual ;
+    ns1:relatedToConcept <http://www.wikidata.org/entity/Q127380177>,
+        <http://www.wikidata.org/entity/Q2524>,
+        <http://www.wikidata.org/entity/Q26726>,
+        <http://www.wikidata.org/entity/Q2927074>,
+        <http://www.wikidata.org/entity/Q352>,
+        <http://www.wikidata.org/entity/Q362>,
+        <http://www.wikidata.org/entity/Q574578>,
+        <http://www.wikidata.org/entity/Q7318>,
+        <https://w3id.org/framester/wn/wn30/instances/absurdity.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/agony.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/analysis.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/april.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/are.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/arouse.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ask.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/atrocity.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/become.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/black-and-white.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/blend.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/born.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/brand.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/cannabis.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/chemical_reaction.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/clash.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/combining.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/controversial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cool.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/crime.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cultural.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dark.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/date.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/day.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/daze.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decision.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/denote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/due.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/exploitation.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/extreme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/feature.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/feel.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/figure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/foster.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/free.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/frequently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/germany.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/giving.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/government.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hanker.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/highly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hippie.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/historical.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hitler.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/idea.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ill-famed.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/immediately.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/imply.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/information_technology.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/innocuous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/juxtapose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/know.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/leader.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/liking.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/look.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/mainstream.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/make.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/many.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/marijuana.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/meme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/modern.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/more.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/nazi.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/need.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/observe.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/offense.n.05>,
+        <https://w3id.org/framester/wn/wn30/instances/offensiveness.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/perpetrate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/photograph.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/plan.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/playing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/preference.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/profoundly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/provocative.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/purpose.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/qualify.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/question.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/raise.v.07>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/rich_person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sake.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/salute.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/see.v.05>,
+        <https://w3id.org/framester/wn/wn30/instances/statement.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/strong.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/subculture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/term.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/thing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/trivialize.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/two.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/type.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/united_states.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/universe.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/value.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/war.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/washington.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/well-known.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01> .
+
+ns1:meme_1_mm a ns1:MultimodalContentDescription ;
+    rdfs:label "The combination of the image and text suggests a strong anti-communist sentiment. Pepe the Frog, dressed in a military uniform, represents an authority figure or leader encouraging the viewer to continue opposing communism. The person being ejected from the helicopter, a reference to the infamous helicopter rides meme associated with extreme anti-communist violence, underscores this message.  Conclusion The image uses dark humor and internet meme culture to promote a political message. It appropriates the Pepe the Frog meme, which has been used in various contexts, including by extremist groups, to make a statement against communism. The visual of the military figure and the violent imagery of the helicopter contribute to a controversial and provocative message."^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q21994166>,
+        <http://www.wikidata.org/entity/Q485697>,
+        <https://w3id.org/framester/wn/wn30/instances/allow.v.04>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/assorted.s.02>,
+        <https://w3id.org/framester/wn/wn30/instances/authority.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/being.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/brand.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/communism.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/continue.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/controversial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dark.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decision.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/dress.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/drive.n.08>,
+        <https://w3id.org/framester/wn/wn30/instances/eject.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/extreme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/extremist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/figure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/frog.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/group.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/helicopter.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hour_angle.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/ill-famed.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/imagination.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/include.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/internet.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/leader.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/lend.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/meme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/message.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/military.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ocular.a.02>,
+        <https://w3id.org/framester/wn/wn30/instances/oppose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/political.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/promote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/propose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/provocative.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/represent.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sentiment.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/spectator.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/statement.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/strong.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/underscore.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/uniform.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/united_states.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violent.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01> .
+
+ns1:meme_1_text a ns1:TextContentDescription ;
+    rdfs:label " The text reads: KEEP FIGHTING THE GOOD FIGHT. This phrase is generally used to encourage perseverance and determination in a cause considered righteous or worthy. In this context, it is likely meant to convey support for a political or ideological struggle. "^^xsd:string ;
+    ns1:mentionsConcept <https://w3id.org/framester/wn/wn30/instances/battle.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/by_and_large.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cause.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/convey.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/determination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/doggedness.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/fight.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/good.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ideological.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/likely.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/phrase.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/political.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/promote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/righteous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/see.v.05>,
+        <https://w3id.org/framester/wn/wn30/instances/struggle.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/support.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/support.n.06>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/worthy.n.01> .
+
+ns1:meme_1_visual a ns1:VisualContentDescription ;
+    rdfs:label " The image features Pepe the Frog, a well-known internet meme character, depicted in a military uniform, saluting. The background includes a helicopter, with a person being ejected from it. The person being ejected is wearing clothing with a hammer and sickle symbol, which is associated with communism. "^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q485697>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/background.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/being.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/clothing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/communism.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/eject.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/erosion.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/feature.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/fictional_character.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/frog.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hammer.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/helicopter.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/include.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/internet.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/meme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/military.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/picture.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/sickle.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/symbol.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/toast.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/uniform.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/well-known.s.01> .
+
+ns1:meme_2_mm a ns1:MultimodalContentDescription ;
+    rdfs:label "The combination of He-Man, a character symbolizing strength and heroism, with the extremist term RaHoWa is jarring and inappropriate. This juxtaposition is likely intended to shock or provoke. Using a beloved pop culture figure in conjunction with a term that promotes hate and violence is a way to draw attention and create a stark contrast.   Conclusion The image misappropriates a well-known character for a harmful message. Its important to recognize and condemn the use of such extremist language, even when presented in a seemingly innocuous or humorous context. This type of content can be harmful and spread negative ideologies under the guise of humor or nostalgia."^^xsd:string ;
+    ns1:mentionsConcept <https://w3id.org/framester/wn/wn30/instances/acknowledge.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/apparently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/arouse.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/attention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beloved.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/blunt.s.04>,
+        <https://w3id.org/framester/wn/wn30/instances/clash.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/concurrence.n.04>,
+        <https://w3id.org/framester/wn/wn30/instances/condemn.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/content.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/contrast.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dad.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/daze.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decision.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/draw.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/embezzle.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/evening.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/exploitation.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/extremist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/fictional_character.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/figure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/guise.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/harmful.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hate.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/heroism.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/humorous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/important.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/inappropriate.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/innocuous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/intend.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/juxtaposition.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/language.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/likely.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/make.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/manner.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/message.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/negative.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/nostalgia.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/political_orientation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/promote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/spread.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/strength.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/stud.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/such.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/symbolizing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/term.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/type.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/well-known.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01> .
+
+ns1:meme_2_text a ns1:TextContentDescription ;
+    rdfs:label " The text reads: I NEED RaHoWa! The term RaHoWa is highly controversial and stands for Racial Holy War. It is associated with white supremacist and neo-Nazi groups, used to promote their ideology of racial conflict. The term is problematic and offensive, advocating for extremist and violent beliefs. "^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q126096643>,
+        <http://www.wikidata.org/entity/Q15994152>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/base.n.08>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/belief.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/conflict.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/controversial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/debatable.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/extremist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/group.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/highly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/holy_place.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/need.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/offense.n.05>,
+        <https://w3id.org/framester/wn/wn30/instances/political_orientation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/promote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/racial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/recommend.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/supremacist.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/term.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/violent.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/war.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/white.n.01> .
+
+ns1:meme_2_visual a ns1:VisualContentDescription ;
+    rdfs:label " The image shows a character from the popular 1980s animated television series He-Man and the Masters of the Universe. He-Man is depicted raising his sword in front of Castle Grayskull, which is a central and iconic location in the series. The image often signifies He-Man calling upon the power of Grayskull, a moment of empowerment and transformation. "^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q2479649>,
+        <https://w3id.org/framester/wn/wn30/instances/authorization.n.04>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/career.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/central.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/elevation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/fictional_character.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/frequently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/front.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/iconic.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/inspire.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/location.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/masters.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mean.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/moment.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/palace.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/picture.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/popular.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/power.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/series.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/stud.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sword.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/television.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/transformation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/universe.n.01> .
+
+ns1:meme_3_mm a ns1:MultimodalContentDescription ;
+    rdfs:label "The combination of the happy, relaxed dog and the text implies a humorous and exaggerated scenario where the state of celebration and relaxation associated with 4/20 lasts for an entire month. The dogs expression, along with the colorful background, reinforces the playful and light-hearted tone of the message, suggesting an extended period of enjoyment and leisure.  In essence, the meme is using humor to exaggerate the idea of an extended celebration of cannabis culture, combining visual and textual elements to create a playful, humorous effect."^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q748539>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/background.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/blithe.s.02>,
+        <https://w3id.org/framester/wn/wn30/instances/calendar_month.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cannabis.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/celebration.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/colorful.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/combining.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/component.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/consequence.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dog.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/enjoyment.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/exploitation.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/expression.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/happy.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/humorous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/idea.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/imply.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/kernel.n.03>,
+        <https://w3id.org/framester/wn/wn30/instances/leisure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/make.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/meme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/message.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ocular.a.02>,
+        <https://w3id.org/framester/wn/wn30/instances/overstate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/playful.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/propose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/reinforce.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/relax.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/relaxation.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/scenario.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/stallion.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/state.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/stopping_point.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/textual.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/time_period.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/tone.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/widen.v.04>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01> .
+
+ns1:meme_3_text a ns1:TextContentDescription ;
+    rdfs:label " The text reads: ITS GONNA BE 4/20 FOR A WHOLE MONTH. This is a play on the date April 20th (4/20), which is widely recognized in cannabis culture as a day for celebrating and consuming marijuana. "^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q26726>,
+        <http://www.wikidata.org/entity/Q748539>,
+        <https://w3id.org/framester/wn/wn30/instances/acknowledge.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/angstrom.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/april.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/calendar_month.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cannabis.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/date.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/day.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/devour.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/information_technology.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/marijuana.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/observe.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/play.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sodium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/whole.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/widely.r.01> .
+
+ns1:meme_3_visual a ns1:VisualContentDescription ;
+    rdfs:label " The image shows a dog with a happy, slightly mischievous expression. The background is decorated with colorful, psychedelic patterns that resemble marijuana leaves, often associated with a state of altered consciousness or celebration. "^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q26726>,
+        <https://w3id.org/framester/wn/wn30/instances/arch.s.03>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/background.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/celebration.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/change.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/colorful.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/consciousness.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decorate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dog.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/expression.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/form.n.03>,
+        <https://w3id.org/framester/wn/wn30/instances/frequently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/happy.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/leaf.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/marijuana.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/psychedelic.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/resemble.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/show.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/slightly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/state.n.01> .
+
+ns1:meme_4_mm a ns1:MultimodalContentDescription ;
+    rdfs:label "The combination of Adolf Hitler with the hipster and 4.20 references creates a jarring and controversial image. It blends dark humor with historical context to make a provocative statement. The intent appears to be shock value, using the absurdity and offensiveness of juxtaposing a modern cultural reference with a historical figure notorious for his crimes.   Conclusion This image uses dark humor and shock value, juxtaposing a modern subculture with a historical figure known for extreme atrocities. It is designed to provoke a strong reaction, combining the innocuous hipster and 4.20 references with the highly offensive image of Adolf Hitler. This type of meme is controversial and can be deeply offensive to many, trivializing historical suffering for the sake of humor.  If you have any more questions or need further analysis, feel free to ask."^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q127380177>,
+        <http://www.wikidata.org/entity/Q2927074>,
+        <http://www.wikidata.org/entity/Q352>,
+        <https://w3id.org/framester/wn/wn30/instances/absurdity.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/agony.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/analysis.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/arouse.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ask.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/atrocity.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/beryllium.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/blend.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/brand.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/chemical_reaction.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/clash.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/combination.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/combining.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/context.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/controversial.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/crime.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cultural.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/dark.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/daze.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/decision.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/exploitation.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/extreme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/feel.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/figure.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/foster.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/free.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/highly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hippie.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/historical.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hitler.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/ill-famed.s.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/innocuous.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/juxtapose.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/know.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/look.v.02>,
+        <https://w3id.org/framester/wn/wn30/instances/make.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/many.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/meme.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/modern.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/more.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/need.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/offense.n.05>,
+        <https://w3id.org/framester/wn/wn30/instances/offensiveness.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/plan.v.03>,
+        <https://w3id.org/framester/wn/wn30/instances/profoundly.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/provocative.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/purpose.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/question.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/rich_person.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/sake.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/statement.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/strong.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/subculture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/trivialize.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/type.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/united_states.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/value.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/wit.n.01> .
+
+ns1:meme_4_text a ns1:TextContentDescription ;
+    rdfs:label " The text reads: HIPSTER HITLER and CELEBRATING 4.20 BEFORE IT WAS COOL. The term hipster refers to a modern subculture often characterized by its preference for things that are considered outside the mainstream or cool before they are cool. The reference to 4.20 is well-known in cannabis culture, denoting April 20th, a day associated with marijuana use.  The text implies that Hitler, born on April 20th, was celebrating this date long before it became associated with marijuana culture, playing on the hipster idea of liking things before they are mainstream. "^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q127380177>,
+        <http://www.wikidata.org/entity/Q2524>,
+        <http://www.wikidata.org/entity/Q26726>,
+        <http://www.wikidata.org/entity/Q352>,
+        <https://w3id.org/framester/wn/wn30/instances/april.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/are.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/associate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/become.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/born.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cannabis.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/cool.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/culture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/date.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/day.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/denote.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/frequently.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hanker.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hippie.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hitler.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/idea.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/imply.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/information_technology.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/liking.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mainstream.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/marijuana.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/mention.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/modern.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/observe.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/playing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/preference.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/qualify.v.06>,
+        <https://w3id.org/framester/wn/wn30/instances/read.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/see.v.05>,
+        <https://w3id.org/framester/wn/wn30/instances/subculture.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/term.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/text.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/thing.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/use.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/washington.n.02>,
+        <https://w3id.org/framester/wn/wn30/instances/well-known.s.01> .
+
+ns1:meme_4_visual a ns1:VisualContentDescription ;
+    rdfs:label " The image features Adolf Hitler, the leader of Nazi Germany during World War II, giving a Nazi salute. The image is a historical black-and-white photograph, which immediately invokes a strong reaction due to the atrocities committed under Hitlers regime. "^^xsd:string ;
+    ns1:mentionsConcept <http://www.wikidata.org/entity/Q352>,
+        <http://www.wikidata.org/entity/Q362>,
+        <http://www.wikidata.org/entity/Q574578>,
+        <http://www.wikidata.org/entity/Q7318>,
+        <https://w3id.org/framester/wn/wn30/instances/atrocity.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/be.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/black-and-white.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/chemical_reaction.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/due.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/feature.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/germany.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/giving.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/government.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/historical.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/hitler.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/image.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/immediately.r.01>,
+        <https://w3id.org/framester/wn/wn30/instances/leader.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/nazi.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/perpetrate.v.01>,
+        <https://w3id.org/framester/wn/wn30/instances/photograph.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/raise.v.07>,
+        <https://w3id.org/framester/wn/wn30/instances/salute.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/strong.a.01>,
+        <https://w3id.org/framester/wn/wn30/instances/two.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/universe.n.01>,
+        <https://w3id.org/framester/wn/wn30/instances/war.n.01> .
+
+<http://www.wikidata.org/entity/Q126096643> a ns1:WikiConcept ;
+    rdfs:label "neo-Nazi"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q15994152> a ns1:WikiConcept ;
+    rdfs:label "Racial Holy War"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q21994166> a ns1:WikiConcept ;
+    rdfs:label "Pepe the Frog"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q2479649> a ns1:WikiConcept ;
+    rdfs:label "Castle Grayskull"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q2524> a ns1:WikiConcept ;
+    rdfs:label "April 20"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q2927074> a ns1:WikiConcept ;
+    rdfs:label "Internet meme"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q362> a ns1:WikiConcept ;
+    rdfs:label "World War II"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q574578> a ns1:WikiConcept ;
+    rdfs:label "Nazi"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q7318> a ns1:WikiConcept ;
+    rdfs:label "Nazi Germany"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/absurdity.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "absurdity.n.01"^^xsd:string ;
+    rdfs:comment "a message whose content is at variance with reason"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/agony.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "agony.n.02"^^xsd:string ;
+    rdfs:comment "a state of acute pain"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/allow.v.04> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "allow.v.04"^^xsd:string ;
+    rdfs:comment "give or assign a resource to a particular person or cause"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/analysis.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "analysis.n.01"^^xsd:string ;
+    rdfs:comment "an investigation of the component parts of a whole and their relations in making up the whole"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/angstrom.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "angstrom.n.01"^^xsd:string ;
+    rdfs:comment "a metric unit of length equal to one ten billionth of a meter (or 0.0001 micron); used to specify wavelengths of electromagnetic radiation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/apparently.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "apparently.r.01"^^xsd:string ;
+    rdfs:comment "from appearances alone; ; ; -Thomas Hardy"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/arch.s.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "arch.s.03"^^xsd:string ;
+    rdfs:comment "naughtily or annoyingly playful"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/are.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "are.n.01"^^xsd:string ;
+    rdfs:comment "a unit of surface area equal to 100 square meters"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/ask.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "ask.v.01"^^xsd:string ;
+    rdfs:comment "inquire about"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/assorted.s.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "assorted.s.02"^^xsd:string ;
+    rdfs:comment "of many different kinds purposefully arranged but lacking any uniformity"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/attention.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "attention.n.01"^^xsd:string ;
+    rdfs:comment "the process whereby a person concentrates on some features of the environment to the (relative) exclusion of others"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/authority.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "authority.n.01"^^xsd:string ;
+    rdfs:comment "the power or right to give orders or make decisions"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/authorization.n.04> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "authorization.n.04"^^xsd:string ;
+    rdfs:comment "the act of conferring legality or sanction or formal warrant"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/base.n.08> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "base.n.08"^^xsd:string ;
+    rdfs:comment "a support or foundation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/battle.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "battle.n.01"^^xsd:string ;
+    rdfs:comment "a hostile meeting of opposing military forces in the course of a war"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/become.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "become.v.01"^^xsd:string ;
+    rdfs:comment "enter or assume a certain state or condition"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/belief.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "belief.n.01"^^xsd:string ;
+    rdfs:comment "any cognitive content held as true"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/beloved.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "beloved.n.01"^^xsd:string ;
+    rdfs:comment "a beloved person; used as terms of endearment"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/black-and-white.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "black-and-white.a.01"^^xsd:string ;
+    rdfs:comment "lacking hue or shades of grey; part white and part black"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/blend.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "blend.n.01"^^xsd:string ;
+    rdfs:comment "an occurrence of thorough mixing"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/blithe.s.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "blithe.s.02"^^xsd:string ;
+    rdfs:comment "carefree and happy and lighthearted"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/blunt.s.04> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "blunt.s.04"^^xsd:string ;
+    rdfs:comment "devoid of any qualifications or disguise or adornment"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/born.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "born.n.01"^^xsd:string ;
+    rdfs:comment "British nuclear physicist (born in Germany) honored for his contributions to quantum mechanics (1882-1970)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/by_and_large.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "by_and_large.r.01"^^xsd:string ;
+    rdfs:comment "usually; as a rule"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/career.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "career.n.01"^^xsd:string ;
+    rdfs:comment "the particular occupation for which you are trained"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/cause.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "cause.n.01"^^xsd:string ;
+    rdfs:comment "events that provide the generative force that is the origin of something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/central.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "central.n.01"^^xsd:string ;
+    rdfs:comment "a workplace that serves as a telecommunications facility where lines from telephones can be connected together to permit communication"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/change.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "change.v.01"^^xsd:string ;
+    rdfs:comment "cause to change; make different; cause a transformation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/clothing.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "clothing.n.01"^^xsd:string ;
+    rdfs:comment "a covering designed to be worn on a person's body"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/component.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "component.n.01"^^xsd:string ;
+    rdfs:comment "an abstract part of something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/concurrence.n.04> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "concurrence.n.04"^^xsd:string ;
+    rdfs:comment "the temporal property of two things happening at the same time"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/condemn.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "condemn.v.01"^^xsd:string ;
+    rdfs:comment "express strong disapproval of"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/conflict.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "conflict.n.01"^^xsd:string ;
+    rdfs:comment "an open clash between two opposing groups (or individuals); --Thomas Paine"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/consciousness.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "consciousness.n.01"^^xsd:string ;
+    rdfs:comment "an alert cognitive state in which you are aware of yourself and your situation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/consequence.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "consequence.n.01"^^xsd:string ;
+    rdfs:comment "a phenomenon that follows and is caused by some previous phenomenon"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/content.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "content.n.01"^^xsd:string ;
+    rdfs:comment "everything that is included in a collection and that is held or included in something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/continue.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "continue.v.01"^^xsd:string ;
+    rdfs:comment "continue a certain state, condition, or activity"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/contrast.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "contrast.n.01"^^xsd:string ;
+    rdfs:comment "the opposition or dissimilarity of things that are compared; ,"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/convey.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "convey.v.01"^^xsd:string ;
+    rdfs:comment "make known; pass on, of information"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/cool.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "cool.n.01"^^xsd:string ;
+    rdfs:comment "the quality of being at a refreshingly low temperature"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/crime.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "crime.n.01"^^xsd:string ;
+    rdfs:comment "(criminal law) an act punishable by law; usually considered an evil act"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/cultural.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "cultural.a.01"^^xsd:string ;
+    rdfs:comment "of or relating to the arts and manners that a group favors"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/dad.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "dad.n.01"^^xsd:string ;
+    rdfs:comment "an informal term for a father; probably derived from baby talk"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/debatable.s.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "debatable.s.01"^^xsd:string ;
+    rdfs:comment "open to doubt or debate"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/decorate.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "decorate.v.01"^^xsd:string ;
+    rdfs:comment "make more attractive by adding ornament, colour, etc."^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/denote.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "denote.v.01"^^xsd:string ;
+    rdfs:comment "be a sign or indication of"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/determination.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "determination.n.01"^^xsd:string ;
+    rdfs:comment "the act of determining the properties of something, usually by research or calculation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/devour.v.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "devour.v.03"^^xsd:string ;
+    rdfs:comment "eat immoderately"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/doggedness.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "doggedness.n.01"^^xsd:string ;
+    rdfs:comment "persistent determination"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/draw.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "draw.n.01"^^xsd:string ;
+    rdfs:comment "a gully that is shallower than a ravine"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/dress.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "dress.v.01"^^xsd:string ;
+    rdfs:comment "put on clothes"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/drive.n.08> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "drive.n.08"^^xsd:string ;
+    rdfs:comment "a journey in a vehicle (usually an automobile)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/due.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "due.n.01"^^xsd:string ;
+    rdfs:comment "that which is deserved or owed"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/elevation.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "elevation.n.01"^^xsd:string ;
+    rdfs:comment "the event of something being raised upward"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/embezzle.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "embezzle.v.01"^^xsd:string ;
+    rdfs:comment "appropriate (as property entrusted to one's care) fraudulently to one's own use"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/enjoyment.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "enjoyment.n.01"^^xsd:string ;
+    rdfs:comment "the pleasure felt when having a good time"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/erosion.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "erosion.n.01"^^xsd:string ;
+    rdfs:comment "(geology) the mechanical process of wearing or grinding something down (as by particles washing over it)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/evening.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "evening.n.01"^^xsd:string ;
+    rdfs:comment "the latter part of the day (the period of decreasing daylight from late afternoon until nightfall)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/feel.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "feel.n.01"^^xsd:string ;
+    rdfs:comment "an intuitive awareness;  or"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/fight.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "fight.n.02"^^xsd:string ;
+    rdfs:comment "the act of fighting; any contest or struggle"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/form.n.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "form.n.03"^^xsd:string ;
+    rdfs:comment "a perceptual structure"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/foster.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "foster.v.01"^^xsd:string ;
+    rdfs:comment "promote the growth of"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/free.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "free.n.01"^^xsd:string ;
+    rdfs:comment "people who are free"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/front.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "front.n.01"^^xsd:string ;
+    rdfs:comment "the side that is forward or prominent"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/germany.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "germany.n.01"^^xsd:string ;
+    rdfs:comment "a republic in central Europe; split into East Germany and West Germany after World War II and reunited in 1990"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/giving.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "giving.n.01"^^xsd:string ;
+    rdfs:comment "the act of giving"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/good.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "good.n.01"^^xsd:string ;
+    rdfs:comment "benefit"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/government.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "government.n.01"^^xsd:string ;
+    rdfs:comment "the organization that is the governing authority of a political unit"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/guise.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "guise.n.01"^^xsd:string ;
+    rdfs:comment "an artful or simulated semblance"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/hammer.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "hammer.n.01"^^xsd:string ;
+    rdfs:comment "the part of a gunlock that strikes the percussion cap when the trigger is pulled"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/hanker.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "hanker.v.01"^^xsd:string ;
+    rdfs:comment "desire strongly or persistently"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/harmful.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "harmful.a.01"^^xsd:string ;
+    rdfs:comment "causing or capable of causing harm"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/hate.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "hate.n.01"^^xsd:string ;
+    rdfs:comment "the emotion of intense dislike; a feeling of dislike so strong that it demands action"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/heroism.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "heroism.n.01"^^xsd:string ;
+    rdfs:comment "the qualities of a hero or heroine; exceptional or heroic courage when facing danger (especially in battle)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/holy_place.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "holy_place.n.01"^^xsd:string ;
+    rdfs:comment "a sacred place of pilgrimage"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/hour_angle.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "hour_angle.n.02"^^xsd:string ;
+    rdfs:comment "(astronomy) the angular distance of a celestial point measured westward along the celestial equator from the zenith crossing; the right ascension for an observer at a particular location and time of day"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/iconic.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "iconic.a.01"^^xsd:string ;
+    rdfs:comment "relating to or having the characteristics on an icon"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/ideological.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "ideological.a.01"^^xsd:string ;
+    rdfs:comment "of or pertaining to or characteristic of an orientation that characterizes the thinking of a group or nation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/imagination.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "imagination.n.02"^^xsd:string ;
+    rdfs:comment "the ability to form mental images of things or events"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/immediately.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "immediately.r.01"^^xsd:string ;
+    rdfs:comment "without delay or hesitation; with no time intervening"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/important.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "important.a.01"^^xsd:string ;
+    rdfs:comment "of great significance or value"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/inappropriate.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "inappropriate.a.01"^^xsd:string ;
+    rdfs:comment "not suitable for a particular occasion etc"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/inspire.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "inspire.v.01"^^xsd:string ;
+    rdfs:comment "heighten or intensify"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/intend.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "intend.v.01"^^xsd:string ;
+    rdfs:comment "have in mind as a purpose"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/juxtapose.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "juxtapose.v.01"^^xsd:string ;
+    rdfs:comment "place side by side"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/juxtaposition.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "juxtaposition.n.01"^^xsd:string ;
+    rdfs:comment "the act of positioning close together (or side by side)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/kernel.n.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "kernel.n.03"^^xsd:string ;
+    rdfs:comment "the choicest or most essential or most vital part of some idea or experience"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/know.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "know.v.01"^^xsd:string ;
+    rdfs:comment "be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/language.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "language.n.01"^^xsd:string ;
+    rdfs:comment "a systematic means of communicating by the use of sounds or conventional symbols"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/leaf.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "leaf.n.01"^^xsd:string ;
+    rdfs:comment "the main organ of photosynthesis and transpiration in higher plants"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/leisure.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "leisure.n.01"^^xsd:string ;
+    rdfs:comment "time available for ease and relaxation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/lend.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "lend.v.01"^^xsd:string ;
+    rdfs:comment "bestow a quality on"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/liking.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "liking.n.01"^^xsd:string ;
+    rdfs:comment "a feeling of pleasure and enjoyment"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/location.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "location.n.01"^^xsd:string ;
+    rdfs:comment "a point or extent in space"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/look.v.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "look.v.02"^^xsd:string ;
+    rdfs:comment "give a certain impression or have a certain outward aspect"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mainstream.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mainstream.n.01"^^xsd:string ;
+    rdfs:comment "the prevailing current of thought"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/manner.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "manner.n.01"^^xsd:string ;
+    rdfs:comment "how something is done or how it happens"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/many.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "many.a.01"^^xsd:string ;
+    rdfs:comment "a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/masters.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "masters.n.01"^^xsd:string ;
+    rdfs:comment "United States poet (1869-1950)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mean.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mean.v.01"^^xsd:string ;
+    rdfs:comment "mean or intend to express or convey"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mean.v.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mean.v.03"^^xsd:string ;
+    rdfs:comment "denote or connote"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mention.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mention.v.01"^^xsd:string ;
+    rdfs:comment "make reference to"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/moment.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "moment.n.01"^^xsd:string ;
+    rdfs:comment "a particular point in time"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/more.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "more.n.01"^^xsd:string ;
+    rdfs:comment "English statesman who opposed Henry VIII's divorce from Catherine of Aragon and was imprisoned and beheaded; recalled for his concept of Utopia, the ideal state"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/nazi.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "nazi.n.01"^^xsd:string ;
+    rdfs:comment "a German member of Adolf Hitler's political party"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/negative.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "negative.n.01"^^xsd:string ;
+    rdfs:comment "a reply of denial"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/nostalgia.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "nostalgia.n.01"^^xsd:string ;
+    rdfs:comment "longing for something past"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/offensiveness.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "offensiveness.n.01"^^xsd:string ;
+    rdfs:comment "the quality of being offensive"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/oppose.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "oppose.v.01"^^xsd:string ;
+    rdfs:comment "be against; express opposition to"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/overstate.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "overstate.v.01"^^xsd:string ;
+    rdfs:comment "to enlarge beyond bounds or the truth"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/palace.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "palace.n.01"^^xsd:string ;
+    rdfs:comment "a large and stately mansion"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/perpetrate.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "perpetrate.v.01"^^xsd:string ;
+    rdfs:comment "perform an act, usually with a negative connotation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/photograph.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "photograph.n.01"^^xsd:string ;
+    rdfs:comment "a representation of a person or scene in the form of a print or transparent slide; recorded by a camera on light-sensitive material"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/phrase.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "phrase.n.01"^^xsd:string ;
+    rdfs:comment "an expression consisting of one or more words forming a grammatical constituent of a sentence"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/plan.v.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "plan.v.03"^^xsd:string ;
+    rdfs:comment "make or work out a plan for; devise"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/play.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "play.n.01"^^xsd:string ;
+    rdfs:comment "a dramatic work intended for performance by actors on a stage"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/playful.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "playful.a.01"^^xsd:string ;
+    rdfs:comment "full of fun and high spirits"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/playing.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "playing.n.01"^^xsd:string ;
+    rdfs:comment "the act of playing a musical instrument"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/popular.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "popular.a.01"^^xsd:string ;
+    rdfs:comment "regarded with great favor, approval, or affection especially by the general public"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/power.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "power.n.01"^^xsd:string ;
+    rdfs:comment "possession of controlling influence"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/preference.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "preference.n.01"^^xsd:string ;
+    rdfs:comment "a strong liking"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/profoundly.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "profoundly.r.01"^^xsd:string ;
+    rdfs:comment "to a great depth psychologically"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/psychedelic.s.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "psychedelic.s.01"^^xsd:string ;
+    rdfs:comment "producing distorted sensory perceptions and feelings or altered states of awareness or sometimes states resembling psychosis"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/purpose.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "purpose.n.01"^^xsd:string ;
+    rdfs:comment "an anticipated outcome that is intended or that guides your planned actions"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/qualify.v.06> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "qualify.v.06"^^xsd:string ;
+    rdfs:comment "describe or portray the character or the qualities or peculiarities of"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/question.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "question.n.01"^^xsd:string ;
+    rdfs:comment "an instance of questioning"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/racial.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "racial.a.01"^^xsd:string ;
+    rdfs:comment "of or related to genetically distinguished groups of people"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/raise.v.07> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "raise.v.07"^^xsd:string ;
+    rdfs:comment "summon into action or bring into existence, often as if by magic"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/recommend.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "recommend.v.01"^^xsd:string ;
+    rdfs:comment "push for something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/reinforce.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "reinforce.v.01"^^xsd:string ;
+    rdfs:comment "make stronger"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/relax.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "relax.v.01"^^xsd:string ;
+    rdfs:comment "become less tense, rest, or take one's ease"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/relaxation.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "relaxation.n.01"^^xsd:string ;
+    rdfs:comment "(physiology) the gradual lengthening of inactive muscle or muscle fibers"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/represent.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "represent.v.01"^^xsd:string ;
+    rdfs:comment "take the place of or be parallel or equivalent to"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/resemble.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "resemble.v.01"^^xsd:string ;
+    rdfs:comment "appear like; be similar or bear a likeness to"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/rich_person.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "rich_person.n.01"^^xsd:string ;
+    rdfs:comment "a person who possesses great material wealth"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/righteous.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "righteous.a.01"^^xsd:string ;
+    rdfs:comment "characterized by or proceeding from accepted standards of morality or justice; - James 5:16"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/sake.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "sake.n.01"^^xsd:string ;
+    rdfs:comment "a reason for wanting something done"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/salute.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "salute.n.01"^^xsd:string ;
+    rdfs:comment "an act of honor or courteous recognition"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/scenario.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "scenario.n.01"^^xsd:string ;
+    rdfs:comment "an outline or synopsis of a play (or, by extension, of a literary work)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/sentiment.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "sentiment.n.01"^^xsd:string ;
+    rdfs:comment "tender, romantic, or nostalgic feeling or emotion"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/series.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "series.n.01"^^xsd:string ;
+    rdfs:comment "similar things placed in order or happening one after another"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/show.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "show.v.01"^^xsd:string ;
+    rdfs:comment "give an exhibition of to an interested audience"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/sickle.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "sickle.n.01"^^xsd:string ;
+    rdfs:comment "an edge tool for cutting grass or crops; has a curved blade and a short handle"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/slightly.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "slightly.r.01"^^xsd:string ;
+    rdfs:comment "to a small degree or extent"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/sodium.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "sodium.n.01"^^xsd:string ;
+    rdfs:comment "a silvery soft waxy metallic element of the alkali metal group; occurs abundantly in natural compounds (especially in salt water); burns with a yellow flame and reacts violently in water; occurs in sea water and in the mineral halite (rock salt)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/spectator.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "spectator.n.01"^^xsd:string ;
+    rdfs:comment "a close observer; someone who looks at something (such as an exhibition of some kind)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/spread.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "spread.n.01"^^xsd:string ;
+    rdfs:comment "process or result of distributing or extending over a wide expanse of space"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/stallion.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "stallion.n.01"^^xsd:string ;
+    rdfs:comment "uncastrated adult male horse"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/stopping_point.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "stopping_point.n.01"^^xsd:string ;
+    rdfs:comment "the temporal end; the concluding time"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/strength.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "strength.n.01"^^xsd:string ;
+    rdfs:comment "the property of being physically or mentally strong"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/struggle.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "struggle.n.01"^^xsd:string ;
+    rdfs:comment "an energetic attempt to achieve something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/such.s.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "such.s.01"^^xsd:string ;
+    rdfs:comment "of so extreme a degree or extent"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/support.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "support.n.01"^^xsd:string ;
+    rdfs:comment "the activity of providing for or maintaining by supplying with money or necessities"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/support.n.06> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "support.n.06"^^xsd:string ;
+    rdfs:comment "the financial means whereby one lives"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/supremacist.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "supremacist.n.01"^^xsd:string ;
+    rdfs:comment "a person who advocates the supremacy of some particular group or race over all others"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/sword.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "sword.n.01"^^xsd:string ;
+    rdfs:comment "a cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/symbol.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "symbol.n.01"^^xsd:string ;
+    rdfs:comment "an arbitrary sign (written or printed) that has acquired a conventional significance"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/symbolizing.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "symbolizing.n.01"^^xsd:string ;
+    rdfs:comment "the act of representing something with a symbol"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/television.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "television.n.01"^^xsd:string ;
+    rdfs:comment "broadcasting visual images of stationary or moving objects; ;  - Ernie Kovacs"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/textual.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "textual.a.01"^^xsd:string ;
+    rdfs:comment "of or relating to or based on a text"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/thing.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "thing.n.01"^^xsd:string ;
+    rdfs:comment "a special situation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/time_period.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "time_period.n.01"^^xsd:string ;
+    rdfs:comment "an amount of time"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/toast.v.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "toast.v.02"^^xsd:string ;
+    rdfs:comment "propose a toast to"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/tone.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "tone.n.01"^^xsd:string ;
+    rdfs:comment "the quality of a person's voice"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/transformation.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "transformation.n.01"^^xsd:string ;
+    rdfs:comment "a qualitative change"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/trivialize.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "trivialize.v.01"^^xsd:string ;
+    rdfs:comment "make trivial or insignificant"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/two.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "two.n.01"^^xsd:string ;
+    rdfs:comment "the cardinal number that is the sum of one and one or a numeral representing this number"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/underscore.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "underscore.n.01"^^xsd:string ;
+    rdfs:comment "a line drawn underneath (especially under written matter)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/value.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "value.n.01"^^xsd:string ;
+    rdfs:comment "a numerical quantity measured or assigned or computed"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/washington.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "washington.n.02"^^xsd:string ;
+    rdfs:comment "a state in northwestern United States on the Pacific"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/white.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "white.n.01"^^xsd:string ;
+    rdfs:comment "a member of the Caucasoid race"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/whole.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "whole.n.01"^^xsd:string ;
+    rdfs:comment "all of something including all its component elements or parts"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/widely.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "widely.r.01"^^xsd:string ;
+    rdfs:comment "to a great degree"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/widen.v.04> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "widen.v.04"^^xsd:string ;
+    rdfs:comment "extend in scope or range or area"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/worthy.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "worthy.n.01"^^xsd:string ;
+    rdfs:comment "an important, honorable person (word is often used humorously)"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q127380177> a ns1:WikiConcept ;
+    rdfs:label "Abgenix 4.209.3"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q485697> a ns1:WikiConcept ;
+    rdfs:label "Pepe (footballer, born 1983)"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q748539> a ns1:WikiConcept ;
+    rdfs:label "420"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/atrocity.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "atrocity.n.01"^^xsd:string ;
+    rdfs:comment "the quality of being shockingly cruel and inhumane"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/being.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "being.n.01"^^xsd:string ;
+    rdfs:comment "the state or fact of existing"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/calendar_month.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "calendar_month.n.01"^^xsd:string ;
+    rdfs:comment "one of the twelve divisions of the calendar year"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/celebration.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "celebration.n.01"^^xsd:string ;
+    rdfs:comment "a joyful occasion for special festivities to mark some happy event"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/chemical_reaction.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "chemical_reaction.n.01"^^xsd:string ;
+    rdfs:comment "(chemistry) a process in which one or more substances are changed into others"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/colorful.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "colorful.a.01"^^xsd:string ;
+    rdfs:comment "having striking color"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/communism.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "communism.n.01"^^xsd:string ;
+    rdfs:comment "a form of socialism that abolishes private ownership"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/dog.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "dog.n.01"^^xsd:string ;
+    rdfs:comment "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/eject.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "eject.v.01"^^xsd:string ;
+    rdfs:comment "put out or expel from a place"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/expression.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "expression.n.01"^^xsd:string ;
+    rdfs:comment "the feelings expressed on a person's face"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/frog.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "frog.n.01"^^xsd:string ;
+    rdfs:comment "any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/happy.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "happy.a.01"^^xsd:string ;
+    rdfs:comment "enjoying or showing or marked by joy or pleasure"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/helicopter.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "helicopter.n.01"^^xsd:string ;
+    rdfs:comment "an aircraft without wings that obtains its lift from the rotation of overhead blades"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/hippie.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "hippie.n.01"^^xsd:string ;
+    rdfs:comment "someone who rejects the established culture; advocates extreme liberalism in politics and lifestyle"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/historical.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "historical.a.01"^^xsd:string ;
+    rdfs:comment "of or relating to the study of history"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/include.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "include.v.01"^^xsd:string ;
+    rdfs:comment "have as a part, be made up out of"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/internet.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "internet.n.01"^^xsd:string ;
+    rdfs:comment "a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/military.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "military.n.01"^^xsd:string ;
+    rdfs:comment "the military forces of a nation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/modern.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "modern.n.01"^^xsd:string ;
+    rdfs:comment "a contemporary person"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/person.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "person.n.01"^^xsd:string ;
+    rdfs:comment "a human being"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/political.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "political.a.01"^^xsd:string ;
+    rdfs:comment "involving or characteristic of politics or parties or politicians; - Daniel Goleman"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/political_orientation.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "political_orientation.n.01"^^xsd:string ;
+    rdfs:comment "an orientation that characterizes the thinking of a group or nation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/state.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "state.n.01"^^xsd:string ;
+    rdfs:comment "the territory occupied by one of the constituent administrative districts of a nation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/stud.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "stud.n.01"^^xsd:string ;
+    rdfs:comment "a man who is virile and sexually active"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/subculture.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "subculture.n.01"^^xsd:string ;
+    rdfs:comment "a social group within a national culture that has distinctive patterns of behavior and beliefs"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/uniform.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "uniform.n.01"^^xsd:string ;
+    rdfs:comment "clothing of distinctive design worn by members of a particular group as a means of identification"^^xsd:string .
+
+<http://www.wikidata.org/entity/Q352> a ns1:WikiConcept ;
+    rdfs:label "Adolf Hitler"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/acknowledge.v.06> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "acknowledge.v.06"^^xsd:string ;
+    rdfs:comment "accept (someone) to be what is claimed or accept his power and authority"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/april.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "april.n.01"^^xsd:string ;
+    rdfs:comment "the month following March and preceding May"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/arouse.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "arouse.v.01"^^xsd:string ;
+    rdfs:comment "call forth (emotions, feelings, and responses)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/brand.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "brand.n.02"^^xsd:string ;
+    rdfs:comment "a recognizable kind"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/clash.v.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "clash.v.02"^^xsd:string ;
+    rdfs:comment "be incompatible; be or come into conflict"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/combining.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "combining.n.01"^^xsd:string ;
+    rdfs:comment "an occurrence that results in things being united"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/dark.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "dark.n.01"^^xsd:string ;
+    rdfs:comment "absence of light or illumination"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/date.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "date.n.01"^^xsd:string ;
+    rdfs:comment "the specified day of the month"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/day.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "day.n.01"^^xsd:string ;
+    rdfs:comment "time for Earth to make a complete rotation on its axis"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/daze.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "daze.n.01"^^xsd:string ;
+    rdfs:comment "the feeling of distress and disbelief that you have when something bad happens accidentally"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/extreme.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "extreme.n.01"^^xsd:string ;
+    rdfs:comment "the furthest or highest degree of something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/feature.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "feature.n.01"^^xsd:string ;
+    rdfs:comment "a prominent attribute or aspect of something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/group.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "group.n.01"^^xsd:string ;
+    rdfs:comment "any number of entities (members) considered as a unit"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/highly.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "highly.r.01"^^xsd:string ;
+    rdfs:comment "to a high degree or extent; favorably or with much respect"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/hitler.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "hitler.n.01"^^xsd:string ;
+    rdfs:comment "German Nazi dictator during World War II (1889-1945)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/humorous.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "humorous.a.01"^^xsd:string ;
+    rdfs:comment "full of or characterized by humor"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/idea.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "idea.n.01"^^xsd:string ;
+    rdfs:comment "the content of cognition; the main thing you are thinking about"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/ill-famed.s.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "ill-famed.s.01"^^xsd:string ;
+    rdfs:comment "known widely and usually unfavorably"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/imply.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "imply.v.01"^^xsd:string ;
+    rdfs:comment "express or state indirectly"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/information_technology.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "information_technology.n.01"^^xsd:string ;
+    rdfs:comment "the branch of engineering that deals with the use of computers and telecommunications to retrieve and store and transmit information"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/innocuous.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "innocuous.a.01"^^xsd:string ;
+    rdfs:comment "not injurious to physical or mental health"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/leader.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "leader.n.01"^^xsd:string ;
+    rdfs:comment "a person who rules or guides or inspires others"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/likely.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "likely.a.01"^^xsd:string ;
+    rdfs:comment "has a good chance of being the case or of coming about"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/need.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "need.n.01"^^xsd:string ;
+    rdfs:comment "a condition requiring relief"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/observe.v.06> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "observe.v.06"^^xsd:string ;
+    rdfs:comment "behave as expected during of holidays or rites"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/ocular.a.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "ocular.a.02"^^xsd:string ;
+    rdfs:comment "relating to or using sight"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/offense.n.05> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "offense.n.05"^^xsd:string ;
+    rdfs:comment "the action of attacking an enemy"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/picture.v.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "picture.v.02"^^xsd:string ;
+    rdfs:comment "show in, or as in, a picture"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/propose.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "propose.v.01"^^xsd:string ;
+    rdfs:comment "make a proposal, declare a plan for something"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/provocative.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "provocative.a.01"^^xsd:string ;
+    rdfs:comment "serving or tending to provoke, excite, or stimulate; stimulating discussion or exciting controversy; ; ; - Anthony Trollope"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/see.v.05> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "see.v.05"^^xsd:string ;
+    rdfs:comment "deem to be"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/show.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "show.n.01"^^xsd:string ;
+    rdfs:comment "the act of publicly exhibiting or entertaining"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/statement.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "statement.n.01"^^xsd:string ;
+    rdfs:comment "a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/type.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "type.n.01"^^xsd:string ;
+    rdfs:comment "a subdivision of a particular kind of thing"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/united_states.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "united_states.n.01"^^xsd:string ;
+    rdfs:comment "North American republic containing 50 states - 48 conterminous states in North America plus Alaska in northwest North America and the Hawaiian Islands in the Pacific Ocean; achieved independence in 1776"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/universe.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "universe.n.01"^^xsd:string ;
+    rdfs:comment "everything that exists anywhere"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/use.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "use.n.01"^^xsd:string ;
+    rdfs:comment "the act of using"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/violence.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "violence.n.01"^^xsd:string ;
+    rdfs:comment "an act of aggression (as one against a person who resists)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/violent.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "violent.a.01"^^xsd:string ;
+    rdfs:comment "acting with or marked by or resulting from great force or energy or emotional intensity"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/war.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "war.n.01"^^xsd:string ;
+    rdfs:comment "the waging of armed conflict against an enemy"^^xsd:string .
+
+ns1:OnTox_Case_Study a ns1:Database .
+
+<unknown> a foaf:Image .
+
+<http://www.wikidata.org/entity/Q26726> a ns1:WikiConcept ;
+    rdfs:label "Cannabis sativa"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/background.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "background.n.01"^^xsd:string ;
+    rdfs:comment "a person's social heritage: previous experience or training"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/cannabis.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "cannabis.n.01"^^xsd:string ;
+    rdfs:comment "any plant of the genus Cannabis; a coarse bushy annual with palmate leaves and clusters of small green flowers; yields tough fibers and narcotic drugs"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/extremist.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "extremist.n.01"^^xsd:string ;
+    rdfs:comment "a person who holds extreme views"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/fictional_character.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "fictional_character.n.01"^^xsd:string ;
+    rdfs:comment "an imaginary person represented in a work of fiction (play or film or story)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/marijuana.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "marijuana.n.01"^^xsd:string ;
+    rdfs:comment "a strong-smelling plant from whose dried leaves a number of euphoriant and hallucinogenic drugs are prepared"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/mention.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "mention.n.01"^^xsd:string ;
+    rdfs:comment "a remark that calls attention to something or someone"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/strong.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "strong.a.01"^^xsd:string ;
+    rdfs:comment "having strength or power greater than average or expected"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/term.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "term.n.01"^^xsd:string ;
+    rdfs:comment "a word or expression used for some particular thing"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/use.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "use.v.01"^^xsd:string ;
+    rdfs:comment "put into service; make work or employ for a particular purpose or for its inherent or natural purpose"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/beryllium.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "beryllium.n.01"^^xsd:string ;
+    rdfs:comment "a light strong brittle grey toxic bivalent metallic element"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/controversial.a.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "controversial.a.01"^^xsd:string ;
+    rdfs:comment "marked by or capable of arousing controversy"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/decision.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "decision.n.02"^^xsd:string ;
+    rdfs:comment "a position or opinion or judgment reached after consideration"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/exploitation.n.02> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "exploitation.n.02"^^xsd:string ;
+    rdfs:comment "an act that exploits or victimizes someone (treats them unfairly)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/figure.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "figure.n.01"^^xsd:string ;
+    rdfs:comment "a diagram or picture illustrating textual material"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/frequently.r.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "frequently.r.01"^^xsd:string ;
+    rdfs:comment "many times at short intervals"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/make.v.03> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "make.v.03"^^xsd:string ;
+    rdfs:comment "make or cause to be or to become"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/message.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "message.n.01"^^xsd:string ;
+    rdfs:comment "a communication (usually brief) that is written or spoken or signaled"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/promote.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "promote.v.01"^^xsd:string ;
+    rdfs:comment "contribute to the progress or growth of"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/well-known.s.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "well-known.s.01"^^xsd:string ;
+    rdfs:comment "widely or fully known"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/context.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "context.n.01"^^xsd:string ;
+    rdfs:comment "discourse that surrounds a language unit and helps to determine its interpretation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/meme.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "meme.n.01"^^xsd:string ;
+    rdfs:comment "a cultural unit (an idea or value or pattern of behavior) that is passed from one person to another by non-genetic means (as by imitation)"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/combination.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "combination.n.01"^^xsd:string ;
+    rdfs:comment "a collection of things that have been combined; an assemblage of separate parts or qualities"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/read.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "read.n.01"^^xsd:string ;
+    rdfs:comment "something that is read"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/wit.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "wit.n.01"^^xsd:string ;
+    rdfs:comment "a message whose ingenuity or verbal skill or incongruity has the power to evoke laughter"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/culture.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "culture.n.01"^^xsd:string ;
+    rdfs:comment "a particular society at a particular time and place"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/associate.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "associate.v.01"^^xsd:string ;
+    rdfs:comment "make a logical or causal connection"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/text.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "text.n.01"^^xsd:string ;
+    rdfs:comment "the words of something written"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/image.n.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "image.n.01"^^xsd:string ;
+    rdfs:comment "an iconic mental representation"^^xsd:string .
+
+<https://w3id.org/framester/wn/wn30/instances/be.v.01> a <https://w3id.org/framester/wn/wn30/schema/Synset>,
+        ns1:Synset ;
+    rdfs:label "be.v.01"^^xsd:string ;
+    rdfs:comment "have the quality of being; (copula, used with an adjective or a predicate noun)"^^xsd:string .
+
