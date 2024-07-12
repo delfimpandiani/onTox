@@ -1,4 +1,5 @@
 # OnTox: An Ontology-Based Toxic Symbology Knowledge Graph and its Use for Harmful Meme Exploration
+<span style="color:red;">Caution: This work includes toxic content that may cause psychological distress and does not represent the views or opinions of the authors. Viewer discretion is strongly advised.</span>
 
 ## Overview
 This repository contains the data, code, and content related to the paper "OnTox: Constructing and Leveraging an Ontology-Based Knowledge Graph of Toxic Symbols for Harmful Meme Exploration."
@@ -25,6 +26,15 @@ OnTox captures the nuances of toxic symbology through the following high-level r
 1. **Model the metadata of the symbols:** Capture various attributes such as symbol types, original IDs, titles, descriptions, and contextual tags.
 2. **Model the conceptual semantics of symbol descriptions:** Link symbols to named entities, external resources, and specific concepts using linguistic tools.
 3. **Model the multimodal manifestation of potentially toxic symbology:** Represent symbols in various online manifestations, noting the type of representation (visual, textual, both).
+
+## Using OnTox for Meme Analysis
+OnTox facilitates meme analysis by:
+
+1. **Identifying Conceptual Similarities**: Determines shared concepts between memes and potentially toxic symbols, highlighting thematic connections.
+2. **Detecting Concept Mention and Modality**: Identifies where and how specific concepts appear in memes, whether in textual or multimodal formats.
+3. **Automating Semantic Analysis**: Provides tools to automatically link memes to named entities and external resources for deeper semantic understanding.
+
+![4200](https://github.com/user-attachments/assets/48427cd6-5f8d-4de6-bbe3-b4c494526ca5)
 
 ### Contact
 For any questions or inquiries, please contact Delfina at dsmp@cwi.nl.
