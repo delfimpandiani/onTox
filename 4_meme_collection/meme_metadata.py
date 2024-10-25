@@ -3,7 +3,7 @@ import re
 
 # Define the path to your input .txt file and the output directory
 input_file = 'symbols.txt'
-output_dir = 'memedata'
+output_dir = 'meme_data'
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
