@@ -1,6 +1,6 @@
 import os
 import re
-
+import json
 # Define the path to your input .txt file and the output directory
 input_file = 'symbols.txt'
 output_dir = 'meme_data'
@@ -33,9 +33,13 @@ with open(input_file, 'r') as file:
         # Create the directory for the symbol
         os.makedirs(os.path.join(output_dir, folder_name), exist_ok=True)
 
-# Save the symbol map as a reference file
-with open(os.path.join(output_dir, 'symbol_index.txt'), 'w') as index_file:
+# Save the symbol map as a reference json file
+with  open(os.path.join('symbol_map.json'), 'w') as json_file:
+    json.dump(symbol_map, json_file, indent=4)
+
+with open(os.path.join('symbol_index.txt'), 'w') as index_file:
     for original_symbol, folder_name in symbol_map.items():
+        print(folder_name)
         index_file.write(f"{original_symbol} -> {folder_name}\n")
 
 print("Folders created and symbol index saved.")
